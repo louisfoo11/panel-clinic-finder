@@ -84,7 +84,7 @@ td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:now
     <form id="visit-form" novalidate>
       <label>Client name<input id="v-client" autocomplete="off" placeholder="e.g. Mr Tan (first name is enough)"></label>
       <label>Client WhatsApp number<input id="v-phone" inputmode="tel" autocomplete="off" placeholder="012-345 6789"></label>
-      <label>Purpose<select id="v-purpose"><option value="nb">New policy medical exam</option><option value="tgj">TGJ visit</option></select></label>
+      <label>Purpose<select id="v-purpose"><option value="nb">New policy medical exam</option><option value="tgj">TGJ visit (The Great Journey)</option></select></label>
       <label>Message language<select id="v-lang"><option value="both">English + 中文</option><option value="en">English</option><option value="zh">中文</option></select></label>
       <label class="full">Clinic<input id="v-clinic" list="clinic-list" autocomplete="off" placeholder="Type clinic name, code or town"></label>
       <datalist id="clinic-list"></datalist>
@@ -118,11 +118,12 @@ td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:now
 <script>
 (function(){
 const DATA=JSON.parse(document.getElementById('clinic-data').textContent);
-const CLINICS=DATA.clinics, byCode=Object.fromEntries(CLINICS.map(c=>[c.code,c]));
+const TGJ=(DATA.tgj&&DATA.tgj.clinics)||[];
+const CLINICS=DATA.clinics.concat(TGJ), byCode=Object.fromEntries(CLINICS.map(c=>[c.code,c]));
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const toast=m=>{const t=$('toast');t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,2200)};
-const PURPOSE={nb:["New policy medical exam","投保体检"],tgj:["TGJ visit","TGJ 就诊"]};
+const PURPOSE={nb:["New policy medical exam","投保体检"],tgj:["TGJ visit (The Great Journey)","TGJ 就诊（The Great Journey）"]};
 const STATUS={booked:["Booked",""],attended:["Attended","grey"],results:["Results received","grey"],cancelled:["Cancelled","bad"]};
 
 /* ---------- dates (Malaysia time) ---------- */
@@ -218,8 +219,8 @@ function render(){renderDue();renderLog()}
 
 /* ---------- form ---------- */
 let editing=null, pendingConfirm=null;
-$('clinic-list').innerHTML=CLINICS.map(c=>`<option value="${esc(c.name+' · '+c.area+' · '+c.code)}"></option>`).join('');
-function clinicFromInput(s){const m=String(s).match(/·\s*([A-Z]{0,3}\d+)\s*$/);if(m&&byCode[m[1]])return byCode[m[1]];const t=s.trim().toUpperCase();if(byCode[t])return byCode[t];const hits=CLINICS.filter(c=>c.name===t);return hits.length===1?hits[0]:null}
+$('clinic-list').innerHTML=CLINICS.map(c=>`<option value="${esc(c.name+' · '+c.area+' · '+c.code)}">${/^TGJ-/.test(c.code)?'TGJ':'Medical exam'}</option>`).join('');
+function clinicFromInput(s){const m=String(s).match(/·\s*((?:TGJ-)?[A-Z]{0,3}\d+)\s*$/);if(m&&byCode[m[1]])return byCode[m[1]];const t=s.trim().toUpperCase();if(byCode[t])return byCode[t];const hits=CLINICS.filter(c=>c.name.toUpperCase()===t);return hits.length===1?hits[0]:null}
 function readForm(){return{client:$('v-client').value.trim(),phone:$('v-phone').value.trim(),purpose:$('v-purpose').value,lang:$('v-lang').value,clinicText:$('v-clinic').value.trim(),date:$('v-date').value,time:$('v-time').value,tests:$('v-tests').value.trim(),status:$('v-status').value,notes:$('v-notes').value.trim()}}
 function check(f){
   const errors=[],warns=[];
@@ -228,7 +229,9 @@ function check(f){
   if(!f.clinicText)errors.push('Choose a clinic.');
   const c=f.clinicText?clinicFromInput(f.clinicText):null;
   if(f.clinicText&&!c)warns.push('This clinic is not in the panel list. Pick one from the suggestions, or save anyway if you are sure (the reminder will not include its address or phone).');
-  if(c&&f.purpose==='tgj')warns.push('The TGJ clinic list is not loaded yet. This clinic comes from the medical exam panel list, so check that it accepts TGJ visits.');
+  const isTgj=c&&/^TGJ-/.test(c.code);
+  if(c&&f.purpose==='tgj'&&!isTgj)warns.push('This clinic is on the medical exam list, not the TGJ list. Check that it accepts TGJ visits, or pick a TGJ clinic.');
+  if(c&&f.purpose==='nb'&&isTgj)warns.push('This clinic is on the TGJ list, not the medical exam panel list. Pick a medical exam clinic for a new policy.');
   if(f.phone&&!waNumber(f.phone))warns.push('The WhatsApp number looks wrong ('+f.phone+'). Reminders cannot open WhatsApp until it is fixed.');
   if(!f.phone)warns.push('No WhatsApp number. You can still copy the reminder text.');
   const d=daysUntil(f.date);

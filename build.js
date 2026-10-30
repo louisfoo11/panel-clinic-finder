@@ -22,6 +22,26 @@ data.clinics.forEach(c => {
   if (!c.services || !c.services.length) problems.push(`${c.code} ${c.name}: no tests listed`);
 });
 data.defaultState = 'PULAU PINANG';
+
+// TGJ (The Great Journey) panel clinics, from parse-tgj.js.
+const TGJ = path.join(ROOT, 'data', 'tgj.json');
+if (fs.existsSync(TGJ)) {
+  const t = JSON.parse(fs.readFileSync(TGJ, 'utf8'));
+  data.tgj = { asOf: t.asOf, source: t.source, clinics: t.clinics };
+}
+
+// Approximate map location = centre of the clinic's postcode (from geocode.js).
+const PC = path.join(ROOT, 'data', 'postcodes.json');
+const pcs = fs.existsSync(PC) ? JSON.parse(fs.readFileSync(PC, 'utf8')) : {};
+[['Medical exam', data.clinics], ['TGJ', data.tgj ? data.tgj.clinics : []]].forEach(([label, list]) => {
+  let located = 0;
+  list.forEach(c => {
+    const pc = (c.address.match(/\b\d{5}\b/g) || []).pop(); // last 5-digit number; earlier ones can be lot numbers
+    const g = pc && pcs[pc];
+    if (g) { c.lat = g.lat; c.lon = g.lon; c.geo = 'area'; located++; }
+  });
+  console.log(`${label}: ${list.length} clinics, ${located} with a map location`);
+});
 const json = JSON.stringify(data).replace(/</g, '\\u003c');
 
 const VERSION = data.asOf + '-' + Date.now().toString(36);

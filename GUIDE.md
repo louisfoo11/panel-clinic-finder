@@ -3,7 +3,9 @@
 **The problem it solves:** Clients can't quickly find the right Great Eastern panel clinic for a medical exam or a TGJ visit, so they end up contacting you.
 **The fix:** Clients open one link, pick their area and the tests on their exam letter, and see matching clinics with the address, phone, hours and a map. You get a private tracker that prepares the 3-day and 1-day reminders in English and 中文.
 
-Clinic data: **528 panel clinics** from GE e-Partner (Panel Doctor Listing), captured on **30 Oct 2026**.
+Clinic data:
+- **Medical exam (new policy):** 528 panel clinics from GE e-Partner (Panel Doctor Listing), captured on **30 Oct 2026**.
+- **TGJ visit (The Great Journey):** 1,045 clinics from the GE TGJ Panel Clinic list dated **22 Sep 2025**.
 
 ---
 
@@ -26,11 +28,19 @@ Once you've opened it, it works offline too.
 ## 3. What clients do
 
 1. Open the link, or tap the home-screen icon.
-2. Tap **Medical exam** (new policy) or **TGJ visit**.
-3. Pick the **state** and **area**, or type a town or postcode, for example "Bayan Lepas" or "11900".
-4. Tap **Filter by tests on your exam letter**, then tap each test on the letter, for example *Blood & urine test*, *ECG*, *Chest X-ray*. Only clinics that do **all** the selected tests stay on the list.
-5. Tap **Map** for directions, or **Call** to book. **Download list** saves the filtered list.
+2. Tap **Medical exam** (new policy) or **TGJ visit (The Great Journey)**.
+3. Tap **📍 Near me** to sort every clinic by distance from where they are standing. The phone asks for location permission the first time. Or pick the **state** and **area**, or type a town or postcode, for example "Bayan Lepas" or "11900".
+4. Medical exam only: tap **Filter by tests on your exam letter**, then tap each test on the letter, for example *Blood & urine test*, *ECG*, *Chest X-ray*. Only clinics that do **all** the selected tests stay on the list. The TGJ list has no test details.
+5. On each clinic:
+   - **Directions** opens Google Maps navigation.
+   - **Photos** opens the clinic on Google Maps, with its photos, reviews and street view.
+   - **Call** books an appointment.
+   - **Download list** saves the filtered list (with distances, if Near me is on).
 6. They can switch between **EN / 中文** at the top.
+
+**About the distances:** they are straight-line distances to the centre of the clinic's **postcode**, so they're marked **≈**. In town that's usually within 1–2 km, but in rural postcodes it can be further off. Use **Directions** for the real route and driving time. 27 clinics (6 medical exam, 21 TGJ) have no usable postcode in the source list (for example some Terengganu addresses), so they show "distance unknown" and appear at the end of a Near me list.
+
+**About photos:** neither GE list includes clinic photos, and copying Google's photos into the app isn't allowed, so the **Photos** button opens each clinic's own Google Maps page instead.
 
 ## 4. What you do (tracker)
 
@@ -58,7 +68,8 @@ GE updates the panel list from time to time. To refresh it, ask Claude to "recap
 
 ## 6. Things to know
 
-- **TGJ clinic list:** e-Partner's panel page only has the new-business medical exam list. Until the TGJ list is added, the **TGJ visit** button tells clients to contact you.
+- **TGJ clinic list:** taken from the PDF *Great Eastern TGJ Panel Clinic 22-september-2025*. It has no opening hours, so clinics show "Call to confirm". 32 clinics whose town isn't clear in the address are grouped under **Other**. They can still be found by search or Near me. To update it, send Claude the newer PDF.
+- **Tracker:** choose **TGJ visit (The Great Journey)** as the purpose and pick a clinic marked TGJ. The tracker warns you if the clinic is on the wrong list.
 - **Data checks:** *P3020 Medic Clinic (KL)* has no hours on e-Partner, so the app shows "Call to confirm". *P1022 "Reimbursement of Medical Fees"* is a placeholder entry, not a clinic, so it's left out.
 - **Privacy:** the pages ask Google and other search engines not to list them (noindex). Anyone with the link can still open it. The page says clearly that it is **not an official Great Eastern website**.
 - **Compliance:** please confirm with your agency manager or GE compliance that sharing this panel list with clients is allowed.

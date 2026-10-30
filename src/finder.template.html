@@ -63,6 +63,15 @@ details.tests summary{cursor:pointer;color:var(--accent);font-weight:600;font-si
 .notice{background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:13px;margin-top:18px}
 .notice b{color:var(--warn)}
 .empty{padding:28px 10px;text-align:center;color:var(--muted)}
+.near{display:flex;gap:8px}
+.near input{flex:1}
+.near .btn{white-space:nowrap;flex-shrink:0}
+.near .btn[aria-pressed="true"]{background:var(--ink)}
+.near-note{font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.near-note button{border:0;background:none;color:var(--accent);font:600 13px var(--body);cursor:pointer;padding:0}
+.dist{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:1px 7px;font-variant-numeric:tabular-nums}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.head .dist{flex-shrink:0;margin-top:2px}
 .pending{background:var(--warn-soft);border-radius:12px;padding:16px;font-size:14px}
 footer{margin-top:20px;font-size:12px;color:var(--muted)}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:9px 14px;border-radius:10px;font-size:13px;z-index:20}
@@ -94,7 +103,11 @@ footer{margin-top:20px;font-size:12px;color:var(--muted)}
         <select id="f-state" aria-label="State"></select>
         <select id="f-area" aria-label="Area"></select>
       </div>
-      <input id="f-q" type="search" autocomplete="off">
+      <div class="near">
+        <input id="f-q" type="search" autocomplete="off">
+        <button class="btn" id="near-btn" type="button" data-t="nearMe"></button>
+      </div>
+      <div class="near-note" id="near-note" hidden></div>
       <details class="tests">
         <summary data-t="testsSum"></summary>
         <div class="chips" id="f-tests"></div>
@@ -109,7 +122,7 @@ footer{margin-top:20px;font-size:12px;color:var(--muted)}
   <div id="tgj-pending" class="pending" hidden data-t="tgjPending"></div>
 
   <div class="notice"><b data-t="noticeH"></b> <span data-t="notice"></span></div>
-  <footer><span data-t="source"></span> <span id="asof"></span></footer>
+  <footer><span id="source"></span> <span id="asof"></span></footer>
 </div>
 <div class="toast" id="toast" hidden></div>
 
@@ -137,7 +150,8 @@ const SV={
 };
 const T={
  en:{eyebrow:"For Great Eastern policyholders",title:"Panel Clinic Finder",sub:"Find a Great Eastern panel clinic near you, check which tests it does, and call before you go.",
-  pNb:"Medical exam",pNbSub:"Applying for a new policy",pTgj:"TGJ visit",pTgjSub:"Before a medical consult",
+  pNb:"Medical exam",pNbSub:"Applying for a new policy",pTgj:"TGJ visit (The Great Journey)",pTgjSub:"Clinic visit before a medical consult",
+  sourceTgj:"Source: Great Eastern TGJ (The Great Journey) panel clinic list. Not an official Great Eastern website. List dated",
   allStates:"All states",allAreas:"All areas",search:"Search clinic, road, town or postcode",testsSum:"Filter by tests on your exam letter",
   download:"Download list",count:n=>n+" clinics",copied:"Copied",copy:"Copy",map:"Map",call:"Call",doctors:"Doctors",full:"Full facility",hours:"Hours",
   none:"No clinic matches. Try fewer tests or a wider area.",
@@ -145,9 +159,13 @@ const T={
   tgjPending:"The TGJ clinic list is not loaded yet. Please contact your advisor for the right TGJ clinic for now.",
   source:"Source: Great Eastern panel doctor listing (agent portal). Not an official Great Eastern website. Updated",
   moreLab:"More lab tests",labTests:"lab tests",noTel:"Ask your advisor",noHours:"Call to confirm",
+  nearMe:"📍 Near me",nearOn:"Sorted by distance from you (straight line). Areas marked ≈ are approximate.",nearClear:"Clear",
+  locating:"Finding your location…",locDenied:"Location is off. Allow location for this site, or choose your state and area instead.",locFail:"Could not get your location. Try again, or choose your state and area.",
+  noDist:"distance unknown",directions:"Directions",photos:"Photos",street:"Street View",distCol:"Distance (km)",
   unknown:"Other",saved:"List saved",dlFail:"Download is not available here. Ask your advisor for the file.",dlNo:"Download cancelled"},
  zh:{eyebrow:"大东方保单持有人专用",title:"指定诊所查询",sub:"查找附近的大东方指定诊所，看看诊所提供哪些检查，出发前先打电话确认。",
-  pNb:"投保体检",pNbSub:"申请新保单",pTgj:"TGJ 就诊",pTgjSub:"医疗咨询前",
+  pNb:"投保体检",pNbSub:"申请新保单",pTgj:"TGJ 就诊（The Great Journey）",pTgjSub:"医疗咨询前的诊所就诊",
+  sourceTgj:"资料来源：大东方 TGJ（The Great Journey）指定诊所名单。此网页并非大东方官方网站。名单日期",
   allStates:"所有州属",allAreas:"所有地区",search:"搜索诊所、路名、城镇或邮编",testsSum:"按体检通知书上的项目筛选",
   download:"下载清单",count:n=>"共 "+n+" 间诊所",copied:"已复制",copy:"复制",map:"地图",call:"电话",doctors:"医生",full:"全面设施",hours:"营业时间",
   none:"没有符合的诊所。请减少检查项目或扩大地区。",
@@ -155,13 +173,22 @@ const T={
   tgjPending:"TGJ 诊所名单尚未上载。目前请联系您的顾问，确认应该去哪一间 TGJ 诊所。",
   source:"资料来源：大东方指定医生名单（代理系统）。此网页并非大东方官方网站。更新日期",
   moreLab:"更多化验项目",labTests:"项化验",noTel:"请询问顾问",noHours:"请致电确认",
+  nearMe:"📍 附近诊所",nearOn:"按距离排序（直线距离）。标有 ≈ 的为大约位置。",nearClear:"取消",
+  locating:"正在获取您的位置…",locDenied:"未开启定位。请允许此网站使用位置，或直接选择州属和地区。",locFail:"无法获取您的位置。请再试一次，或选择州属和地区。",
+  noDist:"距离未知",directions:"导航",photos:"照片",street:"街景",distCol:"距离（公里）",
   unknown:"其他",saved:"清单已保存",dlFail:"此处无法下载，请向顾问索取文件。",dlNo:"已取消下载"}
 };
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 let lang=store.get('pcf-lang')==='zh'?'zh':'en', purpose='nb', tests=new Set();
 const $=id=>document.getElementById(id);
-const clinics=DATA.clinics;
-const states=[...new Set(clinics.map(c=>c.state))];
+const HAS_TGJ=!!(DATA.tgj&&DATA.tgj.clinics.length);
+let clinics=DATA.clinics, states=[];
+function useList(){
+  clinics=purpose==='tgj'&&HAS_TGJ?DATA.tgj.clinics:DATA.clinics;
+  states=[...new Set(clinics.map(c=>c.state))];
+  if(purpose==='tgj')tests.clear();
+}
+useList();
 const LEG=DATA.legend||{};
 function sv(code){return SV[code]?SV[code][lang==='zh'?1:0]:(LEG[code]||code)}
 function tr(k){return T[lang][k]}
@@ -175,13 +202,16 @@ function fillStatic(){
   $('lang-en').setAttribute('aria-pressed',lang==='en');$('lang-zh').setAttribute('aria-pressed',lang==='zh');
   const st=$('f-state').value;
   $('f-state').innerHTML='<option value="">'+tr('allStates')+'</option>'+states.map(s=>'<option>'+esc(s)+'</option>').join('');
-  $('f-state').value=st;fillAreas();
+  $('f-state').value=states.includes(st)?st:'';fillAreas();
+  document.querySelector('details.tests').hidden=purpose==='tgj';
   const codes=[...new Set(clinics.flatMap(c=>c.services))].sort((a,b)=>sv(a).localeCompare(sv(b)));
   const chip=c=>'<button type="button" class="chip" data-code="'+esc(c)+'" aria-pressed="'+tests.has(c)+'">'+esc(sv(c))+'</button>';
   const lab=codes.filter(c=>!SV[c]);
   $('f-tests').innerHTML=codes.filter(c=>SV[c]).map(chip).join('')+
     (lab.length?'<details class="tests" style="width:100%"'+(lab.some(c=>tests.has(c))?' open':'')+'><summary>'+tr('moreLab')+' ('+lab.length+')</summary><div class="chips">'+lab.map(chip).join('')+'</div></details>':'');
-  $('asof').textContent=DATA.asOf;
+  const tgj=purpose==='tgj'&&HAS_TGJ;
+  $('source').textContent=tgj?tr('sourceTgj'):tr('source');
+  $('asof').textContent=tgj?DATA.tgj.asOf:DATA.asOf;
 }
 function fillAreas(){
   const st=$('f-state').value, cur=$('f-area').value;
@@ -196,24 +226,31 @@ function filtered(){
     (!q||(c.name+' '+c.address+' '+c.area+' '+c.code).toLowerCase().includes(q)));
 }
 function render(){
-  const isNb=purpose==='nb';
+  const isNb=purpose==='nb', show=isNb||HAS_TGJ;
   $('p-nb').setAttribute('aria-pressed',isNb);$('p-tgj').setAttribute('aria-pressed',!isNb);
-  $('finder').hidden=!isNb;$('tgj-pending').hidden=isNb;
-  if(!isNb)return;
+  $('finder').hidden=!show;$('tgj-pending').hidden=show;
+  if(!show)return;
   const rows=filtered();
+  if(me){rows.forEach(c=>c._d=distKm(c));rows.sort((a,b)=>(a._d??1e9)-(b._d??1e9))}
+  $('near-btn').setAttribute('aria-pressed',!!me);
   $('count').textContent=tr('count')(rows.length);
   $('dl').disabled=!rows.length;
   if(!rows.length){$('list').innerHTML='<div class="empty">'+tr('none')+'</div>';return}
   $('list').innerHTML=rows.slice(0,300).map(c=>{
-    const maps='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(c.name+', '+c.address);
+    const place='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(c.name+', '+c.address);
+    const dir='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(c.name+', '+c.address);
+    const street=c.geo==='address'?'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint='+c.lat+','+c.lon:'';
+    const dist=me?'<span class="dist">'+(c._d==null?tr('noDist'):fmtKm(c))+'</span>':'';
     return '<article class="clinic">'+
-      '<h3>'+esc(c.name)+'</h3>'+
+      '<div class="head"><h3>'+esc(c.name)+'</h3>'+dist+'</div>'+
       '<div class="meta"><span class="code">'+esc(c.code)+'</span><span>'+esc(c.area)+', '+esc(c.state)+'</span>'+(c.full?'<span class="full">'+tr('full')+'</span>':'')+'</div>'+
       '<p class="addr">'+esc(c.address||'—')+'</p>'+
       '<div class="meta"><span>☎ <b>'+esc(c.tel||tr('noTel'))+'</b></span><span>'+tr('hours')+': <b>'+esc(c.hours||tr('noHours'))+'</b></span></div>'+
       '<div class="tags">'+c.services.filter(s=>SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div>'+
       (c.services.some(s=>!SV[s])?'<details class="docs"><summary>+ '+c.services.filter(s=>!SV[s]).length+' '+tr('labTests')+'</summary><div class="tags">'+c.services.filter(s=>!SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div></details>':'')+
-      '<div class="actions"><a href="'+maps+'" target="_blank" rel="noopener">'+tr('map')+'</a>'+
+      '<div class="actions"><a href="'+dir+'" target="_blank" rel="noopener">'+tr('directions')+'</a>'+
+      '<a href="'+place+'" target="_blank" rel="noopener">'+tr('photos')+'</a>'+
+      (street?'<a href="'+street+'" target="_blank" rel="noopener">'+tr('street')+'</a>':'')+
       (c.tel?'<a href="tel:'+esc(c.tel.replace(/[^0-9+]/g,''))+'">'+tr('call')+'</a><button type="button" data-copy="'+esc(c.tel)+'">'+tr('copy')+' ☎</button>':'')+
       '<button type="button" data-copy="'+esc(c.name+'\n'+c.address+'\n'+c.tel)+'">'+tr('copy')+'</button></div>'+
       (c.doctors?'<details class="docs"><summary>'+tr('doctors')+'</summary>'+esc(c.doctors)+'</details>':'')+
@@ -221,13 +258,14 @@ function render(){
 }
 function csv(rows){
   const head=lang==='zh'?['代码','诊所','州属','地区','地址','电话','营业时间','检查项目','医生']:['Code','Clinic','State','Area','Address','Phone','Hours','Tests','Doctors'];
+  if(me)head.unshift(tr('distCol'));
   const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
-  return '﻿'+[head,...rows.map(c=>[c.code,c.name,c.state,c.area,c.address,c.tel,c.hours,c.services.map(sv).join('; '),c.doctors])].map(r=>r.map(q).join(',')).join('\r\n');
+  return '﻿'+[head,...rows.map(c=>{const r=[c.code,c.name,c.state,c.area,c.address,c.tel,c.hours,c.services.map(sv).join('; '),c.doctors];if(me)r.unshift(c._d==null?'':(c.geo==='area'?'~':'')+c._d.toFixed(1));return r})].map(r=>r.map(q).join(',')).join('\r\n');
 }
 async function download(){
   const rows=filtered(); if(!rows.length)return;
   const part=($('f-area').value||$('f-state').value||'Malaysia').replace(/[^A-Za-z0-9]+/g,'-');
-  const name='Panel-Clinics-'+part+'.csv', data=csv(rows);
+  const name=(purpose==='tgj'?'TGJ-Clinics-':'Medical-Exam-Clinics-')+part+'.csv', data=csv(rows);
   let dl=null; try{dl=window.claude&&await window.claude.use('downloads')}catch(e){}
   if(dl){try{await dl.save({filename:name,data});toast(tr('saved'))}catch(e){toast(e&&e.code==='declined'?tr('dlNo'):tr('dlFail'))}return}
   if(window.claude){toast(tr('dlFail'));return}
@@ -235,8 +273,9 @@ async function download(){
 }
 $('lang-en').onclick=()=>{lang='en';store.set('pcf-lang',lang);fillStatic();render()};
 $('lang-zh').onclick=()=>{lang='zh';store.set('pcf-lang',lang);fillStatic();render()};
-$('p-nb').onclick=()=>{purpose='nb';render()};
-$('p-tgj').onclick=()=>{purpose='tgj';render()};
+function setPurpose(p){if(purpose===p)return;purpose=p;useList();fillStatic();render()}
+$('p-nb').onclick=()=>setPurpose('nb');
+$('p-tgj').onclick=()=>setPurpose('tgj');
 $('f-state').onchange=()=>{fillAreas();render()};
 $('f-area').onchange=render;
 $('f-q').oninput=render;
@@ -246,6 +285,25 @@ $('list').onclick=e=>{const b=e.target.closest('[data-copy]');if(!b)return;const
   if(navigator.clipboard)navigator.clipboard.writeText(txt).then(done,()=>fallback(txt,done));else fallback(txt,done)};
 function fallback(txt,done){const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}ta.remove()}
 $('dl').onclick=download;
+
+/* ---------- distance from the client's phone ---------- */
+let me=null;
+function distKm(c){if(me==null||c.lat==null)return null;const R=6371,rad=x=>x*Math.PI/180;
+  const dLat=rad(c.lat-me.lat),dLon=rad(c.lon-me.lon);
+  const a=Math.sin(dLat/2)**2+Math.cos(rad(me.lat))*Math.cos(rad(c.lat))*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.sqrt(a))}
+function fmtKm(c){const d=c._d;const s=d<1?Math.round(d*1000)+' m':d<10?d.toFixed(1)+' km':Math.round(d)+' km';return (c.geo==='area'?'≈ ':'')+s}
+function nearNote(msg,showClear){const n=$('near-note');n.hidden=!msg;n.innerHTML=msg?'<span>'+esc(msg)+'</span>'+(showClear?'<button type="button" id="near-clear">'+tr('nearClear')+'</button>':''):'';
+  const b=$('near-clear');if(b)b.onclick=()=>{me=null;nearNote('');render()}}
+$('near-btn').onclick=()=>{
+  if(me){me=null;nearNote('');render();return}
+  if(!navigator.geolocation){nearNote(tr('locFail'));return}
+  nearNote(tr('locating'));
+  navigator.geolocation.getCurrentPosition(p=>{
+    me={lat:p.coords.latitude,lon:p.coords.longitude};
+    $('f-state').value='';fillAreas();
+    nearNote(tr('nearOn'),true);render();window.scrollTo({top:0,behavior:'smooth'});
+  },e=>{nearNote(e&&e.code===1?tr('locDenied'):tr('locFail'))},{enableHighAccuracy:false,timeout:15000,maximumAge:300000});
+};
 fillStatic();
 if(DATA.defaultState&&states.includes(DATA.defaultState)){$('f-state').value=DATA.defaultState;fillAreas()}
 render();

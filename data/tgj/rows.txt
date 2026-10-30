@@ -1,0 +1,1112 @@
+#PAGES 16
+#PAGE 1
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+53:KEDAH
+52:1 | 61:Annura Clinic (Alor Setar) | 189:No. 18 Tingkat Bawah Susuran Tuanku Haminah Pusat Perdagangan Tuanku Haminah, 05150 Alor Setar, Kedah Darul Aman | 518:019-7905507
+52:2 | 61:Annura Clinic (Jitra) | 189:No. 37 Tingkat Bawah Jalan Kompleks Jitra 2/1, Kompleks Perniagaan Jitra 2, 06000 Jitra, Kedah | 517:011-55845077
+52:3 | 61:Annura Clinic (Pokok Sena) | 189:No. 27 Tingkat Bawah Kompleks Perniagaan Sena Central Jalan Sena Central 2, Bandar Pokok Sena, 06400 Pokok Sena, Kedah | 518:019-7695077
+52:4 | 61:Klinik Anda 24 Jam Jitra | 189:No. 75 (Tingkat Bawah Tingkat Satu) Taman Sri Halban 06000 Jitra Kedah | 519:04-7140771
+52:5 | 61:Klinik Anda 24 Jam Kulim | 189:No. 74 & 75 (Tingkat Bawah Tingkat Satu) Jalan Klc 3 Kulim Landmark Central 09000 Kulim Kedah | 519:09-6174664
+52:6 | 61:Klinik Anda 24 Jam Sungai Petani | 189:No. 14, 15 & 16 (Tingkat Bawah) Jalan Intan Setia 1 Taman Intan Setia 08000 Sungai Petani Kedah | 519:04-4242066
+52:7 | 61:Klinik Baling | 189:74 Jalan Sultan Badlishah 09100 Baling Kedah | 519:04-4701443
+52:8 | 61:Klinik Dr Ana Sungai Petani | 189:No 1 (Tingkat Bawah) Jalan Jati 1 Bandar Amanjaya 08000 Sungai Petani Kedah | 518:013-5334890
+52:9 | 61:Klinik Dr Fauzi | 189:1514 Lorong Padi, Jalan Tunku Ibrahim, Alor Setar, 05000, Kedah | 519:04-7318278
+52:10 | 61:Klinik Dr. Akbar (Sungai Petani) | 189:9Lebuh Fairuz 1 Taman Perusahaan Ringan 08000 Bakar Arang Sungai Petani Kedah Darulaman. | 519:04-4313282
+52:11 | 61:Klinik Dr. Quak (Sungai Petani) | 189:35A Jalan Bakar Arang 08000 Sungai Petani Kedah Darulaman. | 519:04-4226032
+52:12 | 61:Klinik Dr. Roslan (Baling) | 189:134A Pekan Kuala Pegang 09100 Baling Kedah Darulaman. | 519:04-4765439
+52:13 | 61:Klinik Dr. S. Kumar (Lunas) | 189:138 Taman Sawi 09600 Lunas Kedah Darulaman. | 519:04-4846941
+52:14 | 61:Klinik Eco Medic (Kulim) | 189:586 Tingkat Bawah Lorong Kemuning 1, Taman Kemuning, 09000 Kulim, Kedah | 518:012-8465818
+52:15 | 61:Klinik Gurun | 189:28G Jalan Raya 08300 Gurun Kedah Darulaman. | 519:04-4686537
+52:16 | 61:Klinik Kuldip Sohan (Padang Serai) | 189:26 Jalan Jaya Taman Jaya 09400 Padang Serai Kedah Darulaman | 519:04-4853397
+52:17 | 61:Klinik Metrocare Sungai Petani - Taman Keladi | 189:No.360, Lorong Angsana 1, Taman Keladi, 08000 Sungai Petani, Kedah | 519:04-4248030
+52:18 | 61:Klinik Nathan (Kuala Ketil) | 189:54 Main Road Pekan Baru 09300 Kuala Ketil Kedah | 518:014-6272304
+52:19 | 61:Klinik Partheeban (Sungai Petani) | 189:B 6 Jln Kenari Biru 1 Taman Kenari Jaya 2 08000 Sungai Petani Kedah | 519:04-4247360
+52:20 | 61:Klinik Rapha (Kulim) | 189:471 Jalan Kota Kenari 3, Kota Kenari 09000 Kulim Kedah Darulaman | 519:04-4910607
+52:21 | 61:Klinik Remedic Alor Setar | 189:No.92 Ground Floor Kompleks Perniagaan Sultan Abdul Hamid Persiaran Sultan Abdul Hamid 05050 Alor Setar Kedah | 519:04-7733718
+52:22 | 61:Klinik Remedic Changlun | 189:No.5A (Tingkat Bawah) Taman Sri Changlun 06010 Changlun Kedah. | 519:04-9243518
+52:23 | 61:Klinik Remedic Jitra | 189:No 6 (Tingkat Bawah ) Kompleks Perniagaan 2 Pekan Jitra 06000 Jitra Kedah | 519:04-9171888
+52:24 | 61:Klinik Remedic Kodiang | 189:No 11 (Tingkat Bawah) Susuran Seri Kodiang Taman Seri Kodiang 06100 Kodiang Kedah | 519:04-9292116
+52:25 | 61:Klinik Remedic Pendang | 189:No 1 (Ground Floor) Jalan Bestari 1 Taman Bestari 06700 Pendang Kedah | 519:04-7590278
+52:26 | 61:Klinik Remedic SP Saujana | 189:No 128 Jalan PKS (B) Pusat Komersial Saujana 08000 Sungai Petani Kedah | 519:04-4419818
+52:27 | 61:Klinik Sridheer (Kulim) | 189:579 Lorong Kemuning 1Taman Kemuning 09000 Kulim Kedah | 519:04-4993023
+52:28 | 61:Klinik Thiru (Sungai Petani) | 189:27 Lorong 1 Taman Sutera Batu 2 08000 Sungai Petani Kedah | 519:04-4250215
+52:29 | 61:Klinik Vigneshwer (Kulim) | 189:5004 Batu 2 1/2 Jalan Lunas 09000 Kulim Kedah. | 518:014-6252304
+52:30 | 61:My Health Clinic Darul Aman | 189:No 121 Jalan PKS (B), Ground Floor,Pusat Komersial Saujana, 08000 Sungai Petani, Kedah | 517:011-58582795
+52:31 | 61:My Health Clinic Sungai Petani | 189:No 29 & 30 A, Ground Floor, Jalan N-City 1/1, N-City, 08000 Sungai Petani, Kedah | 518:014-3230810
+52:32 | 61:O2 Klinik (Alor Setar) | 189:Ground Mezzanine Floor 8A & 8B Samila Business Center Aman Walk Lebuhraya Darul Aman 05100 Alor Setar Kedah | 519:04-7333808
+52:33 | 61:O2 Klinik (Kulim) | 189:No. 10 (Ground Floor) Jalan Klc 1 Kulim Landmark Central 09000 Kulim Kedah | 519:04-4908602
+52:34 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Air Hitam, Alor Setar) | 189:No. 4 Taman Kelisa Air Hitam 06150 Alor Setar Kedah. | 519:04-7947737
+52:35 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Bahru, Serdang) | 189:Rumah Kedai Lot 6 & 13 Dataran UMNO Serdang 09800 Bandar Bahru Serdang Kedah. | 519:04-4079969
+52:36 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Darul Aman Jaya, Jitra) | 189:No. 99 Bandar Darul Aman Jaya 06000 Jitra Kedah. | 519:04-9170969
+52:37 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Puteri Jaya, Sungai Petani) | 189:100 Tingkat Bawah Jalan BPJ 1/1 Seksyen 1 Bandar Puteri Jaya 08000 Sungai Petani Kedah. | 519:04-4210936
+52:38 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bangunan Pekan Baru, Baling) | 189:G11 Bangunan Pekan Baru 08200 Sik Kedah. | 519:04-4695459
+52:39 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Alor Mengkudu, Alor Setar) | 189:No. 105 Taman Limau Manis 2 Jalan Alor Mengkudu 05400 Alor Setar Kedah. | 519:04-7310166
+52:40 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Besar Gurun, Gurun) | 189:11 Taman Suria Jalan Besar Gurun 08300 Gurun Kedah | 519:04-4687969
+52:41 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Datuk Kumbar, Alor Setar) | 189:3177E KM 4 Jalan Datuk Kumbar 05300 Alor Setar Kedah. | 519:04-7320803
+52:42 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Gunung, Alor Setar) | 189:No. 15 Tingkat Bawah Pusat Perniagaan Seri Gunung (SGBC) Jalan Gunung 05150 Alor Setar Kedah. | 518:013-6669961
+52:43 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Kelan Lama, Kulim) | 189:No. 121 Pusat Perniagaan Putra Jalan Kelang Lama 09000 Kulim Kedah | 519:04-4958116
+52:44 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Nilam Sari, Taman Nilam Sari) | 189:No. 11 Jalan Nilam Sari Taman Nilam Sari 08000 Sungai Petani Kedah. | 519:04-4221969
+52:45 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Putra, Taman Mergong Jaya) | 189:No. 249 Tingkat Bawah Jalan Putra Taman Mergong Jaya 06250 Alor Setar Kedah. | 519:04-7329969
+52:46 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Sanglang-Kodiang, Kodiang) | 189:No. 9 Taman Berjaya Jalan Sanglang Kodiang 06100 Kodiang Kedah. | 519:04-9252429
+52:47 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Tuanku Haminah 1, Taman Tuanku Haminah) | 189:No. 45 Jalan Tuanku Haminah 1 Taman Tuanku Haminah 08000 Sungai Petani Kedah | 519:04-4411358
+52:48 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kampung Pasir, Guar Chempedak) | 189:No. 3 Jalan Raya Kampung Pasir 08800 Guar Chempedak Kedah | 519:04-4685969
+52:49 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kompleks Keda, Sik) | 189:9 Kompleks Keda 08200 Sik Kedah. | 519:04-4695459
+52:50 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kota Kuala Muda, Kuala Muda) | 189:93 Jalan Sungai Emas Kota Kuala Muda 09500 Kuala Muda Kedah. | 519:04-4374969
+52:51 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Lembah Impiana, Kulim) | 189:941 Jalan Lembah Impiana 6 Lembah Impiana 09000 Kulim Kedah. | 519:04-4906969
+52:52 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Changlun 2, Changlun) | 189:No. 53 Jalan Pekan Changloon 4 Pekan Changlun 2 06010 Changlun Kedah. | 519:04-9245969
+52:53 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Kepala Batas, Kubang Pasu) | 189:Plot 1150 Pekan Kepala Batas 06200 Kubang Pasu Kedah. | 519:04-7141069
+52:54 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Kuala Kedah, Kuala Kedah) | 189:Grs 1 Plaza Kuala Kedah Lot 894 Pekan Kuala Kedah 06600 Kuala Kedah Kedah | 519:04-7625695
+52:55 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Merbok, Merbok) | 189:38 Pekan Merbok 08400 Merbok Kedah | 519:04-4575969
+52:56 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Pokok Sena, Pokok Sena) | 189:No. 1911 A Pekan Pokok Sena 06400 Pokok Sena Kedah. | 519:04-7825969
+52:57 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Yan Kechil, Yan Kechil) | 189:No. 13 Kompleks Niaga 2 Jalan Yan Pekan Yan Kechil 06900 Yan Kechil Kedah. | 519:04-4659969
+52:58 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pendang Square, Pendang) | 189:No. 27 Persiaran Pendang Square 2 Pendang Square 06700 Pendang Kedah. | 519:04-7593966
+52:59 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Persiaran KKCC 3, Kuala Ketil) | 189:No. 132 (Tingkat Bawah) Persiaran KKCC 3 09100 Kuala Ketil Kedah. | 518:013-7455969
+#PAGE 2
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:60 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Komersial Saujana, Sungai Petani) | 189:15 Tingkat Bawah Jalan PKS (A) Pusat Komersial Saujana 08000 Sungai Petani Kedah. | 519:04-4411474
+52:61 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Sungai Lalang, Bedong) | 189:20 Jalan Permai 1 Taman Desa Permai 08100 Sungai Lalang Bedong Kedah. | 519:04-4592969
+52:62 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Akasia, Kuala Nerang) | 189:No. 215A (Tingkat Bawah) Taman Akasia 06300 Kuala Nerang Kedah. | 519:04-7862116
+52:63 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Bistari Utama, Bedong) | 189:38A Jalan Bistari Jaya 7 Taman Bistari Utama 08100 Bedong Kedah. | 519:04-7270232
+52:64 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Cemara, Sungai Petani) | 189:No. 49 Jalan Cemara 1 Taman Cemara 06650 Alor Setar Kedah | 519:04-4237969
+52:65 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Cindai Jaya, Sungai Petani) | 189:No. 2B Jalan Cindai Jaya 1 Taman Cindai Jaya (Berhadapan Pusat Serenti) 08000 Sungai Petani Kedah | 519:04-4219969
+52:66 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Jeniang Indah 1, Jeniang) | 189:No. 7 Tingkat Bawah Jalan Jeniang Indah Taman Jeniang Indah 1 08700 Jeniang Kedah. | 519:04-4644969
+52:67 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Keladi, Sungai Petani) | 189:357 Lorong Angsana 1 Taman Keladi 08000 Sungai Petani Kedah | 519:04-4252969
+52:68 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Kelisa Ria, Sungai Petani) | 189:105 Jalan Kelisa Ria 1C Taman Kelisa Ria 08000 Sungai Petani Kedah. | 519:04-4410709
+52:69 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Pasu, Jitra) | 189:No. 8 & 9 Tingkat Bawah Taman Pasu 06000 Jitra Kedah | 519:04-9162657
+52:70 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Pekan Baru, Sungai Petani) | 189:No. 56 Tingkat Bawah Jalan Masjid Taman Pekan Baru 08000 Sungai Petani Kedah | 519:04-4259969
+52:71 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Penaga, Sungai Petani) | 189:No. 14A Tingkat Bawah Jalan Penaga 1 Taman Penaga 08000 Sungai Petani Kedah. | 519:04-4311208
+52:72 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Ria, Padang Serai) | 189:No. 2006 Tingkat Bawah Lorong Ria 9/7 Taman Ria 09400 Padang Serai Kedah. | 519:04-4850938
+52:73 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Ria, Sungai Petani) | 189:100 Lorong 4 Taman Ria 08000 Sungai Petani Kedah | 519:04-4412969
+52:74 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Simpang Jaya, Alor Setar) | 189:13 Jalan Lada Taman Simpang Jaya 06650 Alor Setar Kedah | 519:04-7643966
+52:75 | 61:Poliklinik Permai Alor Setar 24 Jam | 189:No 18 (Ground Floor) Dataran Shahab Jalan Datuk Kumbar 05300 Alor Setar Kedah. | 519:04-7352683
+52:76 | 61:Poliklinik Sri Wang (Sungai Petani) | 189:81 Lorong 2/A Taman Sri Wang 08000 Sungai Petani Kedah | 519:04-4235286
+52:77 | 61:Poliklinik Suffi 16 Jam Taman Delima | 189:A9, Jalan Delima Emas 1, Taman Delima Emas 08000 Sungai Petani Kedah | 518:017-9320029
+52:78 | 61:Poliklinik Suffi 24 Jam Taman Ria | 189:13, Lorong 1, Taman Ria 08000 Sungai Petani Kedah | 518:017-233 5894
+53:PERLIS
+52:79 | 61:Annura Clinic Medical & Surgery (Kangar) | 189:No. 58 Persiaran Putra, Taman Putra Utama, 01000 Kangar, Perlis | 518:017-4375007
+52:80 | 61:Klinik Anda 24 Jam Kangar | 189:No. 86 & No. 88 (Tingkat Bawah) Taman Pertiwi Indah Jalan Kangar Alor Setar 01000 Kangar Perlis | 519:09-7449932
+52:81 | 61:Klinik Remedic Beseri | 189:No.361 (Ground Floor) Jalan Bukit Keteri Taman Emas 02400 Mukim Beseri Perlis | 519:04-9381808
+52:82 | 61:Klinik Remedic Kangar | 189:No.277 & 279 Jalan Baru Kangar Alor Setar Taman Pengkalan Asam 01000 Kangar Perlis | 519:04-9773118
+52:83 | 61:Klinik Remedic Kuala Perlis | 189:No.30 (Tingkat Bawah) Jalan Besar Kuala Perlis 02000 Pekan Kuala Perlis Perlis | 517:011-53559118
+52:84 | 61:Klinik Remedic Pauh | 189:No.6 (Tingkat Bawah Taman Bersatu Pauh Jalan Bersatu Pauh Satu Pauh 02600 Arau Perlis | 519:04-9171888
+52:85 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Besar 11, Padang Besar) | 189:Jalan Besar 11 02100 Padang Besar Perlis. | 519:04-9490698
+52:86 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pekan Simpang Empat, Simpang Empat) | 189:No. 9 Rumah Kedai Taman Seri Sejahtera Pekan Simpang Empat 02700 Simpang Empat Perlis. | 519:04-9807969
+52:87 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Persiaran Utara, Arau) | 189:No. 3 Kompleks Perniagaan Utara Jejawi Persiaran Utara 02500 Arau Perlis. | 519:04-9704399
+52:88 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Perniagaan Marina, Kuala Perlis) | 189:No. 8 Tingkat Bawah Susuran Marina Pusat Perniagaan Marina 02000 Kuala Perlis Perlis | 519:04-9856605
+52:89 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Perniagaan Pauh, Arau) | 189:No. 13 Tingkat Bawah Jalan Pauh 2 Pusat Perniagaan Pauh 02600 Arau Perlis. | 519:04-9863969
+52:90 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Haz Melati, Beseri) | 189:No. 17 Jalan Bukit Keteri Taman Haz Melati 02450 Beseri Perlis. | 519:04-9382257
+52:91 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Putra Utama, Kangar) | 189:No. 18 Tingkat Bawah Persiaran Putra Taman Putra Utama 01000 Kangar Perlis. | 519:04-9704146
+52:92 | 61:Qualitas Health Klinik Menon | 189:4-B Jalan Raja Syed Alwi Pusat Bandar Kangar 01000 Kangar Perlis | 519:04-9761457
+52:93 | 61:Qualitas Health Klinik Menon - Arau | 189:No.12 Ground Floor Jalan Dua Kompleks Tok Arau 02600 Arau Perlis | 519:04-9863141
+53:PENANG
+52:94 | 61:Dr (Mdm) Ooi Clinic | 189:19 Jalan Aston, 14000 Bukit Mertajam, Pulau Pinang | 519:04-5393822
+52:95 | 61:IG Clinic | 189:7504(GF), Lorong Mesra Permai 4, Taman Mesra Jaya, 13400 Butterworth, Pulau Pinang | 518:019-8209007
+52:96 | 61:IG Clinic Bayan Lepas | 189:No. 1-1-29 (GF), Summerskye Residences, Jalan Sungai Tiram 8, 11900 Bayan Lepas, Pulau Pinang. | 518:014-9368662
+52:97 | 61:Klinik Aman Bayan Baru | 189:70-01-64 D' Piazza Mall Jalan Mahsuri Bandar Bayan Baru, 11950 Bayan Lepas, Penang | 519:04-6452793
+52:98 | 61:Klinik Aman Datuk Keramat | 189:603 Jalan Dato Keramat George Town 10460 George Town Pulau Pinang | 519:04-2291844
+52:99 | 61:Klinik Aman Gelugor 24 Hours | 189:11 Jalan Sultan Azlan Shah Minden Heights 11700 Gelugor Pulau Pinang | 519:04-6581361
+52:100 | 61:Klinik Anda Pokok Sena Sdn Bhd | 189:No. 21A 211 212 Persiaran Pokok Sena Pusat Perniagaan Pokok Sena 13220 Kepala Batas Pulau Pinang | 519:04-5735369
+52:101 | 61:Klinik Aurora (Butterworth) | 189:75 (Ground Floor) Jln Selat Tmn Selat 12000 Butterworth Pulau Pinang | 519:04-3325554
+52:102 | 61:Klinik Avenue | 189:No-1-G-24,Tingkat Paya Terubong 4,Terubong Avenue, 11060 Paya Terubong, Pulau Pinang | 517:011-59259898
+52:103 | 61:Klinik Bersatu 16 Jam (Taman Chai Leng) | 189:56 Jalan Kurau, Taman Chai Leng, 13700 Perai, Pulau Pinang | 519:04-3978810
+52:104 | 61:Klinik Cahaya (Simpang Ampat) | 189:16 Grd Floor, Lorong Tangling Indah 3 Taman Tangling Indah 14100 Spg Ampat Pulau Pinang | 519:04-5040148
+52:105 | 61:Klinik Careclinics Pertama | 189:331 Jalan Dato Keramat 10150 Georgetown Pulau Pinang | 519:04-2291836
+52:106 | 61:Klinik Careclinics The Pearl | 189:99 King Street George Town 10200 George Town Pulau Pinang | 519:04-2627295
+52:107 | 61:Klinik Dr Ana Seberang Jaya | 189:No 48 (Tingkat Bawah) Jalan Todak 4 Seberang Jaya 13700 Perai Pulau Pinang | 518:016-4058266
+52:108 | 61:Klinik Dr. Dashindar Singh (Spg Ampat) | 189:2194 Jln Bukit Minyak Kawasan Perniagaan Asas Murni 14100 Simpang Ampat Pulau Pinang | 519:04-5883817
+52:109 | 61:Klinik Eco Medic | 189:2A, Lorong Sintar Indah 1, Taman Sintar Indah 14300 Nibong Tebal, Pulau Pinang | 519:04-5955818
+52:110 | 61:Klinik Eco Medic (Bagan Ajam) | 189:38, Tingkat Bawah, Jalan Oren Pusat Perniagaan Oren, 13000 Bagan Ajam, Pulau Pinang | 517:011-58810868
+52:111 | 61:Klinik Eco Medic (Bukit Mertajam) | 189:19, Medan Limau Emas, Pusat Perniagaan Limau Emas, 14000 Bukit Mertajam, Pulau Pinang | 519:04-5088101
+52:112 | 61:Klinik Eco Medic (Golden Triangle) | 189:29-01-02, Tingkat Bawah, Golden Triangle, Jalan Paya Terubong, 11900 Bayan Lepas, Pulau Pinang | 518:019-4695818
+52:113 | 61:Klinik Eco Medic (Kepala Batas) | 189:50, Tingkat Bawah, Jalan Serdang 1, Pusat Perniagaan Serdang, 13200 Kepala Batas, Pulau Pinang | 517:011-17669488
+52:114 | 61:Klinik Eco Medic (Simpang Ampat) | 189:1641, Jalan Bukit Tambun, 14100 Simpang Ampat, Pulau Pinang | 519:04-5884801
+52:115 | 61:Klinik Eco Medic (Tanjung Tokong) | 189:98-G-42, Prima Tanjung, Jalan Fettes, Tanjung Tokong, 10470 Georgetown, Pulau Pinang | 517:011-21978810
+52:116 | 61:Klinik Health Plus | 189:725-U Jalan Sungai Dua Gelugor 11700 Pulau Pinang | 519:04-6577750
+52:117 | 61:Klinik IHealth (Bandar Cassia) | 189:No 9-G, Jalan Borealis 3, Pusat Komersial Borealis, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang | 519:04-5881825
+52:118 | 61:Klinik IHealth (Bayan Point) | 189:15-G-12 Bayan Point Complex, Medan Kampung Relau, 11900 Bayan Lepas, Pulau Pinang | 518:016-4261387
+52:119 | 61:Klinik IHealth (Bukit Mertajam) | 189:62A, Jalan Lembah Permai 4, Taman Lembah Permai, 14000 Bukit Mertajam, Pulau Pinang | 518:016-3291387
+52:120 | 61:Klinik IMA Bayan Baru | 189:46 Jalan Mayang Pasir Bayan Baru 11900 Bayan Lepas Pulau Pinang | 519:04-6370336
+52:121 | 61:Klinik IMA Butterworth | 189:No. 4703 Jalan Bagan Luar Butterworth 12000 Pulau Pinang | 519:04-3299156
+52:122 | 61:Klinik IMA Church Street | 189:No 18 Ground Floor Lebuh Gereja 10200 Georgetown Pulau Pinang | 519:04-2612967
+52:123 | 61:Klinik Joe Fernandez (Alma, Bukit Mertajam) | 189:2881 Jalan Rozhan Alma 14000 Bukit Mertajam Pulau Pinang | 519:04-5513776
+52:124 | 61:Klinik Joe Fernandez (Bayan Baru) | 189:1-L Jalan Sultan Azlan Shah 11950 Bayan Baru Pulau Pinang. | 519:04-6446699
+52:125 | 61:Klinik Joe Fernandez (Butterworth) | 189:620, Jalan Bagan Ajam 13000 Butterworth Pulau Pinang | 519:04-3322900
+52:126 | 61:Klinik Joe Fernandez (Jalan Baru, Perai) | 189:1303, Taman Chai Leng Jalan Baru 13700 Perai Penang | 519:04-3900851
+52:127 | 61:Klinik Joe Fernandez (Jalan Kulim, Bukit Mertajam) | 189:30-1 Taman Jaya Jalan Kulim 14000 Bukit Mertajam, Pulau Pinang | 519:04-5386448
+52:128 | 61:Klinik Joe Fernandez (Juru, Bukit Mertajam) | 189:697 Jalan Duku Taman Duku 14100 Juru Bukit Minyak Pulau Pinang | 519:04-5078639
+52:129 | 61:Klinik Joe Fernandez (Seberang Jaya, Perai) | 189:1 Halaman Tenggiri 2 Bandar Seberang Jaya 13700 Perai Penang | 519:04-3998413
+52:130 | 61:Klinik Joe Fernandez (Sungai Bakap) | 189:1381 Jalan Sg.Bakap Taman Sungai Bakap Permai14200 Sg.Bakap Pulau Pinang | 519:04-5838005
+#PAGE 3
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:131 | 61:Klinik Joe Fernandez (Taman Nagasari, Perai) | 189:86 Jalan Nagasari 1 Taman Nagasari 13600 Perai Penang | 519:04-3975505
+52:132 | 61:Klinik Joe Fernandez (Tasek Gelugor) | 189:2839 Jalan Tasek Gelugor Taman Haji Ahmad Jamil 13300 Tasek Gelugor Pulau Pinang | 519:04-5731631
+52:133 | 61:Klinik Masurii (Spg Ampat) | 189:Grd Floor 76-A, Jln Tasek SS2 Bandar Tasek Mutiara 14120 Spg Ampat Pulau Pinang | 519:04-5132147
+52:134 | 61:Klinik Menara | 189:Lot 3R-1-1 3R-1-2 3R-1-3 Persiaran Kelicap Setia Triangle 11900 Bayan Lepas Pulau Pinang | 519:04-2916524
+52:135 | 61:Klinik Metrocare 16 Jam | 189:7(Ground Floor), Jalan Jentayu, Taman Jentayu 14100 Simpang Ampat, Penang | 519:04-5882070
+52:136 | 61:Klinik Metrocare 16 Jam (Juru) | 189:No 712 (Ground Floor, Jalan Juru, Taman Duku 14100 Simpang Ampat, Penang | 519:04-5073400
+52:137 | 61:Klinik Metrocare 16 Jam (Tambun) | 189:No 10, Jalan Perniagaan Tambun Permai,Pusat Perniagaan Tambun Permai, 14100 Simpang Ampat, Penang | 518:016-4101884
+52:138 | 61:Klinik Metrocare 24 Jam Alma | 189:2129, Ground Floor, Jalan Rozhan, Taman Impian Ria 14000 Bukit Mertajam, Penang | 519:04-5041080
+52:139 | 61:Klinik Metrocare 24 Jam Bukit Minyak | 189:19, Jalan Bukit Minyak 7, Taman Bukit Minyak, 14000 Bukit Mertajam, Penang | 519:04-5054365
+52:140 | 61:Klinik Metrocare 24 Jam Nibong Tebal | 189:1774, (Ground&First Floor), Jalan Nibong Tebal, Taman Panchor Indah 14300 Nibong Tebal, Penang | 519:04-5955433
+52:141 | 61:Klinik Metrocare Bukit Mertajam | 189:No.77 Ground Floor, Jalan Perniagaan Gemilang, Pusat Perniagaan Gemilang, 14000 Bukit Mertajam, Penang | 518:016-6668117
+52:142 | 61:Klinik Munirah-Iskandar (Butterworth) | 189:29 Jalan Pauh Indah 1 Taman Pauh Indah 13500 Butterworth Pulau Pinang | 519:04-3988944
+52:143 | 61:Klinik Munnir | 189:6656, Jalan Telaga Air, 12200 Butterworth, Pulau Pinang | 518:019-6842127
+52:144 | 61:Klinik Murni (Balik Pulau) | 189:11A Jln Balik Pulautaman Pasir Emas 11000 Spg Empat Balik Pulau Pinang | 519:04-8664188
+52:145 | 61:Klinik Passion | 189:63 (G), Lrg Teras Jaya 2, Kaw Industri Ringan Tera Jaya, 13400 Butterworth, Pulau Pinang | 518:017-4958817
+52:146 | 61:Klinik Perubatan The Pearl | 189:12, Tingkat Bawah, Medan Angsana 1, Bandar Baru, 11500 Ayer Itam, Pulau Pinang | 519:04-8297295
+52:147 | 61:Klinik Remedic Nibong Tebal | 189:56 (Tingkat Bawah) Jalan Besar Taman Merbah 14300 Nibong Tebal Pulau Pinang | 519:04-5939118
+52:148 | 61:Klinik Remedic Sungai Dua | 189:No 27 (Ground Floor) Jalan Sungai Dua Utama 1 Taman Sungai Dua Utama 13800 Butterworth Pulau Pinang | 519:04-3581198
+52:149 | 61:Klinik Singapore | 189:823-G-3 , Kejora Business Point , Jalan Paya Terubong ,Mukim 13 , Bayan Lepas, 11900 Pulau Pinang | 519:04-6448488
+52:150 | 61:Klinik Symphony | 189:72-A, Ground Floor, Jalan Lembah Permai 4, Taman Lembah Permai, Bukit Mertajam, 14000, Pulau Pinang | 518:018-2500153
+52:151 | 61:Klinik Topcare (Alma) Sdn Bhd | 189:2882, Jakan Rozhan, Alma, Bukit Mertajam, 14000, Pulau Pinang | 519:04-5511810
+52:152 | 61:O2 Klinik (Ayer Itam) | 189:1& 1M Jalan Ayer Itam 11500 George Town Pulau Pinang | 519:04-8283345
+52:153 | 61:O2 Klinik (Balik Pulau) | 189:No.27 Jalan Tun Sardon MK6 11000 Balik Pulau Pulau Pinang | 519:04-8668345
+52:154 | 61:O2 Klinik (Batu Kawan) | 189:43-G Jalan Borealis 3 Pusat Komersial Borealis 14110 Bandar Cassia Pulau Pinang | 519:04-5871902
+52:155 | 61:O2 Klinik (Bukit Mertajam) | 189:No.33 Jalan Sentral Jaya Pusat Perniagaan Sentral Jaya 14000 Bukit Mertajam Pulau Pinang | 519:04-5041213
+52:156 | 61:O2 Klinik (Farlim) | 189:1-G-6 Medan Angsana 3 (Ground Floor) Bandar Baru Ayer Itam 11500 Ayer Itam Pulau Pinang | 519:04-8277727
+52:157 | 61:O2 Klinik (Heritage) | 189:148 Jalan Macalister 10400 Georgetown Pulau Pinang. | 519:04-2170835
+52:158 | 61:O2 Klinik (Jelutong) | 189:129/I/J/K Jalan Tan Sri Teh Ewe Lim 11600 Jelutong Pulau Pinang. | 519:04-6563348
+52:159 | 61:O2 Klinik (Raja Uda) | 189:No. 6880 Jalan Raja Uda Raja Uda Industrial Estate 12300 Butterworth Pulau Pinang | 519:04-3135156
+52:160 | 61:O2 Klinik (Relau) | 189:29-01-10 Golden Triangle Jalan Paya Terubong 11900 Bayan Lepas Pulau Pinang | 519:04-6371345
+52:161 | 61:O2 Klinik (Summerton) | 189:110-1A-25 & 110-01-26 Summerton Complex Persiaran Bayan Indah 11900 Bayan Lepas Pulau Pinang | 519:04-3715028
+52:162 | 61:O2 Klinik (Sungai Ara) | 189:3R-01-08 (Ground Floor) Persiaran Kelicap Setia Triangle 11900 Bayan Lepas Pulau Pinang | 519:04-6049969
+52:163 | 61:O2 Klinik (Tanjung) | 189:28-G-1 The Bayu Jalan Tanjung Tokong 10470 Tanjung Tokong Pulau Pinang | 519:04-8901110
+52:164 | 61:Poliklinik Desa Permai | 189:No 34 Lorong Helang 2, Desa Permai Indah, 11700 Sungai Dua, Pulau Pinang | 519:04-6564343
+52:165 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Tasek Mutiara, Simpang Ampat) | 189:12A (Tingkat Bawah) Jalan Tasek SS3 Bandar Tasek Mutiara 14120 Simpang Ampat Pulau Pinang. | 519:04-5180969
+52:166 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Butterworth, Seberang Perai Utara) | 189:No. 623 Bagan Ajam 12100 Butterworth Seberang Perai Utara Pulau Pinang. | 519:04-3231969
+52:167 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Tun Sardon, Balik Pulau) | 189:No. 39 Jalan Tun Sardon MK 6 Balik Pulau 11000 Pulau Pinang. | 519:04-8663592
+52:168 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kepala Batas, Seberang Perai Utara) | 189:1517 Jalan Perak 13200 Kepala Batas Seberang Perai Utara Pulau Pinang | 519:04-5766523
+52:169 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Permatang Pauh, Seberang Perai Tengah) | 189:No. 1510 Tingkat Bawah Jalan Permatang Pauh Taman Arowana Permatang Pauh 13500 Seberang Perai Tengah Pulau Pinang. | 519:04-3988180
+52:170 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Bandar Bertam Perdana, Kepala Batas) | 189:No. 8 Jalan Dagangan 8 Pusat Bandar Bertam Perdana 13200 Kepala Batas Pulau Pinang | 519:04-5742115
+52:171 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Komersial Tasek Gelugor Jaya, Tasek Gelugor) | 189:No. 5 Jalan Tasek Gelugor Jaya Pusat Komersial Tasek Gelugor Jaya 13300 Tasek Gelugor Pulau Pinang. | 519:04-5733377
+52:172 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Perniagaan Sungai Dua, Butterworth) | 189:No. 16 Tingkat Bawah Lorong Perniagaan 2 Pusat Perniagaan Sungai Dua 13800 Butterworth Pulau Pinang. | 519:04-3562969
+52:173 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Berjaya, Nibong Tebal) | 189:No.87 Tingkat Bawah Jalan Rajawali Taman Berjaya 14300 Nibong Tebal Pulau Pinang. | 519:04-5937429
+52:174 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Sena Jaya, Kepala Batas) | 189:16 Ground Floor Jalan Sena Jaya Taman Sena Jaya 13200 Kepala Batas Pulau Pinang | 519:04-5732703
+52:175 | 61:Poliklinik Mahkota 24 Jam | 189:No.3348,Ground Floor,Pusat Perniagaan Rozhan, 14000 Bukit Mertajam, Penang | 518:016-4101884
+52:176 | 61:Poliklinik Mutiara (Tanjong Tokong) | 189:D-G-2 Flat Uda Tanjong Tokong 10470 Pulau Pinang | 519:04-8919508
+52:177 | 61:Poliklinik My Rakyat | 189:12D-G-7 Lengkok Kelicap One Foresta 11900 Bayan Lepas Pulau Pinang | 519:04-6037705
+52:178 | 61:Qualitas Health Klinik Sentosa Bayan Baru | 189:100 Lintang Mayang Pasir 2 Bandar Bayan Baru 11950 Bayan Lepas Pulau Pinang | 519:04-6432131
+52:179 | 61:Qualitas Health Klinik Sentosa Jelutong | 189:15D Lengkok Dumbar Bukit Dumbar 11600 Jelutong Pulau Pinang | 519:04-6572772
+52:180 | 61:Qualitas Health Klinik Sentosa Penang Street | 189:20 Lebuh Penang George Town 10450 George Town Pulau Pinang | 519:04-2617778
+52:181 | 61:Qualitas Health Klinik Syed Alwi Dan Chandran - Butterworth | 189:6466 Jalan Kampung Gajah Kampung Gajah 12200 Butterworth Pulau Pinang | 519:04-3330789
+52:182 | 61:Qualitas Health Klinik Syed Alwi Dan Chandran - Seberang Jaya | 189:Pusat 3 Jalan Todak 5 Bandar Seberang Jaya 13700 Butterworth Penang | 519:04-3901464
+52:183 | 61:SK Clinic (Bandar Cassia) | 189:Ground Floor G-29, Utropolis Utama Persiaran Cassia Barat 3 14100 Bandar Cassia Pulau Pinang | 517:011-63095009
+52:184 | 61:Klinik Huang | 189:221-B, JALAN BURMA 10050 Georgetown Pulau Pinang | 519:04-2271887
+52:185 | 61:Klinik Pakar Perubatan Heng | 189:71,Tingkat Bawah, Jalan Perniagaan Gemilang 1 Pusat Perniagaan Gemilang, Bukit Mertajam 14000 Pulau Pinang | 518:017-9628218
+52:186 | 61:AI Klinik (Simpang Ampat) | 189:38-G, Lorong Belibis 28, Taman Tangling Indah 14100 Simpang Ampat Pulau Pinang | 519:04-5088788
+52:187 | 61:AI Klinik (Bukit Mertajam) | 189:25-G Taman Jaya, Jalan Kulim 14000 Bukit Mertajam Pulau Pinang | 519:04-5485488
+52:188 | 61:AI Klinik (City Junction) | 189:2-2-3A (Lot C) Persiaran Lengkuas 2, City Mall 10470 Tanjong Tokong Pulau Pinang | 519:04-6036227
+52:189 | 61:Klinik Caring Alma | 189:24, Tingkat Bawah, Jalan Sejahtera Ria Ria, Taman Sejahtera Ria 14000 Bukit Mertajam Penang | 519:04-5386309
+53:PERAK
+52:190 | 61:ALPRO Clinic Tanjong Malim | 189:No. 7 Lot 369 Jalan Loke Yew, Taman Bandar, 35900 Tanjong Malim, Perak | 518:019-7943828
+52:191 | 61:Careclinics Poliklinik Dan Surgeri Gul (Klebang) | 189:12 & 13A Laluan Klebang Restu 2 Medan Klebang Restu 31200 Chemor Perak | 519:05-2923061
+52:192 | 61:Careclinics Poliklinik Gul (Medan) | 189:No.36 & 38 Ground Floor Lebuh Medan Ipoh Bandar Baru Medan Ipoh 31400 Ipoh Perak Darul Ridzuan | 519:05-5466786
+52:193 | 61:Careclinics Poliklinik Kana | 189:10-L Jalan Tun Abdul Razak 30100 Ipoh Perak | 519:05-5063949
+52:194 | 61:Careclinics Poliklinik Maxwell | 189:No 2 & 2B Medan Istana 5 Bandar Ipoh Raya 30000 Ipoh Perak | 519:05-2418665
+52:195 | 61:Klinik Anda 24 Jam Meru Raya, Ipoh | 189:No 25 (Ground Floor) Jalan Meru Bestari A2 Medan Meru Bestari 30020 Ipoh Perak | 518:03-40317772
+#PAGE 4
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:196 | 61:Klinik Anda 24 Jam Seri Iskandar | 189:No 73 & No 74 Persiaran SIBC 1 Seri Iskandar Business Centre 32610 Seri Iskandar Perak | 519:05-3676339
+52:197 | 61:Klinik Anda 24 Jam Seri Manjung | 189:No 127 Jalan PPMP 3/3 Pusat Perniagaan Manjung Point 3 32040 Seri Manjung Perak | 519:05-6889477
+52:198 | 61:Klinik Anda 24 Jam Slim River | 189:No 27 PT 7090 Jalan Mahsuri Taman Perwira 2 35800 Slim River Perak | 518:03-90105861
+52:199 | 61:Klinik Anda 24 Jam Station 18 | 189:7 (Tingkat Bawah) Susunan Stesen 18 Taman Pengkalan Jaya 31650 Ipoh Perak | 519:05-3200588
+52:200 | 61:Klinik Anda 24 Jam Tanjong Malim | 189:No. 1 & No. 3 (Tingkat Bawah) Jalan Permai 1 Taman Ketoyong Permai 2 35900 Tanjung Malim Perak | 519:05-4500570
+52:201 | 61:Klinik Anda 24 Jam Tasek | 189:636 (Tingkat Bawah Tingkat Satu) Jalan Kuala Kangsar Taman Tasek Damai 30010 Ipoh Perak | 519:05-2922663
+52:202 | 61:Klinik Anda 24 Jam Teluk Intan | 189:No.43 G, 45 G, 47 G Jalan Intan 2 Bandar Baru Teluk Intan 36000 Teluk Intan Perak | 519:05-6210233
+52:203 | 61:Klinik Anda Kamunting 24 Jam | 189:No. 41, No. 43 & No. 45 (Tingkat Bawah) Jalan Medan Saujana Medan Saujana 34600 Kamunting Perak | 519:05-8048969
+52:204 | 61:Klinik Anda Kuala Kangsar 24 Jam | 189:No. 2 & No. 3 (Tingkat Bawah) Persiaran Medan Suria Medan Suria Off Jalan Taiping 33000 Kuala Kangsar Perak | 519:04-9777831
+52:205 | 61:Klinik Anda Taiping 24 Jam | 189:No 18 & No 20 Jalan Tupai 34000 Taiping Perak | 519:05-8088969
+52:206 | 61:Klinik Careclinics (Menglembu) | 189:16 Jalan Kledang Menglembu Menglembu 31450 Ipoh Perak | 519:05-2828818
+52:207 | 61:Klinik Careclinics (Pengkalan Barat) | 189:16 Jalan Pengkalan Barat 23 Pengkalan Gerbang Mutiara 31650 Ipoh Perak | 519:05-3223099
+52:208 | 61:Klinik Careclinics (Tapah) | 189:No 29 Jalan Besar Kampung Lubok Katak 35000 Tapah Perak | 519:05-4011584
+52:209 | 61:Klinik Careclinics AG Kasih (Meru) | 189:MP-TWO 13 Persiaran Meru Point Gerbang Meru Indah 30020 Ipoh Perak | 518:013-6222505
+52:210 | 61:Klinik Careclinics Ipoh | 189:No.1, Medan Gopeng 3, Jalan Raja Dr. Nazrin Shah, 31350 Ipoh, Perak | 519:05-3120716
+52:211 | 61:Klinik Careclinics Lee | 189:No 23 Taman Ros Jalan Sultan Abdullah 36000 Teluk Intan Perak | 519:05-6232323
+52:212 | 61:Klinik Careclinics PMC Batu Gajah | 189:No. 1 Jalan Kemajuan 31000 Batu Gajah Perak | 519:05-3665289
+52:213 | 61:Klinik Careclinics PMC Ipoh | 189:47 Jalan Tun Sambathan 30000 Ipoh Perak | 519:05-2549467
+52:214 | 61:Klinik Careclinics PMC Kampar | 189:41 Laluan Batu Sinar 2 Kampar Sentral 31900 Kampar Perak | 519:05-4684685
+52:215 | 61:Klinik Careclinics PMC Silibin | 189:285 Jalan Silibin Taman Alkaff 30100 Ipoh Perak | 519:05-5264833
+52:216 | 61:Klinik Dr Ana Ipoh | 189:Blok B No 18 (Tingkat Bawah) Jalan Meru Bestari D1 Kompleks Perdagangan DWJ @ Meru 30020 Ipoh Perak | 518:019-9855441
+52:217 | 61:Klinik Dr Ana Manjung | 189:No 251 (Tingkat Bawah) Jalan PPMP 3/4 Pusat Perniagaan Manjung Point 3 32040 Seri Manjung Perak | 517:011-36275441
+52:218 | 61:Klinik Dr Ana Parit Buntar | 189:No 1 (Tingkat Bawah) Jalan Asuhan Pusat Perniagaan Setia Jaya 34200 Parit Buntar Perak | 518:019-3403494
+52:219 | 61:Klinik Dr Ana Taiping | 189:15 & 17 (Tingkat Bawah) Jalan Saujana Taman Saujana 3 Jalan Kamunting 34600 Kamunting Perak | 518:018-9734890
+52:220 | 61:Klinik Dr Noor Anisah | 189:No 77, Jalan Medan Kamunting 3, Medan Kamunting, 34600, Kamunting, Perak | 519:05-8913193
+52:221 | 61:Klinik Dr Rueban 24 Jam | 189:No 7 (Ground Floor),Lorong Ria,Parit Buntar, 34200, Perak | 518:014-7383295
+52:222 | 61:Klinik Irma | 189:PT 17038, Jalan Permai, Taman Ketoyong Permai, Tanjong Malim, Perak, 35900 | 518:018-2257011
+52:223 | 61:Klinik Lim Bersaudara | 189:342-B, Jalan Ria, 34200 Parit Buntar, Perak | 519:05-7161672
+52:224 | 61:Klinik Malaysia (Taiping) | 189:94 Jalan Taming Sari Taiping 34000 Taiping Perak | 519:05-8073005
+52:225 | 61:Klinik Metrocare 24 Jam Parit Buntar | 189:No 25 (Ground Floor), Jalan Taiping, Taman Parit Buntar 34200 Parit Buntar, Perak | 519:05-7262030
+52:226 | 61:Klinik Metrocare Taiping | 189:29, Jalan Raja Sulong, Medan Taiping 34000, Perak | 519:05-8048215
+52:227 | 61:Klinik Perubatan Loke | 189:2264, Taman Samudera, Seri Manjung, 32040, Perak | 518:018-9690659
+52:228 | 61:Klinik Safri Dan Hamimah Batu Gajah | 189:Blok C Bangunan Tabung Haji Jalan Pejabat Pos 31000 Batu Gajah Perak | 519:05-3667875
+52:229 | 61:Klinik Safri Dan Hamimah Medan Gopeng | 189:No 51 Kompleks Perniagaan Medan Gopeng Jalan Gopeng 31350 Ipoh Perak | 519:05-3123353
+52:230 | 61:Klinik Safri Dan Hamimah Station 18 | 189:No 59 Susuran Stesen 18 Station 18 Jalan Pasir Puteh 31650 Ipoh Perak | 519:05-3226300
+52:231 | 61:O2 Klinik (Ipoh Garden) | 189:No. 13 (Ground Floor) Jalan Niaga Simee 1 Pusat Perniagaan Simee, 31650 Ipoh Perak | 519:05-5360566
+52:232 | 61:PMG Medical Clinic (Taman Selamat, Sitiawan) | 189:G/F No. 10 & 11 Jalan Raja Omar Taman Selamat 32000 Sitiawan Perak | 518:010-3697966
+52:233 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Changkat Jering, Taiping) | 189:No. 45 Jalan Changkat Utama Changkat Jering 34850 Taiping Perak. | 519:05-8553969
+52:234 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Alang Iskandar, Lenggong) | 189:No. 5 Bangunan Arked Mara Jalan Alang Iskandar 33400 Lenggong Perak. | 519:05-7679106
+52:235 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Atas, Tanjung Piandang) | 189:No. 39 Jalan Atas 34250 Tanjung Piandang Perak. | 519:05-7255969
+52:236 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Ipoh, Sungai Siput) | 189:No. 1 Tingkat Bawah Ruang Niaga Sinar Masjid Jalan Ipoh 31100 Sungai Siput Perak. | 519:05-5972969
+52:237 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Ixora, Gopeng) | 189:No. 3 Jalan Ixora 31600 Gopeng Perak. | 519:05-3592627
+52:238 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Kampung Perak, Batu Kurau) | 189:Depan Rumah Penghulu Jalan Kampung Perak 34500 Batu Kurau Perak. | 519:05-8880669
+52:239 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Medan Makmur Jaya 1, Pantai Remis) | 189:No. 3 Jalan Medan Makmur Jaya 1 34900 Pantai Remis Perak. | 519:05-6771018
+52:240 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Raja, Tapah Perak) | 189:No. 17 Tingkat Bawah Jalan Raja 35000 Tapah Perak. | 519:05-4010429
+52:241 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Tun Saban, Gerik) | 189:192 Jalan Tun Saban 33300 Gerik Perak. | 519:05-7911969
+52:242 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kampung Tengku Hussein Baru, Ipoh) | 189:No. 9 Jalan Hadhari Kampung Tengku Hussein Baru 30020 Ipoh Perak. | 519:05-5299462
+52:243 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Laluan Kamunting 1, Kamunting) | 189:No. 21 Tingkat Bawah Laluan Kamunting 1 34600 Kamunting Perak. | 519:05-8915969
+52:244 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Medan Stesen 18/11, Ipoh) | 189:No. 64 Tingkat Bawah Medan Stesen 18/11 Station 18 31650 Ipoh Perak | 519:05-3222969
+52:245 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Persiaran Klebang Putra, Chemor) | 189:No. 24 Tingkat Bawah Persiaran Klebang Putra Pusat Perdagangan Klebang 31200 Chemor Perak. | 519:05-2911627
+52:246 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Persiaran SM 2B/23, Seri Manjung) | 189:No. 510 Persiaran SM 2B/23 Fasa 2B 32040 Seri Manjung Perak. | 519:05-6893055
+52:247 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Bandar Bagan Serai, Bagan Serai) | 189:No. 4 Jalan Harmoni Pusat Bandar Bagan Serai 34300 Bagan Serai Perak. | 519:05-7210969
+52:248 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Bandar Seri Manjung, Manjung) | 189:No. 34 Persiaran PM/1 Pusat Bandar Seri Manjung 32040 Manjung Perak. | 519:05-6890955
+52:249 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Bandar, Parit Buntar) | 189:No. 21 Jalan Maharaja 1 Pusat Bandar 34200 Parit Buntar Perak. | 519:05-7169969
+52:250 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Perdagangan Ampang Baru, Ipoh) | 189:No. 8 Jalan Ampang Baru 6B Pusat Perdagangan Ampang Baru 31350 Ipoh Perak. | 519:05-3110667
+52:251 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Sentral Sungkai Perdana, Sungkai) | 189:No. 32 Ground Floor Jalan Sentral Sungkai 2 Sentral Sungkai Perdana 35600 Sungkai Perak. | 519:05-4386055
+52:252 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Sri Permai, Selama) | 189:No. 27 Jalan Sri Permai Sri Permai 34100 Selama Perak. | 519:05-8391275
+52:253 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Susur Iskandar, Kampar) | 189:No. 5 Susur Iskandar 31900 Kampar Perak. | 519:05-4672809
+52:254 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Anggerik Desa 2, Tanjung Malim) | 189:No. 18 Jalan Cahaya Taman Anggerik Desa 2 35900 Tanjung Malim Perak. | 519:05-4590969
+52:255 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Batu Gajah Transit, Batu Gajah) | 189:No. 47 Tingkat Bawah Laluan BG Transit 2 Taman Batu Gajah Transit 31000 Batu Gajah Perak. | 519:05-3669170
+52:256 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Bercham Raya, Ulu Kinta) | 189:No. 48 Persiaran Perpaduan Utara 1 Taman Bercham Raya 31150 Ulu Kinta Perak. | 519:05-5366200
+52:257 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Iskandar Bistari, Bandar Seri Iskandar) | 189:No. 12 Jalan 1B1 Taman Iskandar Bistari 32610 Bandar Seri Iskandar Perak. | 519:05-3713969
+52:258 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Kawan, Bidor) | 189:No. 5 Taman Kawan 35500 Bidor Perak. | 519:05-4340622
+52:259 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Lumut Indah, Lumut) | 189:No. 30 Jalan Lumut Indah, Taman Lumut Indah 32100 Lumut Perak. | 519:05-6832236
+52:260 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Mawar, Langkap) | 189:No. 2 Tingkat Bawah Lorong Mawar 1 Taman Mawar 36700 Langkap Perak. | 519:05-6595969
+#PAGE 5
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:261 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Melor 2, Teluk Intan) | 189:67 Lorong 1 Taman Melor II 36000 Teluk Intan Perak. | 519:05-6212969
+52:262 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Meru 2B, Ipoh) | 189:No. 13 Hala Taman Meru 13 Taman Meru 2B 30020 Ipoh Perak. | 519:05-5279969
+52:263 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Mesra, Hutan Melintang) | 189:No. 18 Lorong 1 Taman Mesra 36400 Hutan Melintang Perak. | 519:05-6413294
+52:264 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Raja Idris, Kuala Kangsar) | 189:No. 48 Jalan Sultan Idris Taman Raja Idris 33000 Kuala Kangsar Perak. | 519:05-7762879
+52:265 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Selingsing Mawar, Semanggol) | 189:No. 5 Lintang Mawar 1 Taman Selingsing Mawar 34400 Semanggol Perak. | 519:05-8902431
+52:266 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Slim Indah, Slim River) | 189:No. 8 Tingkat Bawah PT 1970 Taman Slim Indah 35800 Slim River Perak. | 519:05-4520334
+52:267 | 61:Poliklinik Fitrah (Bagan Serai) | 189:1 Bangunaan PKNK Jalan Besar 34300 Bagan Serai Perak | 519:05-7211541
+52:268 | 61:Poliklinik Kumari (Pusat Bandar Parit Buntar) | 189:11 Jalan Maharaja 1 Pusat Bandar Parit Buntar 34200 Perak | 519:05-7171698
+52:269 | 61:Poliklinik Simpang Pulai | 189:63 Persiaran Sengat Baru 2 Taman Bersatu 31300 Simpang Pulai Perak | 519:05-3575333
+52:270 | 61:Qualitas Health Klinik Rama | 189:43 Jalan Balai Kampung Masjid 31900 Kampar Perak | 519:05-4651015
+52:271 | 61:MedUS Clinic | 189:No 2-A-G , No 2-A-1 , No 2-A-2 , No -6GF , Lorong Lagenda 1 , Medaniaga Lagenda 36000 Hutan Melintang Perak | 519:05-6412898
+53:SELANGOR
+52:272 | 61:Careclinics Klinik Bungaraya | 189:21 Jalan PJS 6/2B Kg. Lindungan, 46000 Petaling Jaya, Selangor Darul Ehsan | 518:03-78743952
+52:273 | 61:Careclinics Klinik Damai (Kuala Selangor) | 189:No 43 & 45 Jalan Melati 3/17, Bandar Melawati, 45000 Kuala Selangor, Selangor | 518:03-32896079
+52:274 | 61:Careclinics Klinik Dr. Selvaa | 189:30G & 31G Jalan Tps 1/2 Taman Pelangi Semenyih 45300 Semenyih Selangor | 518:03-87234592
+52:275 | 61:Careclinics Klinik Ikhwan | 189:No 31G Jalan Bidara 10 Saujana Utama 3 47000 Sungai Buloh Selangor | 518:03-60396460
+52:276 | 61:Careclinics Klinik NewCity | 189:162-A-G Jalan PUJ 3/2 Taman Puncak Jalil 43300 Seri Kembangan Selangor | 518:03-89449260
+52:277 | 61:Careclinics Klinik Phong | 189:11A Jalan BRP 7/2 Bukit Rahman Putra 47000 Sungai Buloh Selangor | 518:03-61514205
+52:278 | 61:Careclinics Klinik Rohana | 189:No 13 Jalan Tengku Ampuan Zabedah B 9/B Seksyen 9 40100 Shah Alam Selangor | 518:03-55241786
+52:279 | 61:Careclinics Klinik Sairam (Seri Kembangan) | 189:No. 39 G Jalan Atmosphere 1 Pusat Perniagaan The Atmosphere 43300 Seri Kembangan Selangor | 518:03-89590590
+52:280 | 61:Careclinics Klinik Seri Indah (Samudra) | 189:556, 557 & 558 Ground Floor Jalan Samudra Utara 1 Taman Samudra 68100 Batu Caves Selangor | 518:03-61853045
+52:281 | 61:Careclinics Klinik Seri Indah (Selayang Baru) | 189:30A Jalan Besar Selayang Baru 68100 Batu Caves Selangor | 518:03-61369763
+52:282 | 61:Careclinics Klinik Seri Indah (Selayang Jaya) | 189:No 7 & 9 Jln SJ 6 Tmn Selayang Jaya 68100 Batu Caves Selangor | 518:03-61275908
+52:283 | 61:Careclinics Klinik Seri Indah (Sri Gombak) | 189:12-G Jalan Prima SG 1 Prima Seri Gombak 68100 Batu Caves Selangor | 518:03-61883335
+52:284 | 61:Careclinics Klinik Wong Singh (Batang Kali) | 189:73G Jalan Ara 2 Pusat Perdagangan Ara Seksyen 5 Bandar Utama 44300 Batang Kali Selangor | 518:03-60573166
+52:285 | 61:Careclinics Klinik Wong Singh (Country Homes) | 189:No. 4 & 5 Jalan Desa 1/1 Bandar Country Homes 48000 Rawang Selangor | 518:03-60916513
+52:286 | 61:Careclinics Klinik Wong Singh (Kota Damansara) | 189:2, A-1 Jalan PJU 5/9 Dataran Sunway 47810 Petaling Jaya Selangor | 518:03-61437590
+52:287 | 61:Careclinics Klinik Wong Singh (Puncak Alam) | 189:No 24 & 26 Jln Hillpark 11/7 Pusat Perdagangan Hillpark 42300 Puncak Alam Selangor | 518:03-33929084
+52:288 | 61:Careclinics Klinik Wong Singh (Rawang Idaman) | 189:No. BG-9 Jalan Rawang Idaman 1 Rawang Idaman 48000 Rawang Selangor | 518:03-60923026
+52:289 | 61:Careclinics Klinik Wong Singh (Rawang Mutiara) | 189:No 11 & 13 Ground Floor Jalan Bandar Rawang 16 Pekan Rawang 48000 Rawang Selangor | 518:03-60922336
+52:290 | 61:Careclinics Klinik Wong Singh (Rawang) | 189:No. 194 A/3 & 194 A/4 Batu 17 Jalan Ipoh 48000 Rawang Selangor | 518:03-60910939
+52:291 | 61:Careclinics Klinik Wong Singh (Selayang) | 189:26 Jalan SJ14 Taman Selayang Jaya 68100 Batu Caves Selangor | 518:03-61275908
+52:292 | 61:Careclinics Klinik Wong Singh (Sentosa) | 189:No. 53 & 55 Jalan Bunga Kertas 1E Seksyen Bs1 Bukit Sentosa 48300 Rawang Selangor | 518:03-60281453
+52:293 | 61:Careclinics Klinik Wong Singh (Tasik Puteri) | 189:No 12 & 13A Jln Mr 1/6 Mresidensi Galleria Rawang Taman Mresidensi 48020 Rawang Selangor | 518:012-3878244
+52:294 | 61:Careclinics Lim & Eng | 189:23G Jalan Bandar 3 Pusat Bandar Puchong 47160 Selangor | 518:03-58829330
+52:295 | 61:Careclinics Mutiara Damansara (Readycare) | 189:9-1 Jalan PJU 7/7A Mutiara Damansara 47820 Petaling Jaya Selangor | 518:03-77241860
+52:296 | 61:Careclinics Poliklinik Cahaya (Bukit Tinggi 2) | 189:No 12 (Ground Floor) Lorong Batu Nilam 27A Bandar Bukit Tinggi Ii 41200 Klang Selangor | 518:03-33191884
+52:297 | 61:Careclinics Poliklinik Cahaya (Jenjarom) | 189:No 33G & 33 (1st Floor) Jalan 2/1 Taman Seri Jaromas Jenjarom 42600 Selangor Darul Ehsan | 518:03-31913178
+52:298 | 61:Careclinics Poliklinik Cahaya (Pandamaran) | 189:No. 90 & 92 Ground Floor Solok Pendamar Indah 1 Taman Pendamar Indah 42000 Pelabuhan Klang Selangor Darul Ehsan | 518:03-31686510
+52:299 | 61:Careclinics Poliklinik Cahaya (Puchong Jaya) | 189:Poliklinik Cahaya (Puchong Jaya) No 8 Ground Floor Jalan Tempua 2A Bandar Puchong Jaya 47100 Puchong Selangor | 518:03-80708810
+52:300 | 61:Careclinics Poliklinik Indren | 189:643A Jalan Merdeka Pekan Ampang 68000 Ampang Selangor Darul Ehsan | 518:03-42854712
+52:301 | 61:Careclinics Poliklinik Samudra | 189:564 & 565 Ground Floor Jalan Samudra Utara 1 Taman Samudra 68100 Batu Caves Selangor | 518:03-61811504
+52:302 | 61:Careclinics Sai Poliklinik | 189:No 6-G & 8-G Jalan Aman Suria 1 Taman Aman Suria 45600 Bestari Jaya Selangor | 518:03-32719998
+52:303 | 61:Damansara Polyclinic | 189:No 82, SS21/35, Damansara Utama, Petaling Jaya, 47400, Selangor | 518:03-77338942
+52:304 | 61:Klinik Alam Medic Jalan Meru | 189:No 251,(Ground Floor), Jalan Meru, Taman Bunga Melor, 41050 Klang, Selangor | 518:03-33426536
+52:305 | 61:Klinik Anda 24 Jam Ampang Waterfront | 189:No. 7 Jalan Awf 2 Ampang Waterfront 68000 Ampang Selangor | 519:07-3504254
+52:306 | 61:Klinik Anda 24 Jam Balakong | 189:S6 & S7 (Tingkat Bawah Tingkat Atas) Taman Indah Batu 11 Jln Cheras Balakong 43200 Kajang Selangor | 518:03-90822067
+52:307 | 61:Klinik Anda 24 Jam Bandar Country Homes | 189:No 34 & No 35 Jln Desa 1/1 Bandar Country Homes 48000 Rawang Selangor | 518:03-60939936
+52:308 | 61:Klinik Anda 24 Jam Bandar Saujana Putra | 189:No. 37 (Tingkat Bawah) Jalan SP 1/1 Bandar Saujana Putra 42610 Jenjarom Selangor | 518:03-42878635
+52:309 | 61:Klinik Anda 24 Jam Bandar Seri Putra | 189:No 11G & 13G Jalan Seri Putra 1/10 Bandar Seri Putra 43000 Kajang Selangor | 518:03-51910177
+52:310 | 61:Klinik Anda 24 Jam Bandar Tun Hussein Onn | 189:23 (Tingkat Bawah) Jalan Suarasa 8/5 Bandar Tun Hussein Onn 43200 Cheras Selangor | 518:03-90828118
+52:311 | 61:Klinik Anda 24 Jam Beranang | 189:No. 15 (Tingkat Bawah Tingkat Satu) Jalan Kesuma 3/11 Bandar Tasik Kesuma 43700 Beranang Selangor | 518:03-87261419
+52:312 | 61:Klinik Anda 24 Jam Bukit Beruntung | 189:No 17 171 172 Jalan Orkid 1G Perniagaan Jalan Orkid Bukit Beruntung 48300 Rawang Selangor | 518:012-2408228
+52:313 | 61:Klinik Anda 24 Jam Bukit Jelutong | 189:No. 1 (Tingkat Bawah) Jalan Pelapik B U8/B Seksyen U8 40150 Shah Alam Selangor | 518:03-60781255
+52:314 | 61:Klinik Anda 24 Jam Dato Harun | 189:6-01 Blok A Jln PJS 2/16A Tmn Maju Jaya 46000 Petaling Jaya Selangor | 518:03-77725839
+52:315 | 61:Klinik Anda 24 Jam Hulu Langat | 189:No 39-G 41-G 43-G Jalan Lagenda Suria 1 Taman Lagenda Suria 43100 Hulu Langat Selangor | 518:03-90252810
+52:316 | 61:Klinik Anda 24 Jam Kota Warisan | 189:No. G-55 Jalan Warisan Sentral 1 KIP Sentral Kota Warisan 43900 Sepang Selangor | 518:03-87067055
+52:317 | 61:Klinik Anda 24 Jam Kuala Selangor | 189:No 3G 5G 7G 9G Jalan Bendahara 1/1 Taman Bendahara 45000 Kuala Selangor Selangor | 518:03-32895989
+52:318 | 61:Klinik Anda 24 Jam Meru | 189:203 & 205 (Tingkat Bawah Tingkat Satu Tingkat Dua) Jln Meru Pekan Meru 41050 Klang Selangor | 518:03-33928802
+52:319 | 61:Klinik Anda 24 Jam Prima Saujana | 189:B-G-35 Jalan Prima Saujana 2/1A Seksyen 2 Taman Prima Saujana 43000 Kajang Selangor | 518:012-3445334
+52:320 | 61:Klinik Anda 24 Jam Puncak Alam | 189:No. 16 (Tingkat Bawah) Jalan Niaga Bestari 8 Puncak Bestari 42300 Bandar Puncak Alam Selangor | 519:09-7909551
+52:321 | 61:Klinik Anda 24 Jam Puncak Jalil | 189:No 172 (Tingkat Bawah) No 172A (Tingkat Bawah Tingkat 1 Tingkat 2) Jalan PUJ 3/2 Taman Puncak Jalil Bandar Putra Permai 43300 Seri Kembangan Selangor | 518:019-3936813
+52:322 | 61:Klinik Anda 24 Jam Putra Heights | 189:No. 40-G & 42-G Jalan Putra Mahkota 7/6A Putra Heights 47650 Subang Jaya Selangor Darul Ehsan | 518:03-51036565
+52:323 | 61:Klinik Anda 24 Jam Putra Perdana | 189:GM-6A (Tingkat Bawah Tingkat Mezanin) Jalan Putra Perdana 5D/1 Taman Putra Perdana 47130 Puchong Selangor | 518:03-83192440
+52:324 | 61:Klinik Anda 24 Jam Rawang | 189:81-G & 81-A Jalan Bandar Rawang 2 Pusat Bandar Rawang 48000 Rawang Selangor | 518:03-60992774
+52:325 | 61:Klinik Anda 24 Jam Rawang Batu 16 | 189:No. 253 (Tingkat Bawah Tingkat Satu) Jln Tengah Kg Sg Terentang 48000 Rawang Selangor | 519:09-3562745
+#PAGE 6
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:326 | 61:Klinik Anda 24 Jam Semenyih | 189:No. 23 & 25 (Tingkat Bawah) Jalan Tps 1/6 Taman Pelangi Semenyih 43500 Semenyih Selangor | 518:03-87244234
+52:327 | 61:Klinik Anda 24 Jam Serdang | 189:56 Jalan Serdang Perdana 5/4 Taman Serdang Perdana 43300 Seri Kembangan Selangor | 518:03-89581898
+52:328 | 61:Klinik Anda 24 Jam Setia Alam | 189:No 8 & No 10 (Tingkat Bawah) Jalan Setia Gemilang BM U13/BM Precint 15 Setia Alam 40170 Shah Alam Selangor | 519:06-6758668
+52:329 | 61:Klinik Anda 24 Jam Sungai Besar | 189:No 25 27 Jalan SBBC 1 Sungai Besar Business Centre 45300 Sungai Besar Selangor | 518:013-3752334
+52:330 | 61:Klinik Anda 24 Jam Sungai Long | 189:No. 11 (Tingkat Bawah) Jalan SL 1/10 Bandar Sg. Long 43200 Cheras Selangor. | 518:03-33584734
+52:331 | 61:Klinik Anda 24 Jam Sunway Mentari | 189:No 18 (Tingkat Bawah) Jalan PJS 8/11 Dataran Mentari 46150 Petaling Jaya Selangor | 518:03-56117223
+52:332 | 61:Klinik Anda 24 Jam Taman Equine | 189:No 17 (Tingkat Bawah) Jalan LP 2A/1 Taman Lestari Perdana 43300 Seri Kembangan Selangor | 518:012-2406813
+52:333 | 61:Klinik Anda 24 Jam USJ | 189:No. 2 (Tingkat Bawah Tingkat Satu) Jalan USJ 4/1 47600 Subang Jaya Selangor. | 518:03-80207127
+52:334 | 61:Klinik Anda Bandar Baru Sungai Buloh (24 Jam) | 189:Lot 2403 (Tingkat Bawah) Jalan 1A/3 Bandar Baru Sungai Buloh Seksyen U20 40160 Shah Alam Selangor | 518:03-61445771
+52:335 | 61:Klinik Anda Bangi 24 Jam (Bangi) | 189:No. 145G Jalan 8/1 Seksyen 8 43650 Bandar Baru Bangi Selangor | 518:03-89258389
+52:336 | 61:Klinik Anda Damansara Damai Sdn Bhd | 189:N010 & N011 Vista Jalan PJU 10/2B Damansara Damai 47830 Petaling Jaya Selangor | 518:03-61505939
+52:337 | 61:Klinik Anda Prima Sri Gombak (24 Jam) | 189:15 (Tingkat Bawah) Jln Prima Sg 1 Prima Sri Gombak 68100 Batu Caves Selangor | 518:03-61779773
+52:338 | 61:Klinik Anda Puchong 24 Jam | 189:No. 1 (Ground Floor) Jalan Pu 7/4 Pusat Bandar Puchong Utama 22Km Jalan Puchong 47140 Puchong Selangor | 518:03-80608355
+52:339 | 61:Klinik Anda Saujana Utama | 189:No 10 & 10-1 Jalan Bidara 6/3 Saujana Utama 3 47000 Sungai Buloh Selangor | 518:03-60387889
+52:340 | 61:Klinik Anda Selayang Sdn Bhd | 189:9 Jalan 2/10 Bandar Baru Selayang 68100 Batu Caves Selangor | 518:03-61279723
+52:341 | 61:Klinik Anda Tanjong Karang 24 Jam | 189:No 7 & No 9 Jalan Pb 1/3 Pusat Bandar Tanjung Karang 45500 Tanjong Karang Selangor | 518:03-32693269
+52:342 | 61:Klinik Andira | 189:No 10 G, Andira Place, 7, Jln Ap, Bandar Bukit Puchong 2, 47120 Puchong Selangor | 518:03-80601911
+52:343 | 61:Klinik Anis DRB Hicom | 189:Wisma DRB-Hicom Ground Floor Level 6 No.2 Jalan Usahawan U1/8 Seksyen U1 40150 Shah Alam Selangor | 518:03-20528880
+52:344 | 61:Klinik Araa | 189:7-1-2 Jalan Setia Prima R U13/R Setia Alam 40170 Shah Alam Selangor | 518:03-33439857
+52:345 | 61:Klinik Aurora (Ampang) | 189:1-G-3 Blok 1 City Garden Commercial Centre Taman Nirwana 68000 Ampang Selangor | 518:03-92011945
+52:346 | 61:Klinik Aurora (Andalas) | 189:No.3 Jalan Seri Sarawak 21 Taman Sri Andalas 41200 Klang | 264:Selangor | 518:03-33262854
+52:347 | 61:Klinik Aurora (Balakong) | 189:S20 (Ground Floor) Jalan Indah 1/6 Taman Indah Batu 11 Cheras 43200 Cheras Selangor | 518:03-90811168
+52:348 | 61:Klinik Aurora (Banting) | 189:No 290 (Ground Floor) Jalan Sultan Abdul Samad Bandar Banting 42700 Banting Selangor | 518:03-31818424
+52:349 | 61:Klinik Aurora (Bukit Indah) | 189:3-G Medan Bukit Indah 1 Taman Bukit Indah 68000 Ampang Selangor | 518:03-42870360
+52:350 | 61:Klinik Aurora (Bukit Rimau) | 189:No 38G Jalan Sungai Burung Y 32/Y Bukit Rimau Seksyen 32 40460 Shah Alam Selangor | 518:03-51310461
+52:351 | 61:Klinik Aurora (Cheras) | 189:45-00 (Ground Floor) Jalan Damai Perdana 6/1F Bandar Damai Perdana Cheras 43200 Cheras Selangor | 518:03-91081374
+52:352 | 61:Klinik Aurora (Damansara Damai) | 189:No L008 (Ground Floor) Jalan PJU 10/2A Damansara Damai 47830 Petaling Jaya Selangor | 518:03-61434846
+52:353 | 61:Klinik Aurora (Denai Puchong) | 189:No 3G 5G Jalan Denai Utama Taman Denai Puchong 47100 Puchong Selangor | 518:03-80514675
+52:354 | 61:Klinik Aurora (Emira Seksyen 13) | 189:R-01-21 Emira Jalan Akuatik A 13/64 A Seksyen 13 40100 Shah Alam Selangor | 518:03-50328546
+52:355 | 61:Klinik Aurora (Equine) | 189:No. 12-G Jalan Equine 1D Taman Equine 43300 Seri Kembangan Selangor | 518:03-89575466
+52:356 | 61:Klinik Aurora (Kapar) | 189:262A (Ground Floor) Jalan Besar/KU13 Pekan Kapar 42200 Kapar Selangor | 518:03-32599711
+52:357 | 61:Klinik Aurora (Pandamaran) | 189:25 (Ground Floor) Jln Ehsan Perdana 7/KS5 Di Jln Pandamaran 42000 Pelabuhan Klang Selangor | 518:03-31624900
+52:358 | 61:Klinik Aurora (Puchong Prima) | 189:Pusat Perdagangan Puchong Prima F 01 07 (Ground Floor) Blok F Jalan Prima 5/3 Persiaran Prima Utama Taman Puchong Prima 47150 Puchong Selangor | 518:03-80601032
+52:359 | 61:Klinik Aurora (Putra Perdana) | 189:GM19A Dan GM21A Jalan Putra Perdana 5C/1 Taman Putra Perdana 47130 Puchong Selangor | 518:03-83222317
+52:360 | 61:Klinik Aurora (Salak Tinggi) | 189:29 (Ground Floor) Jalan Seroja 6 Taman Seroja 43900 Sepang Selangor | 518:03-87067917
+52:361 | 61:Klinik Aurora (Seri Pristana) | 189:C-1, 26 (Ground Floor) Jalan SP 11/2 Taman Seri Pristana 47000 Sungai Buloh Selangor | 518:03-60396466
+52:362 | 61:Klinik Aurora (Setia Alam) | 189:No. 20 (Ground Floor) Jalan Setia Utama A U13 Setia Alam 40170 Shah Alam Selangor | 518:03-33459075
+52:363 | 61:Klinik Aurora (Sungai Udang) | 189:5 (Ground Floor) Jalan Udang Kara 20A Tlk Pulai 41250 Klang | 266:Selangor | 518:03-33719699
+52:364 | 61:Klinik Aurora (Tropicana Aman) | 189:No 3G Jalan Aman Sinaria 2 Bandar Tropicana Aman (Sinaria) 42500 Telok Panglima Garang Selangor | 518:03-86859725
+52:365 | 61:Klinik Bayuemas | 189:No 8-1 (GF) Jalan Bayu Impian 10/KS 9,Kota Bayuemas, Klang 41200 Selangor | 518:03-33187060
+52:366 | 61:Klinik Bungaraya Denai Alam | 189:19, 1 Jalan Elektron J U16/J Seksyen 16 40160 Shah Alam Selangor | 518:03-77345756
+52:367 | 61:Klinik Careclinics (Baharudin) | 189:No. 25 Jalan Bunga Melor 2/18 Seksyen 2 40000 Shah Alam Selangor | 518:03-55197989
+52:368 | 61:Klinik Careclinics (Damansara Damai) | 189:No. 69 (Ground Floor) Jalan SS 22/11 Damansara Jaya 47400 Petaling Jaya Selangor | 518:016-9311128
+52:369 | 61:Klinik Careclinics (Dataran Cheras) | 189:13 (GF) Jalan Dataran Cheras 1 Dataran Perniagaan Cheras 43200 Cheras Selangor | 518:03-90817012
+52:370 | 61:Klinik Careclinics (Pusat Bandar Puchong) | 189:79 Jalan Bandar 1 Pusat Bandar Puchong 47100 Puchong Selangor | 518:03-58911875
+52:371 | 61:Klinik Careclinics (Sairam Semenyih) | 189:Ecohill Taipan 40G Jalan Ecohill 1/5A Setia Ecohill 43500 Semenyih Selangor | 518:03-87259177
+52:372 | 61:Klinik Careclinics (Subang Jaya) | 189:No.14 Jalan USJ 4/1 UEP Subang Jaya 47610 Subang Jaya Selangor | 518:03-56312839
+52:373 | 61:Klinik Careclinics Bandar Puteri Bangi | 189:12G Jalan Puteri 2A/2 Bandar Bukit Mahkota 43000 Bangi Selangor | 518:03-89127820
+52:374 | 61:Klinik Careclinics Batu 13 Puchong (Klinik Sivaraam) | 189:No. 8 Koi Komersial Centre Jalan Puchong Batu 13 1/2 47100 Puchong Selangor | 518:03-80665648
+52:375 | 61:Klinik Careclinics Carepoint | 189:No. 51 & 53 Jalan Bunga Pekan 2 Taman Seri 42700 Banting Selangor | 518:03-31811209
+52:376 | 61:Klinik Careclinics Cyberjaya | 189:5-G Blok B Neo Cyber Lingkaran Cyber Point Barat Cyber 12 63000 Cyberjaya Selangor | 518:03-82205045
+52:377 | 61:Klinik Careclinics Dinamik | 189:17 Jalan Tps 1/6 Taman Pelangi 43500 Semenyih Selangor | 518:03-87274003
+52:378 | 61:Klinik Careclinics Eco Majestic | 189:19-1 Jln Eco Majestic 10/1A 43500 Semenyih Selangor | 518:012-2718812
+52:379 | 61:Klinik Careclinics Hanafi | 189:No. 17 (Tingkat Bawah) Jalan Sungai Nibong 14A/KU4 Rantau Panjang 42100 Klang Selangor | 518:03-32917898
+52:380 | 61:Klinik Careclinics Johari & Anita | 189:11A Jalan SS 5B/6 SS 5 47301 Petaling Jaya Selangor | 518:03-78777959
+52:381 | 61:Klinik Careclinics Kajang | 189:9G Jalan Hentian 1 Pusat Hentian Kajang 43000 Kajang Selangor | 518:03-82105358
+52:382 | 61:Klinik Careclinics Kesuma | 189:No. 5 Ground Floor Jalan Eco Majestic 3A/1 Eco Majestic 43500 Semenyih Selangor | 518:03-87277379
+52:383 | 61:Klinik Careclinics Kota Kemuning | 189:No. 17-1 (GF) Jalan Anggerik Vanilla BF 31/BF Kota Kemuning Seksyen 31 40460 Shah Alam Selangor | 518:03-90783030
+52:384 | 61:Klinik Careclinics Medi Pesona | 189:No 20 Jalan Tengku Ampuan Zabedah K/9K Seksyen 9 40000 Shah Alam Selangor | 518:03-58806008
+52:385 | 61:Klinik Careclinics Petaling Jaya | 189:Q-008 GF Vista Shop Jalan PJU 10/28 Damansara Damai 47830 Petaling Jaya Selangor | 518:019-8969520
+52:386 | 61:Klinik Careclinics Poliklinik Rakyat | 189:No. 25 Jalan Pinang B 18/B Seksyen 18 40200 Shah Alam Selangor | 518:03-55418362
+52:387 | 61:Klinik Careclinics Puchong | 189:41 Jalan Perdana 3/4 Taman Puchong Perdana 47150 Puchong Selangor | 518:03-80615791
+52:388 | 61:Klinik Careclinics Saujana Putra | 189:No.2 GF Jalan Gp Sp 5/2 Pusat Perdagangan BSP Bandar Saujana Putra 42610 Jenjarom, Selangor | 518:03-51038068
+52:389 | 61:Klinik Careclinics Semenyih | 189:5-G Jalan Kiara 1 Kawasan Perniagaan Kiara 43500 Semenyih, Selangor | 518:03-87270706
+52:390 | 61:Klinik Careclinics Setia Gemilang | 189:86G & 88G Jalan Setia Gemilang BJ U13/ BJ Presint 15 Setia Alam Seksyen U13 40170 Shah Alam Selangor | 518:03-33595944
+52:391 | 61:Klinik Careclinics Sri Gombak | 189:24 Jalan SG 1/2 Taman Sri Gombak 68100 Batu Caves Selangor | 518:03-61895785
+52:392 | 61:Klinik Careclinics Sri Manja | 189:No. 21 Jalan SM10 Taman Sri Manja Jalan Klang Lama 46300 Petaling Jaya Selangor | 518:03-74967905
+52:393 | 61:Klinik Careclinics Sri Singam | 189:32, 34 & 36 Jln Besar Pekan Sungai Pelek 43950 Sungai Pelek Selangor | 518:012-5337704
+52:394 | 61:Klinik Careclinics Sungai Buloh | 189:No 214 Lot 2742 Jalan Welfare Kampung Baru Sungai Buloh 47000 Sungai Buloh Selangor | 518:03-61450117
+52:395 | 61:Klinik Careclinics Taman Suntex | 189:No 12 Jalan Kijang 1 Taman Suntex 43200 Cheras Selangor | 518:03-90746332
+#PAGE 7
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:396 | 61:Klinik Careclinics Tanjong Sepat | 189:No. 11-G Jalan Senangin Taman Tanjong 42800 Tanjong Sepat Selangor | 518:03-31975477
+52:397 | 61:Klinik Careclinics YK Thong | 189:45 Jalan Setia Prima A U13/A Setia Alam 40170 Shah Alam Selangor | 518:016-3482348
+52:398 | 61:Klinik Chew | 189:11, Jalan Rodat 1 KU/5, Bandar Bukit Raja, Klang, 41050 Selangor. | 518:019-3583519
+52:399 | 61:Klinik Damai Sungai Buloh | 189:No 2373 Jalan 1A/1 Bandar Baru Sungai Buloh Seksyen U20 40160 Shah Alam Selangor | 518:03-61511400
+52:400 | 61:Klinik Dan Surgeri Damai (Telok Panglima Garang) | 189:Lot 2722, Batu 10, Jalan Klang Banting, 42500 Telok Panglima Garang, Selangor | 518:012-4128771
+52:401 | 61:Klinik Dan Surgeri Putra | 189:26, Jalan Bunga Tanjong 8, Taman Putra, 68000 Ampang, Selangor | 518:03-42912252
+52:402 | 61:Klinik Dermissa | 189:No. 42G Biz Avenue Neocyber Lingkaran Cyberpoint Barat 63000 Cyberjaya Selangor | 518:03-83222785
+52:403 | 61:Klinik Dharan (Rawang) | 189:83 Jalan Bandar Rawang 3 Pusat Bandar Rawang 48000 Rawang Selangor | 518:03-60918415
+52:404 | 61:Klinik Dr Ana Semenyih | 189:No 26-2 (Tingkat Bawah) Jalan Eco Majestic 10/1D Eco Majestic 43500 Semenyih Selangor | 518:019-7295441
+52:405 | 61:Klinik Dr Asnawi | 189:No 6, Jalan Balakong Jaya 6, Taman Balakong Jaya, 43300 Seri Kembangan, Selangor | 518:03-89434064
+52:406 | 61:Klinik Dr Atiqah | 189:No. 30, Jalan Tajuh, 27/29 Taman Bunga Negara, Seksyen 27 40400 Shah Alam, Selangor | 518:03-56141001
+52:407 | 61:Klinik Dr Iman | 189:No 13-G Jalan Camar 4/5A, Seksyen 4, Kota Damansara, 47810 Petaling Jaya, Selangor | 518:010-8486811
+52:408 | 61:Klinik Dr Saveetha Bandar Utama | 189:G-05, Dataran Pelangi Utama Jalan Masjid, Kampung Sungai Kayu Ara, PJU 6A, Bandar Utama, 47200 Petaling Jaya, Selangor | 518:03-77318475
+52:409 | 61:Klinik Dr Sharifah | 189:No 29, Jalan Makyong 5A/KU5, Bandar Bukit Raja, 41050 Klang, Selangor | 518:03-33593554
+52:410 | 61:Klinik Dr. Arul Parklands | 189:No.75, Jalan Jed 3, Bandar Parklands,41200 Klang, Selangor. | 518:03-33186665
+52:411 | 61:Klinik Dr. Arul Selayang | 189:No.7113, Jalan Len Omnibus, Taman Selayang Baru, Batu Caves 68100 Selangor | 518:016-2548243
+52:412 | 61:Klinik Eramedik | 189:No. 31G, Blok C, Tingkat Bawah, Jalan 18/34, Taman Sri Serdang, 43300 Seri Kembangan, Selangor | 518:03-89578511
+52:413 | 61:Klinik Farah | 189:17, Jalan BM 7/19 , Seksyen 7, Bandar Bukit Mahkota, Kajang, 43000 Selangor | 518:013-3803659
+52:414 | 61:Klinik Fortune | 189:15 Jalan Sasa H25/H, Taman Sri Muda Seksyen 25, 40400 Shah Alam, Selangor | 518:013-3635532
+52:415 | 61:Klinik Idzham Bukit Antarabangsa | 189:No. 21 Jalan Wangsa 11, Taman Wangsa Ukay Bukit Antarabangsa 68000 Ampang Selangor | 518:03-41077493
+52:416 | 61:Klinik Idzham Damansara Damai | 189:No. J/010 Blok J Jalan PJU 10/2A Vista Shop Damansara Damai 47830 Petaling Jaya Selangor | 518:03-41077494
+52:417 | 61:Klinik Idzham Kota Damansara | 189:Shop Lot AG09 No. 391 Jalan PJU 5/20E The Strand Damansara 47810 Kota Damansara Petaling Jaya Selangor | 518:03-41077495
+52:418 | 61:Klinik Idzham Rawang | 189:119-1 Persiaran Anggun City Pusat Komersial Anggun City Taman Anggun 48000 Rawang Selangor. | 518:03-41077496
+52:419 | 61:Klinik Idzham Taman Kosas | 189:No. 3G Jalan Kosas 1/2 Taman Kosas Ampang 68000 Selangor | 518:03-41077488
+52:420 | 61:Klinik Impian | 189:47-G, Jalan Flora 2/2, Bandar Rimbayu, 42500 Telok Panglima Garang, Selangor | 518:03-51226122
+52:421 | 61:Klinik Izzcare 24 Jam | 189:Lot 1863 (Ground Floor), Jalan Malinja , 45300 Pekan Sungai Besar, Selangor | 518:012-5589702
+52:422 | 61:Klinik Jacob @ Klinik Kundang Sdn Bhd | 189:45E, Jalan Kundang, Kampung Baru Kundang, Kampung Baru Cina, 48020 Rawang, Selangor | 518:017-4260074
+52:423 | 61:Klinik KT Poliklinik Dan Surgeri | 189:12-00, 1 Lorong Batu Nilam 4A Bandar Bukit Tinggi 41200 Klang Selangor | 518:03-33249952
+52:424 | 61:Klinik Lembah Jaya | 189:No 15G, Jalan LJ 1 , Taman Industri Lembah Jaya, 68000 Ampang, Selangor | 518:03-42700542
+52:425 | 61:Klinik Lim | 189:36-1 Jalan PJU 5/10 Dataran Sunway Kota Damansara 47810 Petaling Jaya Selangor | 518:03-61485001
+52:426 | 61:Klinik Lina | 189:J-08-1 Jalan SS 6/18, Dataran Glomac Kelana Jaya, 47301 Petaling Jaya, Selangor | 517:011-68725171
+52:427 | 61:Klinik Ling | 189:112, Jalan SS 24/2, Taman Megah, 47301 Petaling Jaya, Selangor | 518:03-78053706
+52:428 | 61:Klinik Mawarni | 189:No. 11, Jalan Astana A 13/A, Pusat Niaga Astana Alam, 42300 Bandar Puncak Alam, Selangor | 518:03-38556276
+52:429 | 61:Klinik Medic 360 24 Jam SS2 | 189:78 (LG) (GF) (L1) Jalan SS 2/72 47300 Petaling Jaya Selangor | 518:018-9153360
+52:430 | 61:Klinik Medic 360 Kota Kemuning | 189:No. 6 (GF) (L1) (L2) Jln Anggerik Vanilla 31/94 Kota Kemuning Seksyen 31 40460 Shah Alam Selangor | 517:011-33283360
+52:431 | 61:Klinik Medic 360 Puchong | 189:22-G Jalan Puteri 1/2 Bandar Puteri 47100 Puchong Selangor | 518:017-5783360
+52:432 | 61:Klinik Medic 360 Serdang | 189:3809 A1 (Ground Floor) Jalan College Seri Kembangan 43300 Selangor | 518:018-3703360
+52:433 | 61:Klinik Medic 360 Taipan | 189:No. 64 (Ground Floor) Jalan USJ 10/1B UEP Subang Jaya 47600 Selangor | 518:019-6383360
+52:434 | 61:Klinik Medicbliss Kemuning Utama | 189:No 5, Jalan Kemuning Prima A33/A, Seksyen 33, 40400 Shah Alam, Selangor | 518:03-51316353
+52:435 | 61:Klinik Medicure | 189:23 G, Jalan Industri PBP 3/2, Taman Industri Pusat Bandar Puchong, 47100 Puchong, Selangor | 518:03-58911786
+52:436 | 61:Klinik Medik 24-7 | 189:No. 45, Jalan Pusat Bch 1A, Bandar Country Homes, 48000 Rawang, Selangor | 518:03-67334564
+52:437 | 61:Klinik Medik Bestari | 189:31 Jalan USJ 1/19 Taman Subang Permai 47500 Subang Jaya Selangor | 518:03-56384137
+52:438 | 61:Klinik Mediviron Bandar Teknologi | 189:43, Jalan Seri Baiduri 1, Taman Seri Baiduri, Semenyih, 43500 Selangor | 518:03-87254271
+52:439 | 61:Klinik Mediviron Lestari Putra | 189:30-G, Jalan LEP 1/1B, Taman Lestari Puchong, 43300 Seri Kembangan, Selangor | 518:03-89590313
+52:440 | 61:Klinik Mediviron Shah Alam | 189:No. 40, Jalan Congkak, Taman Alam Nyata 3, Seksyen 36, 40470 Shah Alam, Selangor | 518:03-33812245
+52:441 | 61:Klinik Mediviron Subang Perdana | 189:No 13, Jalan Dinar E U3/E, Taman Subang Perdana, Seksyen U3, 40150 Shah Alam, Selangor | 518:03-78327676
+52:442 | 61:Klinik Menara 1 | 189:No. 10 Jalan Pelapik C U8/C Seksyen U8 Bukit Jelutong 40150 Shah Alam Selangor | 518:03-78439101
+52:443 | 61:Klinik Menara 2 | 189:No. 29 Ground Floor Jalan Pelapik B U8/B Seksyen U8 40150 Shah Alam Selangor | 518:03-78468101
+52:444 | 61:Klinik Najihah Bandar Tasik Puteri | 189:15-G Jalan Hijau 5/2, Green Square Commercial Centre, Bandar Tasik Puteri, Rawang, 48020 Selangor | 518:03-60345455
+52:445 | 61:Klinik Ng & Lew | 189:No 52(Ground Floor), Lorong Batu Nilam 21A, Bandar Bukit Tinggi 2, 41200 Klang, Selangor | 518:03-33232961
+52:446 | 61:Klinik Ng Dan Singh (Bandar Country Homes) | 189:Lot 6 & 7 Jalan Desa 1/1 Bandar Country Homes 48000 Rawang Selangor Darul Ehsan | 518:03-60924939
+52:447 | 61:Klinik Ng Dan Singh (Bestari Jaya) | 189:No. 69-G Jalan Sejati 1 Taman Sejati 45600 Bestari Jaya Ijok Selangor Darul Ehsan | 518:03-32791845
+52:448 | 61:Klinik Ng Dan Singh (Bukit Beruntung) | 189:No. 16 Jalan Melati 2A Seksyen BB II 48300 Bukit Beruntung Rawang Selangor Darul Ehsan | 518:03-60282939
+52:449 | 61:Klinik Ng Dan Singh (Kundang) | 189:No. 35 (GF) Jalan KPK 1/8 Kundang Industrial Park 48020 Rawang Selangor Darul Ehsan. | 518:03-60345939
+52:450 | 61:Klinik Ng Dan Singh (MK Land) | 189:G-G-16 Dahlia Apartment Taman Bunga Raya (Dahlia Shop) Bukit Beruntung 48300 Rawang Selangor Darul Ehsan | 518:03-60212795
+52:451 | 61:Klinik Ng Dan Singh (Rawang) | 189:No. 220 Batu 17 Kg Sg Terentang 48000 Rawang Selangor Darul Ehsan | 518:03-60926939
+52:452 | 61:Klinik Ng Dan Singh (Selayang) | 189:No. 11 Jalan SJ 17 Taman Selayang Jaya 68100 Selayang Jaya Selangor Darul Ehsan. | 518:03-61388969
+52:453 | 61:Klinik Ng Dan Singh (Sentosa) | 189:No. 25 Jln Bunga Kertas 1E Bandar Bukit Sentosa 48300 Rawang Selangor Darul Ehsan. | 518:03-60281185
+52:454 | 61:Klinik Ng Dan Singh (Seroja) | 189:No. 9G Jalan Seroja 1 Seksyen BS6 Bukit Sentosa 2 48300 Rawang Selangor Darul Ehsan. | 518:03-60213238
+52:455 | 61:Klinik Ng Dan Singh (Sg Dua) | 189:No. 19G No. 21G Jalan 1/4 Rawang Integrated Industrial Park 48000 Rawang Selangor Darul Ehsan | 518:03-60939939
+52:456 | 61:Klinik Ng Dan Singh (Sungai Buloh) | 189:No. 2 Jln BRP 8/1B Bukit Rahman Putra 47000 Sg Buloh Selangor Darul Ehsan. | 518:03-61437710
+52:457 | 61:Klinik Ng Dan Singh (TPG) | 189:No. 58 GF Jalan Utama 55 Taman Jaya Utama 42500 Teluk Panglima Garang Selangor | 518:03-30814662
+52:458 | 61:Klinik Nur Syifa | 189:No 77, Jalan 8/1 , Seksyen 8, 43650 Bandar Baru Bangi, Selangor | 518:03-89222300
+52:459 | 61:Klinik One Medic | 189:42A Jalan Puteri 1/2 Bandar Puteri 47100 Puchong Selangor | 518:03-80525723
+52:460 | 61:Klinik PutraCare (Sri Kembangan) | 189:C-10-G / C-11-G Putra Walk Jalan PP25 Taman Pinggiran Putra Sek 2 Bandar Pinggiran Putra 43300 Seri Kembangan Selangor | 518:03-89574887
+52:461 | 61:Klinik Qualitas Health SV Care Clinic Cyberjaya | 189:No.2-G 2Ga Nadayu Square Nadayu 99 Cyber 9 63000 Cyberjaya Selangor Darul Ehsan. | 518:03-83251996
+52:462 | 61:Klinik Qualitas Health SV Care Clinic Putra Perdana | 189:No.58 Jalan PP 16/2 Perdana Industrial Parktaman Putra Perdana 47130 Puchong Selangor Darul Ehsan. | 518:03-83251998
+52:463 | 61:Klinik Rakan Medik | 189:25G Jalan Bandar Sepuluh Pusat Bandar Puchong 47100 Puchong Selangor | 518:03-58824627
+52:464 | 61:Klinik Seri Indah (Emerald Avenue) Sdn Bhd | 189:No B10 B11 Emerald Avenue Jalan Ps 11 Prima Selayang 68100 Batu Caves Selangor | 518:03-61272213
+52:465 | 61:Klinik Siti (Kota Warisan) | 189:G-17, Jalan Warisan Sentral 1, Kota Warisan 43900 Bandar Baru Salak Tinggi, Selangor | 518:03-87059990
+#PAGE 8
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:466 | 61:Klinik SP Care (Antara Gapi) | 189:No. 43 & 43A & 45 Jalan Gapimas 1 Laman Gapimas 48200 Serendah Selangor | 518:03-60812290
+52:467 | 61:Klinik SP Care (Batang Kali) | 189:7 Jalan Meranti 2A Pekan Batang Kali 44300 Batang Kali Selangor | 518:03-60571357
+52:468 | 61:Klinik SP Care (Bukit Sentosa) | 189:13 Jalan Orkid 1B Bukit Sentosa 48300 Rawang Selangor | 518:03-60282753
+52:469 | 61:Klinik SP Care (Country Homes) | 189:25 Jalan Desa 1/1 Bandar Country Homes 48000 Rawang Selangor | 518:03-60928753
+52:470 | 61:Klinik SP Care (Damansara Damai) | 189:10 Jalan PJU 10/2A Damansara Damai 47830 Petaling Jaya Selangor | 518:012-3220208
+52:471 | 61:Klinik SP Care (Kota Damansara) | 189:9 Jln PJU 5/20E Kota Damansara 47810 Petaling Jaya Selangor | 518:03-61446054
+52:472 | 61:Klinik SP Care (Rawang Mutiara) | 189:2-A1, 7 Jalan Rawang Mutiara 3 Rawang Mutiara Business Centre 48000 Rawang Selangor | 518:03-60917753
+52:473 | 61:Klinik SP Care (Rawang Tin) | 189:3 & 5 Jalan RT 8A Rawang Tin 48000 Rawang Selangor. | 518:03-60910447
+52:474 | 61:Klinik SP Care (Selayang) | 189:No. 7 Jalan 2/8 Bandar Baru Selayang 68100 Batu Caves Selangor | 518:03-61271066
+52:475 | 61:Klinik SP Care (Sri Andalas) | 189:No. 41 & 43 Jalan Seri Sarawak 20A/KS2 Taman Sri Andalas 41200 Klang Selangor | 518:03-33255366
+52:476 | 61:Klinik SP Care (Sungai Choh) | 189:No: 4G & 5G Jalan Helikonia Jln Sungai Choh 48200 Rawang Selangor | 518:03-60901187
+52:477 | 61:Klinik Tan & Mano (Bukit Antarabangsa) | 189:10 Jalan Wangsa 2, Bukit Antarabangsa 66000 Ampang, Selangor | 518:03-41614013
+52:478 | 61:Klinik Thaqif | 189:8-1 & 9-1 Jalan Impian Mahkota 1, Saujana Impian, Kajang, 43000, Selangor | 518:03-87308935
+52:479 | 61:Klinik Utama 24 Jam Alam Avenue | 189:No B, 13-G Jln Serai Wangi G 16/G Seksyen 16 40200 Shah Alam Selangor | 518:017-5072022
+52:480 | 61:Klinik Utama 24 Jam Banting | 189:PT 591 (Tingkat Bawah Tingkat 1 Tingkat 2)Jalan Bunga Pekan Bandar Banting 42700 Banting Selangor | 517:011-31250611
+52:481 | 61:Klinik Utama 24 Jam Bukit Tinggi Klang | 189:59-G Lorong Batu Nilam 21B Bandar Bukit Tinggi 2 41200 Klang Selangor | 518:010-2544747
+52:482 | 61:Klinik Utama 24 Jam Jenjarom | 189:15 Jalan 2/1 Taman Sri Jaromas 42600 Jenjarom Selangor | 518:010-2796086
+52:483 | 61:Klinik Utama 24 Jam Jugra | 189:No 5-G Jalan BB 1/1 Taman Banting Baru 42700 Banting Selangor | 518:016-6019450
+52:484 | 61:Klinik Utama 24 Jam Nadayu Cyberjaya | 189:8G & 9G Nadayu Square Nadayu 99 Cyber 9 63000 Cyberjaya Selangor | 518:013-5718041
+52:485 | 61:Klinik Utama 24 Jam Neo Cyberjaya | 189:14-G Block C Neo Cyber Lingkaran Cyber Point Barat Cyber 12 63000 Cyberjaya Selangor | 518:019-3357495
+52:486 | 61:Klinik Utama 24 Jam Pandamaran | 189:120-G & 122-G Solok Pendamar Indah 1 Taman Pendamar Indah 42000 Pelabuhan Klang Selangor | 518:010-3638678
+52:487 | 61:Klinik Utama 24 Jam Rantau Panjang | 189:No 31 - A1, A2 & A3 Ground Floor Jalan Sungai Nibong 14A/Ku4 Kampung Rantau Panjang 42100 Klang Selangor | 518:018-2992022
+52:488 | 61:Klinik Utama 24 Jam Sungai Buloh | 189:PT 7397G Jalan 1A/3 Bandar Baru Sungaibuloh Seksyen U20 40160 Shah Alam Selangor | 518:019-4520603
+52:489 | 61:Klinik Utama 24 Jam Tropicana Aman | 189:No. 51-G & 53-G Jalan Aman Tiara 3 Bandar Tropicana Aman (Tiara) 42500 Telok Panglima Garang Selangor. | 518:017-5072022
+52:490 | 61:Klinik Utama Kota Kemuning | 189:35G Jln Anggerik Vanilla BF 31/BF Kota Kemuning 40460 Shah Alam Selangor | 518:010-2756975
+52:491 | 61:Klinik Utama Rawang | 189:No 3G Lorong Bersatu 10 Taman Bersatu 48000 Rawang Selangor | 518:016-3558806
+52:492 | 61:Klinik Utama Subang Bestari | 189:70G Jlan Nova U5/N Subang Bestrai Seksyen U5 40150 Subang Bestari Selangor | 518:018-6693554
+52:493 | 61:Klinik Vista Medik | 189:No 19-1, Jalan Tun Perak 1,Taman Tun Perak, 43200 Cheras, Selangor | 518:03-91022709
+52:494 | 61:Klinik Walia | 189:32 Ground Floor Jalan TK 4/5 Taman Kinrara 4 47100 Puchong Selangor | 518:03-80705874
+52:495 | 61:Klinik Wu & Tanglim | 189:72, Jalan Othman Timor, Seksyen 1, PJ Old Town, Petaling Jaya, 46000, Selangor | 518:03-77828255
+52:496 | 61:Klinik Zuraidah | 189:GS-22A Jalan Indah 3/1, Taman Puchong Indah, Puchong, 47150, Selangor | 518:03-80666719
+52:497 | 61:Kumpulan Medic - Damansara Utama | 189:78 Jalan SS 21/35 Damansara Utama 47400 Petaling Jaya Selangor | 518:03-77284955
+52:498 | 61:Mediklinik Affan | 189:No. 23 Jalan UP 1/6 Taman Ukay Perdana, 68000 Ampang, Selangor | 518:03-41629654
+52:499 | 61:My Clinic Ara Damansara | 189:H-BG-09, Commercial Centre,Block Harmoni, D’Aman Crimson, Jalan PJU 1A/41, Taman Putra Damai, 47301 Petaling Jaya, Selangor | 518:03-76245250
+52:500 | 61:My Health Clinic Elmina | 189:No 3G, & 5G,Jalan Eserina Aa U16/AA Elmina East 40160 Shah Alam, Selangor | 518:013-9744977
+52:501 | 61:My Health Clinic Klang | 189:KS6, 13, Jalan Remia 3,Bandar Botanik,41200 Klang, Selangor | 518:03-33262922
+52:502 | 61:Nadi Iman Medical (Taman Bunga Negara) | 189:No 4 & 4A, Jalan Tajuh 27/29, Taman Bunga Negara , 40400 Shah Alam, Selangor | 518:03-51919657
+52:503 | 61:O2 Klinik (Ampang) | 189:Ground Floor Of No.69 Jln Mamanda 1 Ampang Point BT 4 1/2 Taman Ampang Point 68000 Ampang Selangor | 518:03-42660707
+52:504 | 61:O2 Klinik (Bukit Tinggi) | 189:No. 52-00-1 Lorong Batu Nilam 4A Bandar Bukit Tinggi 41200 Klang Selangor. | 518:03-33185115
+52:505 | 61:O2 Klinik (Kota Kemuning) | 189:24G Jalan R31/R Kota Kemuning Seksyen 31 40460 Shah Alam Selangor | 518:03-55253223
+52:506 | 61:O2 Klinik (Puchong) | 189:25-G Jalan Merbah 3 Bandar Puchong Jaya 47170 Puchong Selangor | 518:03-80809955
+52:507 | 61:O2 Klinik (Seapark) | 189:No.12 Ground Floor Jalan 21/19 46300 Petaling Jaya Selangor | 518:03-79316638
+52:508 | 61:O2 Klinik (Setia Alam) | 189:5-1-1 Jalan Setia Prima A U13/A Setia Alam U13 40170 Shah Alam Selangor | 518:03-33580333
+52:509 | 61:O2 Klinik (Sungai Buloh) | 189:2A Jalan BRP 1/6 Bukit Rahman Putra 47000 Sungai Buloh Selangor | 518:03-61401702
+52:510 | 61:Poliklinik Dinar (Petaling Jaya) | 189:No. 1-1 & 1-2, Jalan PJS 2/16A, Taman Maju Jaya, Petaling Jaya, 46000, Selangor | 518:03-77724539
+52:511 | 61:Poliklinik Dinar (Saujana Utama) | 189:No. 2-G Jalan Bidara 6/3, Taman Saujana Utama, Sungai Buloh, 47000, Selangor | 518:03-61284575
+52:512 | 61:Poliklinik Dinar (Subang Pelangi) | 189:No 1-G, Jalan Musytari 1 AP U5/AP, Subang Pelangi, Seksyen U5, Shah Alam, 40150, Selangor | 518:03-77340425
+52:513 | 61:Poliklinik Dinar (Subang Perdana) | 189:53, Jalan Dinar G U3/G, Taman Subang Perdana, Shah Alam, 40150, Selangor | 518:03-78456575
+52:514 | 61:Poliklinik Dr Arul Parklands | 189:No.75, Jalan Jed 3, Bandar Parklands, 41200 Klang, Selangor | 518:03-33186665
+52:515 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Mahkota Cheras, Cheras) | 189:43G (Tingkat Bawah) Mahkota Residence 1 Bandar Mahkota Cheras 43200 Cheras Selangor. | 518:03-90105406
+52:516 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Desa Bukit Nilam Meru, Kapar) | 189:No. 12 Tingkat Bawah Jalan 17/KU 11 Desa Bukit Nilam Meru 42200 Kapar Selangor Darul Ehsan. | 518:03-33923006
+52:517 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Eco Majestic, Semenyih) | 189:No. 8 (Tingkat Bawah) Jalan Eco Majestic 9/1B Eco Majestic 43500 Semenyih Selangor. | 518:03-87259069
+52:518 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Kapar, Klang) | 189:No. 20 (Tingkat Bawah) Jalan Rantau Panjang 2/KU4 Bt 3 3/4 Jalan Kapar 42100 Klang Selangor. | 518:03-32905969
+52:519 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kajang Grove Square, Kajang) | 189:No. 50-1 Jalan TTDI Grove 1/2 Kajang Grove Square 43000 Kajang Selangor. | 518:03-87418252
+52:520 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Kota Damansara, Petaling Jaya) | 189:No. 74 Ground Floor Jalan Pekaka 8/3 Seksyen 8 Kota Damansara 47810 Petaling Jaya Selangor. | 518:03-61436086
+52:521 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Lingkaran Cyber Point Barat, Cyberjaya) | 189:No. 66G Blok J Biz Avenue 2 Neocyber Lingkaran Cyber Point Barat 63000 Cyberjaya Selangor. | 518:03-83119460
+52:522 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Peninsular Park, Selangor) | 189:No. 40 Jalan Peninsula Utama 1 Peninsular Park 45000 Kuala Selangor Selangor. | 518:03-32811882
+52:523 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Niaga Astana Alam, Seksyen 13) | 189:No. 11 Jalan Astana D 13/D Pusat Niaga Astana Alam Seksyen 13 42300 Selangor. | 518:03-33920821
+52:524 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Reko Sentral, Kajang) | 189:No. 9G Jalan Reko Sentral 9 Reko Sentral 43000 Kajang Selangor. | 518:03-87402984
+52:525 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Saujana Utama 3, Sungai Buloh) | 189:No. 7G Jalan Bidara 9/3 Saujana Utama 3 47000 Sungai Buloh Selangor. | 518:03-61284522
+52:526 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Seksyen U17 Aman Putri, Shah Alam) | 189:No. 6-5-G Jalan Aman Damai H U 17/H Seksyen U17 Aman Putri 40160 Shah Alam Selangor. | 518:03-58928327
+52:527 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Seksyen U5, Shah Alam) | 189:No. 10 Ground Floor Jalan Bumi AW U5/AW Seksyen U5 40150 Shah Alam Selangor. | 518:03-78311230
+52:528 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Sungai Besar, Sabak Bernam) | 189:No. 10 Tingkat Bawah Jalan Bedena 2/1 Taman Bedena 2 Sungai Besar 45300 Sabak Bernam Selangor. | 518:03-32241731
+52:529 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Anggerik Perdana, Semenyih) | 189:G27 Jalan Anggerik Perdana 1 Taman Anggerik Perdana 43500 Semenyih Selangor. | 518:03-89207252
+52:530 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Gombak Permai, Batu Caves) | 189:No. 5 Jalan Gombak Permai Taman Gombak Permai 68100 Batu Caves Selangor. | 518:03-61779804
+52:531 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Makmur, Tanjong Krang) | 189:53-G Jalan Makmur 1 Taman Makmur Batu 7 45500 Tanjong Karang Selangor. | 518:016-6900742
+52:532 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Puchong Indah, Puchong) | 189:No. G15 (Tingkat Bawah) Jalan Indah 3/2 Taman Puchong Indah 47150 Puchong Selangor. | 518:03-80512766
+52:533 | 61:Poliklinik Kenanga | 189:183 Batu 17 Jalan Ipoh 48000 Rawang Selangor | 518:03-60917315
+52:534 | 61:Poliklinik Penawar (Klang) | 189:N0 6 Batu 4 Lorong Samarenda 6A Kg Jawa Jalan Kebun 41000 Klang Selangor. | 518:016-7218901
+52:535 | 61:Poliklinik Suria | 189:No 37 Jalan SG 10/4 Taman Sri Gombak, 68100, Batu Caves Selangor | 518:03-61886433
+#PAGE 9
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:536 | 61:Qualitas Health Dian Health Clinic | 189:No 18-G Jalan PP1/1 Park Place 1 Cybersouth 43800 Dengkil Selangor | 518:017-3211400
+52:537 | 61:Qualitas Health Klinik Al-Dinar | 189:No. 7G Jalan Opera F U2/F Taman TTDI Jaya Seksyen U2 40150 Shah Alam Selangor | 518:012-4873413
+52:538 | 61:Qualitas Health Klinik Aman Perdana | 189:No 8 (GF) Jalan Aman Perdana 10A/KU5 Taman Aman Perdana 41050 Klang Selangor | 518:03-30812268
+52:539 | 61:Qualitas Health Klinik Anis Klang | 189:1106 Persiaran Raja Muda Musa Kawasan 6 41200 Klang Selangor | 518:03-33731584
+52:540 | 61:Qualitas Health Klinik Anis Shah Alam | 189:17 Jalan Bunga Melur 2/18 Seksyen 2 40000 Shah Alam Selangor | 518:03-55193840
+52:541 | 61:Qualitas Health Klinik Ardence | 189:52 Jalan Eco Ardence C U12/36C Eco Ardence Seksyen U12 40170 Shah Alam Selangor | 518:03-50332528
+52:542 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:47 & 49 Jalan Othman 46000 Petaling Jaya Selangor | 518:03-77821025
+52:543 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:No.1 Jalan Puchong. Taman Perindustrian Puchong Utama 47100 Puchong Selangor | 518:03-80688651
+52:544 | 61:Qualitas Health Klinik Dr Maria | 189:No 39 Jalan PJS 3/46 Sri Manja Square One Taman Sri Manja 46000 Petaling Jaya Selangor | 518:03-77733247
+52:545 | 61:Qualitas Health Klinik Dr. Sonia | 189:Lot 2-1 (Aras Bawah) Jalan USJ 9/5T Subang Business Centre 47620 UEP Subang Jaya Selangor Darul Ehsan | 518:014-9290658
+52:546 | 61:Qualitas Health Klinik Era Medik | 189:PA-S-25 Jalan Pasir Emas Sungai Chua Pearl Avenue 43000 Kajang Selangor | 518:03-87411114
+52:547 | 61:Qualitas Health Klinik Family Care | 189:No 9 Jalan Rodat 2 41050 Bandar Bukit Raja Selangor | 518:03-38844039
+52:548 | 61:Qualitas Health Klinik Isha | 189:No. 7 Jalan Ros 1E/2 Sek. BS5 Perniagaan Jalan Ros Bukit Sentosa 48300 Rawang Selangor | 518:03-60220194
+52:549 | 61:Qualitas Health Klinik Kapar Indah | 189:No 15 Sungai Kapar Indah 3G Sungai Kapar Indah 42220 Klang Selangor. | 518:012-7090121
+52:550 | 61:Qualitas Health Klinik Keluarga Jaromas | 189:No 24. Tingkat Bawah Jalan 1/3 Taman Seri Jaromas 42600 Jenjarom Selangor | 518:03-31903366
+52:551 | 61:Qualitas Health Klinik Kumpulan Medic Ampang Point | 189:71-M Jalan Mamanda 1 Ampang Point 68000 Ampang Selangor | 518:03-42528219
+52:552 | 61:Qualitas Health Klinik Nanda | 189:33 Jalan Dato Hamzah Kawasan 1 41000 Klang Selangor | 518:03-33728881
+52:553 | 61:Qualitas Health Klinik Omega | 189:34 Jalan Pekedai U1/36 Hicom-Glenmarie Industrial Park 40150 Shah Alam Selangor | 518:03-55695644
+52:554 | 61:Qualitas Health Klinik Prime Care | 189:Wisma MCIS Zurich Lot 7 Jalan Barat Seksyen 52 Petaling Jaya 46200 Petaling Jaya Selangor | 518:03-79550550
+52:555 | 61:Qualitas Health Klinik ProMed | 189:No 43-G Jalan Eserina Y U16 /Y Elmina East 40160 Shah Alam Selangor | 518:03-77342363
+52:556 | 61:Qualitas Health Klinik Puncak Alam | 189:No 36-G Jalan Eco Grandeur 1/9A Eco Grandeur Bandar Puncak Alam 42300 Bandar Puncak Alam Selangor | 518:03-58711097
+52:557 | 61:Qualitas Health Klinik Putra | 189:No.11-G Jalan Putra Mahkota 7/5C Putra Point Business Centre Putra Heights 47650 Subang Jaya Selangor 47650 Subang Jaya | 518:03-51034168
+52:558 | 61:Qualitas Health Klinik Rafa Medic | 189:No 25 (PT 155166)(Ground Floor) Jalan Panglima M35/M Alam Impian Seksyen 3 40470 Shah Alam Selangor | 517:011-26604757
+52:559 | 61:Qualitas Health Klinik Rakan Medik Bangi | 189:19 Jalan 4/11A Seksyen 4 Tambahan Bandar Baru Bangi 43650 Bandar Baru Bangi Selangor | 518:03-89256566
+52:560 | 61:Qualitas Health Klinik Sentosa | 189:25 Jln 11 Taman Putra 68000 Ampang Selangor | 518:03-42911458
+52:561 | 61:Qualitas Health Klinik Seri Suria Med | 189:13G Jalan Awf2 Ampang Waterfront 68000 Ampang Selangor. | 518:016-5876167
+52:562 | 61:Qualitas Health Klinik Sierra | 189:No 5 Jalan OS 1 One Sierra Batu Caves 68100 Selangor | 518:03-61278585
+52:563 | 61:Qualitas Health Klinik SNH | 189:No 26 Ground Floor Jalan Seri Utara 1 Seri Utara Off Jalan Ipoh 68100 Kuala Lumpur, Selangor | 518:03-61795040
+52:564 | 61:Qualitas Health Klinik Sunsuria PJCC | 189:No 52G Jalan PJS 5/30 Pusat Perdagangan Petaling Jaya Selatan 46150 Petaling Jaya Selangor | 518:014-9314640
+52:565 | 61:Qualitas Health Klinik Sunsuria Shah Alam | 189:No 17 Jalan Bazar P U8/P Bukit Jelutong 40150 Shah Alam Selangor | 518:03-58887640
+52:566 | 61:Qualitas Health Klinik Waran & Ko | 189:No5 G Jalan Flora 1/2 Bandar Rimbayu (Flora) Teluk Panglima Garang 42500 Teluk Panglima Garang Selangor | 518:03-55254365
+52:567 | 61:Qualitas Health Kumpulan Medic @ Evesuite | 189:No. A-1-02 Jalan PJU 1/41, Aevesuite @ Ara Damansara Ara Damansara 47301 Petaling Jaya Selangor | 518:03-78863216
+52:568 | 61:Qualitas Health Kumpulan Medic Petaling Jaya | 189:42A Jalan Sultan 52/4 46200 Petaling Jaya Selangor | 518:03-79569331
+52:569 | 61:Qualitas Health Kumpulan Medic Shah Alam | 189:1 Lorong Tukang 16/3 Seksyen 16 40000 Shah Alam Selangor | 518:03-55191133
+52:570 | 61:Qualitas Health Kumpulan Medic Subang Jaya | 189:No 22 Jalan SS15/4D 47500 Subang Jaya Selangor | 518:03-56330913
+52:571 | 61:Qualitas Health Kumpulan Medic Taylor's | 189:Lot G28 Ground Floor Taylors University Lakeside Campus 47500 Subang Jaya Selangor | 518:03-56120656
+52:572 | 61:Qualitas Health Poliklinik Astana Medic | 189:No. 89G Jalan Kebun Nenas 7A/KS 8 Bandar Putera 2 Bandar Klang 41200 Klang Selangor | 518:014-9902612
+52:573 | 61:Qualitas Health Poliklinik Astana Medic Banting | 189:No 1-G-3 (Ground Floor) Jalan Usahawan 2 Bandar Mahkota Banting Banting 42700 Selangor. | 518:017-3389747
+52:574 | 61:Qualitas Health Poliklinik Majestic Health | 189:13-1 Jalan Eco Majestic 3A/1 Eco Majestic 43500 Semenyih Selangor | 518:012-5587446
+52:575 | 61:Qualitas Health Rakan Medik Kelana Jaya | 189:18-B1 Jalan SS 6/3 SS 6 47301 Petaling Jaya Selangor | 518:03-78035688
+52:576 | 61:Qualitas Health SV Care Clinic USJ | 189:No. 11 Residence The Edge Persiaran Subang Indah USJ 1 47600 Subang Jaya Selangor. | 518:03-86055408
+52:577 | 61:Qualitas Klinik Ng Dan Lee Shah Alam | 189:31 Jalan Nelayan 19/A Seksyen 19 40300 Shah Alam Selangor | 518:03-55425286
+52:578 | 61:Klinik Hope Seri Kembangan | 189:29-1, Jalan BS 4/1, Seksyen 4, Taman Bukit Serdang 43300 Seri Kembangan, Selangor | 518:017-3676996
+52:579 | 61:Klinik Iris Kajang | 189:37G Jalan Seri Putra 1/10 43000 Kajang Selangor | 518:012-9041047
+52:580 | 61:Klinik Dr Izuddin | 189:No 21, Jalan Mapel 7/1, Banda Hillpark 42300 Puncak Alam Selangor | 518:03-60875643
+52:581 | 61:Klinik Aiora | 189:No 7 (Ground Floor), Jalan Kenanga 1/5, Salak Perdana 43900 Sepang Selangor | 518:012-6028747
+52:582 | 61:Klinik Arman | 189:24, Jalan Tiara 2 Tiara Square Taman Perindustrian UEP Subang Jaya 47600 Selangor | 518:012-7979647
+52:583 | 61:Klinik Bukit Serdang | 189:No. B-G-40 Jalan BS 14/1 43300 Seri Kembangan Selangor | 518:03-95480156
+53:WILAYAH PERSEKUTUAN KUALA LUMPUR
+52:584 | 61:Klinik Ng Dan Singh (Setapak) | 189:No. 35 Jalan 1/27B Taman Desa Setapak 53300 Kuala Lumpur. | 518:03-41499333
+52:585 | 61:Careclinics Exchange 106 | 189:Lot UG.21 & UG.22 Menara Exchange 106 Lingkaran TRX, 55188 Tun Razak Exchange, Kuala Lumpur | 518:03-21101234
+52:586 | 61:Careclinics Klinik Dan Surgeri Jas | 189:3-28 & 3-28A Jalan Udang Siar, Taman Sri Segambut, 52000 WP Kuala Lumpur | 518:03-62573340
+52:587 | 61:Careclinics Klinik Kwan | 189:1012 Diamond Square Jalan 1/50 Off Jalan Gombak 53100 Setapak WP Kuala Lumpur | 518:03-48208086
+52:588 | 61:Careclinics Klinik Ramabai & Surgeri | 189:No.14 Jalan Burung Tiungtaman Bukit Maluri 52100 Kepong WP Kuala Lumpur | 518:03-62628806
+52:589 | 61:Careclinics Poliklinik Cahaya | 189:45 Jalan 34/154 Taman Delima Cheras 56100 WP Kuala Lumpur | 518:03-91019894
+52:590 | 61:Careclinics Poliklinik Cahaya (Desa Pandan) | 189:No. 15 Jalan 2/76C Desa Pandan 55100 WP Kuala Lumpur | 518:03-92851773
+52:591 | 61:Careclinics Poliklinik Cahaya (Pandan Perdana) | 189:17 Jalan Pandan Perdana 4/5 55300 Pandan Perdana WP Kuala Lumpur | 518:03-92001707
+52:592 | 61:Klinik Alam Medic Jalan Ipoh | 189:649-1, Batu 4, Jalan Ipoh, 51200 WP Kuala Lumpur | 518:019-3337878
+52:593 | 61:Klinik Algomedi | 189:10, Jalan Datuk Sulaiman, Taman Tun Dr Ismail, 60000 Kuala Lumpur | 518:03-77329034
+52:594 | 61:Klinik Anda 24 Jam Bandar Sri Permaisuri | 189:No 28 (Tingkat Bawah) Jalan Dwitasik 2 Bandar Sri Permaisuri 56000 Cheras Kuala Lumpur | 518:03-89223296
+52:595 | 61:Klinik Anda 24 Jam Desa Pandan | 189:No. 28G Jalan 1/76D Desa Pandan 55100 Kuala Lumpur W.P Kuala Lumpur | 518:03-92868800
+52:596 | 61:Klinik Anda 24 Jam Medan Idaman | 189:16 (Tingkat Bawah) Jalan 2/21D Medan Idaman Jalan Gombak 53300 Kuala Lumpur W. P. Kuala Lumpur | 518:03-40317772
+52:597 | 61:Klinik Anda 24 Jam Pandan Indah | 189:No 12G Jalan Pandan Indah 4/6 Pandan Indah 55100 Kuala Lumpur W. P. Kuala Lumpur | 519:06-9512595
+52:598 | 61:Klinik Anda 24 Jam Pandan Jaya | 189:No.8-G (Tingkat Bawah) Jalan Pandan 3/6A Pandan Jaya 55100 Kuala Lumpur Selangor | 518:03-42945821
+52:599 | 61:Klinik Anda 24 Jam Segambut | 189:B-03 M-Avenue Jalan 1/38A Segambut Bahagia 51200 Segambut Wilayah Persekutuan Kuala Lumpur | 518:03-62411019
+52:600 | 61:Klinik Anda 24 Jam Sentul Perdana | 189:43-0-9 (Tingkat Bawah) Jln 1/48A Sentul Perdana Bandar Baru Sentul 51000 WP Kuala Lumpur | 518:03-40509771
+52:601 | 61:Klinik Anda 24 Jam Setiawangsa | 189:No 31G Jalan Setiawangsa 9 Taman Setiawangsa 54200 Setiawangsa W.P. Kuala Lumpur | 518:017-4886566
+52:602 | 61:Klinik Anda 24 Jam Taman Melawati | 189:No. 9129 & 9130 (Tingkat Bawah) Jalan Bandar 4 Taman Melawati 53100 Kuala Lumpur | 518:03-41611733
+52:603 | 61:Klinik Anda Sentul Maxim (24 Jam) | 189:G10 & G11 (Tingkat Bawah) Maxim Sentul No. 25 Jln Sentul Perdana 51000 Setapak Wilayah Persekutuan Kuala Lumpur | 518:03-61790776
+52:604 | 61:Klinik Anda Wangsa Melawati (24 Jam) | 189:No 42A 46 48 (Tingkat Bawah) Lorong Dataran Wangsa Dataran Wangsa 53300 Wangsa Melawati Wilayah Persekutuan Kuala Lumpur | 518:03-41313771
+52:605 | 61:Klinik Archimed | 189:Lot 01-05, Megan Legasi, No. 357, Jalan Klang Lama, Kuala Lumpur, 58000 | 518:018-9182935
+52:606 | 61:Klinik Aurora (Bandar Sri Damansara) | 189:12 (Ground Floor) Jalan Ara SD 7/3A D'Sara 52200 Petaling Jaya Kuala Lumpur | 518:03-62637774
+52:607 | 61:Klinik Aurora (Bukit Jalil) | 189:46 Jalan Jalil 1 Bumi Bukit Jalil 57000 Bukit Jalil Wilayah Persekutuan Kuala Lumpur | 518:03-80749344
+52:608 | 61:Klinik Aurora (Desa Tun Razak) | 189:24 (Ground Floor) Jln 10/118B Desa Tun Razak 56000 Kuala Lumpur | 518:03-92265244
+52:609 | 61:Klinik Aurora (Jalan Ipoh) | 189:823 (Ground Floor) A-C Jalan Ipoh Batu Village 51200 Kuala Lumpur | 518:03-62429710
+52:610 | 61:Klinik Aurora (Jalan Kuching) | 189:21 (Ground Floor) Blok E Jln Selingsing 4 Tmn Sri Kuching 51200 Kuala Lumpur | 518:03-62412077
+#PAGE 10
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:611 | 61:Klinik Aurora (OUG Parklane) | 189:B4-43A Parklane Oug Service Apartment Blok 4 Jln 1/152 Tmn Oug Parklane 58200 Bukit Jalil WP Kuala Lumpur | 518:03-77721055
+52:612 | 61:Klinik Aurora (Segambut) | 189:3A-0 (Ground Floor) Wisma Suhati Jln 1/38A Tmn Sri Sinar 51200 Kuala Lumpur WP Kuala Lumpur | 518:03-62420895
+52:613 | 61:Klinik Aurora (Setapak) | 189:31 Jalan Rampai Niaga 5 Medan Rampai Niaga 53300 Kuala Lumpur | 518:03-41315855
+52:614 | 61:Klinik Aurora (Sungai Besi) | 189:31 (Ground Floor) Jln Tasik Utama 4 Tmn Tasik Damai 57000 Sungai Besi WP Kuala Lumpur | 518:03-90541433
+52:615 | 61:Klinik Aurora (Wangsa Maju) | 189:No 16 (Ground Floor) Jln Wangsa Delima 10 Pusat Bandar Wangsa Maju 53300 Setapak WP Kuala Lumpur | 518:03-41311411
+52:616 | 61:Klinik Careclinics (Bukit Bintang) | 189:88 Jln Alor Bukit Bintang 50200 Kuala Lumpur Federal Territory Of Kuala Lumpur | 517:011-51727890
+52:617 | 61:Klinik Careclinics (Plaza Berjaya) | 189:Lot 1-01 1st Floor Plaza Berjaya12 Jalan Imbi 55100 Kuala Lumpur | 518:03-23327489
+52:618 | 61:Klinik Careclinics Bandar Sri Damansara (Aishah) | 189:33G Jalan Tanjung SD 13/1 Bandar Sri Damansara 52200 Kuala Lumpur | 518:03-62625944
+52:619 | 61:Klinik Careclinics Bandar Sri Permaisuri | 189:63 (Ground Floor) Jalan Dwitasik 2 Bandar Sri Permaisuri 56000 Kuala Lumpur | 518:010-9009013
+52:620 | 61:Klinik Careclinics Desa Pandan | 189:No 15 Jalan 2/76C Desa Pandan 55100 Kuala Lumpur | 518:03-92851773
+52:621 | 61:Klinik Careclinics Sentul | 189:G-67 Maxim Citylights Sentul 51100 Kuala Lumpur | 519:05-3120716
+52:622 | 61:Klinik Careclinics Taman Cheras | 189:No. 10 Ground Floor Jalan Chengkih Taman Cheras 56100 Kuala Lumpur | 518:03-91314127
+52:623 | 61:Klinik D Melawati | 189:B3-G-2 & B3-G-3 ,Lorong Selangor Pusat Bandar Taman Melawati, 53100 Taman Melawati, Kuala Lumpur | 518:03-41623838
+52:624 | 61:Klinik Dr Izham | 189:21, Ground Floor, Jalan 12/144A,Taman Bukit Cheras, Kuala Lumpur, 56000 | 518:03-95446431
+52:625 | 61:Klinik Dr Monty | 189:No. 19-G, Jalan Pandan Indah 4/34, Taman Pandan Indah, 55100 Kuala Lumpur | 518:03-42971964
+52:626 | 61:Klinik Dr Nurul | 189:No. 27, Jalan Damai Niaga Satu, Alam Damai, 56000 Cheras, Kuala Lumpur | 518:03-91081189
+52:627 | 61:Klinik Drs. Abraham, George & Partners | 189:Level One, Menara Manulife, Jalan Gellanggang Damansara Height, 50490 Kuala Lumpur, WP Kuala Lumpur | 518:03-20958182
+52:628 | 61:Klinik Famili Metro | 189:2-19A, Jalan Desa 1/3, Desa Aman Puri, Kepong 52100 Kuala Lumpur | 518:03-67314070
+52:629 | 61:Klinik Idzham Jalan Gombak | 189:No. 2G Jalan Jernai 3 Batu 5 Jalan Gombak Medan Idaman Gombak 53100 Kuala Lumpur | 518:03-41077491
+52:630 | 61:Klinik Idzham Pandan Indah | 189:No. 41/AAB Persiaran MPAJ Jalan Pandan Indah Pandan Indah 55100 Kuala Lumpur | 518:03-41077492
+52:631 | 61:Klinik Idzham Pandan Jaya | 189:No. 27G Jalan Pandan 3/3 Pandan Jaya 55100 Kuala Lumpur, Selangor | 518:03-41077489
+52:632 | 61:Klinik Idzham Setapak | 189:No 4G Jalan 2/23A Taman Danau Kota Jalan Genting Genting Klang Setapak 53300 Kuala Lumpur | 518:03-41077487
+52:633 | 61:Klinik Idzham Taman Melawati | 189:Lot 9135G Jalan Bandar Empat Taman Melawati 53100 Kuala Lumpur | 518:03-41077486
+52:634 | 61:Klinik Idzham Taman Setiawangsa | 189:No. 2-2-4 Prima Peninsular Jalan Setiawangsa 11 Taman Setiawangsa 54200 Kuala Lumpur | 518:03-41077490
+52:635 | 61:Klinik KIP | 189:10 Jalan KIP 1 Kepong Industrial Park 52200 Kepong Kuala Lumpur | 518:03-62764346
+52:636 | 61:Klinik Leela Jalan Ipoh | 189:K3, Jalan Sultan Azlan Shah, 51200 Kuala Lumpur | 518:03-62412020
+52:637 | 61:Klinik Medi Pesona | 189:No 1 Tingkat Bawah, Jalan Bangsar Utama 3, 59000 Bangsar, WP Kuala Lumpur | 518:03-22881439
+52:638 | 61:Klinik Medic 360 24 Jam Razak City | 189:C-G-10 Residensi Bandar Razak No. 1 Jalan Razak Mansion Sungai Besi 57100 Kuala Lumpur | 518:018-9123360
+52:639 | 61:Klinik Medic 360 Happy Garden | 189:B-0-13A Tulin 28 No 1 Jalan Riang Ria 8 Taman Gembira 58200 Kuala Lumpur | 518:016-8008906
+52:640 | 61:Klinik Medic 360 Jalan Ipoh | 189:No. 418 & 420 (Ground Floor) Jalan Sultan Azlan Shah Jalan Ipoh 51200 Kuala Lumpur | 518:017-8913360
+52:641 | 61:Klinik Medic 360 Kepong | 189:No. 14 (Ground Floor) Jalan Prima 5 Pusat Niaga Metro Prima Kepong 52100 Kuala Lumpur | 518:017-8123360
+52:642 | 61:Klinik Medic 360 Pandan Indah | 189:No.M3A7 & M3A8 Jalan Pandan Indah 4/3A Pandan Indah 55100 Ampang Kuala Lumpur | 518:018-3975698
+52:643 | 61:Klinik Medic City | 189:92 Ground Floor Jalan Tun Sambathan Brickfields 50470 Kuala Lumpur | 518:03-22742730
+52:644 | 61:Klinik Menara TM Annexe | 189:Level 26 Tm Annexe 2 Jalan Pantai Baharu 50672 Wilayah Persekutuan Kuala Lumpur | 517:011-10014101
+52:645 | 61:Klinik Murni (Danau Kota) | 189:No. 56G, Jalan 2/23A, Danau Kota, 53000 Setapak, Kuala Lumpur | 518:03-41415255
+52:646 | 61:Klinik Murni (Dang Wangi) | 189:No. 39, Tingkat Bawah, Jalan Dang Wangi, 50100 Kuala Lumpur | 517:011-75361613
+52:647 | 61:Klinik Nadia | 189:Wisma Leopad, Ground Floor, No.5A, Jalan Tun Sambanthan Kuala Lumpur, 50470 Kuala Lumpur | 517:011-12171080
+52:648 | 61:Klinik Ng Dan Lee | 189:265 Jalan Mahkota Maluri 55100 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-92852820
+52:649 | 61:Klinik Ng Dan Lee (Wangsa Maju Branch) | 189:Lot F1D Alpha Angle Shopping Complex Wangsa Maju Section 1 53300 Kuala Lumpur | 518:03-41421582
+52:650 | 61:Klinik Qualitas Health Dr. Harish K @ Bangsar | 189:Lot G116 Ground Floor Bangsar Shopping Centre 285 Jalan Maarof Bukit Bandaraya 59000 WP Kuala Lumpur | 518:03-20114336
+52:651 | 61:Klinik Setapak & Surgeri | 189:No. 39, Jalan 1/27B, Taman Desa Setapak, 53300 Setapak, WP Kuala Lumpur | 518:03-41497945
+52:652 | 61:Klinik Sri Permaisuri | 189:B1-7 Plaza Dwitasik, Bandar Sri Permaisuri, Jalan Cheras, 56000 Cheras, Kuala Lumpur | 518:03-28560842
+52:653 | 61:Klinik Tan & Mano (Menara Raja Laut) | 189:LG01D, Lower Ground Floor, Menara Raja Laut, 288 Jalan Raja Laut, Chow Kit 50350 Kuala Lumpur | 518:03-22028468
+52:654 | 61:Klinik Tan & Mano (Plaza Osk) | 189:13th Floor, Plaza Osk, Jalan Ampang 50450 Kuala Lumpur | 518:03-21662050
+52:655 | 61:Klinik Tan & Mano (Plaza Zurich) | 189:M-03 Mezzanine Floor, Connecting Podium, Plaza Zurich, 12 Jalan Gelenggang, Bukit Damansara 50490 Kuala Lumpur | 518:03-20115544
+52:656 | 61:Klinik Tan & Mano (Technology Park Malaysia) | 189:S4 Recreation Center, Ground Floor, Technology Park Malaysia, Bukit Jalil 57000 Kuala Lumpur | 518:03-89964966
+52:657 | 61:Klinik Utama 24 Jam Taman Tun Dr Ismail | 189:No 2 (Ground Floor) Jalan Wan Kadir 1 (1/71) Tmn Tun Dr Ismail Off Jalan Mohd Fuad 60000 Kuala Lumpur Wilayah Persekutuan | 518:014-8237275
+52:658 | 61:Klinik Utara Jinjang | 189:Wisma TJB, G-2 , Jalan 9/32, Taman Jinjang Baru, 52000 Jinjang, Kuala Lumpur | 518:03-62523269
+52:659 | 61:Klinik V-Cure Sdn Bhd | 189:37 Jalan Midah 3 Taman Midah 56000 Cheras Kuala Lumpur. | 518:03-91311297
+52:660 | 61:O2 Klinik (Desa Park) | 189:No.39 (Ground Floor) Jalan Seri Bintang 2 (Jalan 3/36) Bukit Sri Bintang 52100 Wilayah Persekutuan Kuala Lumpur | 518:03-62638558
+52:661 | 61:O2 Klinik (Melawati) | 189:270 Jalan Bandar 12 Taman Melawati Metro 2 Taman Melawati 53100 Wilayah Persekutuan Kuala Lumpur | 518:03-41624999
+52:662 | 61:O2 Klinik (Sri Petaling) | 189:No. 8-G Jalan Radin Anum Bandar Baru Sri Petaling 57000 Wilayah Persekutuan Kuala Lumpur | 518:03-90559595
+52:663 | 61:PH Clinic (Perfect Healthcare) | 189:L1-15, Inc, No.3, Jalan Bangsar, KL Eco City, 59200 Kuala Lumpur | 518:012-4944933
+52:664 | 61:Plux Health Clinic Menara EQ | 189:Unit L2-2 Level LG2 EQ, Equatorial Plaza, Jalan Sultan Ismail, 50250 Kuala Lumpur | 518:03-21812727
+52:665 | 61:Poliklinik Dan Surgeri Ren Ai | 189:3-57A Ground Floor Jln Desa 2/1 Desa Aman Puri, 52100 Kepong, Kuala Lumpur | 518:03-62775664
+52:666 | 61:Poliklinik Desilva 24 Jam | 189:No.7, Jalan Perdana 4/5, Pandan Perdana, 55300 Kuala Lumpur | 518:03-92821721
+52:667 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Bukit Angkasa, Pantai Dalam) | 189:No. 4 Blok 20-0-14 Taman Bukit Angkasa 59200 Pantai Dalam Kuala Lumpur. | 518:03-22820199
+52:668 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Sri Rampai, Setapak) | 189:No. 29 Jalan 46A/26 Taman Sri Rampai 53300 Setapak WP Kuala Lumpur. | 518:03-41424934
+52:669 | 61:Poliklinik Loh Careclinics | 189:No. 12 Jalan 7/108C Taman Sungai Besi 57100 Kuala Lumpur | 518:03-79800642
+52:670 | 61:Poliklinik Sentral Perubatan & X-Ray (Stesen Sentral) | 189:Kuala Lumpur Sentral Station, Kuala Lumpur Sentral, Wilayah Persekutuan, 50470, Kuala Lumpur | 518:03-22760808
+52:671 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:No 39 & 41 Level 3 Lot 254255 Seksyen 49 Jalan Ampang 50450 Kuala Lumpur | 518:03-20783200
+52:672 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:Suite G, 1B Ground Flor Wisma FGV 50350 Kuala Lumpur | 518:03-26937670
+52:673 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:Suite 3A-2 Level 3A Menara Cimb Jalan Stesen Sentral 50470 Kuala Lumpur | 518:03-22766622
+52:674 | 61:Qualitas Health Klinik Catterall Khoo & Raja Malek | 189:Suite 3B-3-6 Plaza Sentral Jalan Stesen Sentral 50470 Kuala Lmpur | 518:03-22730244
+52:675 | 61:Qualitas Health Klinik Catterall, Khoo And Raja Malek Great Eastern Mall | 189:Lot 6B Level 2 Great Eastern Mall 303 Jalan Ampang 50450 Kuala Lumpur | 517:011-16563477
+52:676 | 61:Qualitas Health Klinik Famili Medivista | 189:1-18 Residensi Park Bukit Jalil Persiaran Jalil Utama Bukit Jalil 57000 Kuala Lumpur Wilayah Persekutuan | 518:03-97655365
+52:677 | 61:Qualitas Health Klinik Kumpulan Medic Jalan Ampang | 189:2nd Floor Qualitas Health 39 Jln Ampang Kuala Lumpur 50450 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-20781532
+52:678 | 61:Qualitas Health Klinik Kumpulan Medic KWSP | 189:Lot Mz.05 Mezzanine Floor Bangunan KWSP Jalan Raja Laut 50350 Kuala Lumpur | 518:03-26921952
+52:679 | 61:Qualitas Health Klinik Kumpulan Medic Wisma Boustead | 189:5th Floor Wisma Boustead 71 Jalan Raja Chulan 50200 Kuala Lumpur | 518:03-20224141
+52:680 | 61:Qualitas Health Klinik Pantai | 189:No 1-16 Centrio Pantai No 1 Jalan Pantai Murni Pantai Hill Park 59200 Kuala Lumpur | 518:03-27760415
+#PAGE 11
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:681 | 61:Qualitas Health Klinik Reddy | 189:121 Jalan Sultan Azlan Shah (Jln. Ipoh Pekeliling) 50400 Kuala Lumpur | 518:03-40412611
+52:682 | 61:Qualitas Health Klinik Sharani | 189:20 Jalan Bangsar Utama 1 Bangsar 59000 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-22873103
+52:683 | 61:Qualitas Health Klinik Sunfamili | 189:No 10 (Gound Floor) Jalan 3/109C Taman Abadi Indah 58100 Kuala Lumpur. | 518:03-79728587
+52:684 | 61:Qualitas Health Klinik Sunrise | 189:No 11 Jalan 20B/146 Desa Tasik Sungei Besi Kuala Lumpur 57000 Wilayah Persekutuan Kuala Lumpur | 518:03-90541600
+52:685 | 61:Qualitas Health Poliklinik Central Dan Surgeri | 189:No.20 Ground Floor Batu 4 1/2 Jalan Suria Setapak Taman Suria Setapak 53000 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-40234390
+52:686 | 61:Qualitas Health Poliklinik Kumpulan City Sri Petaling | 189:26 Ground Floor Jalan Radin Anum Bandar Baru Sri Petaling 57000 Kuala Lumpur | 518:03-90549662
+52:687 | 61:Qualitas Health Radix Clinic | 189:F-1-12 Plaza Arkadia No 3 Jalan Intisari Perdana Desa Parkcity 52200 Kuala Lumpur | 518:03-27120844
+52:688 | 61:Qualitas Health Samcare Clinic | 189:No 25 Ground Floor Jalan Metro Perdana Barat 1 Taman Usahawan Kepong 52100 Kepong WP Kuala Lumpur | 517:011-61333261
+52:689 | 61:Qualitas Klinik Ng & Lee Jalan Pudu | 189:462 & 464 Jln Pudu Pudu 55100 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-92225989
+52:690 | 61:Qualitas Klinik Ng Dan Lee Ampang | 189:377 Jln Ampang 4th Mile 50450 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:03-42660764
+52:691 | 61:United Health Clinic | 189:G-02 Residensi Henge Jalan Metro Perdana Barat Taman Metropolitan Kepong 52100 Kuala Lumpur | 518:03-27805084
+52:692 | 61:Klinik Hope (Shamelin) | 189:C-G-03 Level Ground Floor 1 Shamelin Mall Jalan 4/91 Taman Shamelin Perkasa 56100 Kuala Lumpur | 518:016-2711363
+52:693 | 61:Klinik Hope (Taman Gembira) | 189:N0. 19 Jalan 2/128 Taman Gembira 58200 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur | 518:012-5411692
+53:NEGERI SEMBILAN
+52:694 | 61:ALPRO Clinic Bahau | 189:No. 99 Jalan Gurney, 72100 Bahau, Negeri Sembilan | 518:019-7263828
+52:695 | 61:ALPRO Clinic Bandar Prima Senawang | 189:42 Jalan BPS 4, Bandar Prima Senawang, 70450 Seremban, Negeri Sembilan | 518:016-3493828
+52:696 | 61:ALPRO Clinic Centrio | 189:63 (GFloor Jalan S2 B21 Pusat Dagangan Seremban 2 (Centrio), 70300 Seremban, Negeri Sembilan | 519:06-6012828
+52:697 | 61:ALPRO Clinic Garden Homes | 189:19 (Ground Floor) Jln S2 F1 Seksyen F, Seremban 2, 70300 Seremban, Negeri Sembilan | 518:019-3204828
+52:698 | 61:ALPRO Clinic Lobak | 189:17 (Ground Floor) Jln Dm 3 Dataran Millennia, Jln Manickavasagam, 70200 Seremban, Negeri Sembilan | 518:016-3263828
+52:699 | 61:ALPRO Clinic Taman Ampangan | 189:1358 (Tingkat Bawah) Lrg Cengal 3/2, Tmn Ampangan, 70400 Seremban, Negeri Sembilan | 518:019-7135828
+52:700 | 61:ALPRO Clinic Taman Bukit Coral | 189:227 (Ground Floor) Persiaran Bkt Coral 1, Bukit Coral Sikamat, 70400 Seremban, Negeri Sembilan | 518:016-9363828
+52:701 | 61:Klinik Anda 24 Jam Bahau | 189:No. 20 & No. 21 (Tingkat Bawah) Jalan Kiara Satu Pusat Perniagaan Kiara 72100 Bahau Negeri Sembilan | 519:06-4543299
+52:702 | 61:Klinik Anda 24 Jam Enstek | 189:No 7 8 Village @ Enstek Bandar Enstek 71760 Seremban Negeri Sembilan | 519:06-7909453
+52:703 | 61:Klinik Anda 24 Jam Nilai | 189:No. 21523 (Tingkat Bawah) Jalan BBN 1/7D Putra Indah 71800 Nilai Seremban Negeri Sembilan | 519:06-7947441
+52:704 | 61:Klinik Anda 24 Jam Port Dickson | 189:No. 8 & 9 (Ground Floor & First Floor) Jalan PD Seremban Pusat Perniagaan Lukut Prima 71000 Port Dickson Negeri Sembilan | 519:06-6519720
+52:705 | 61:Klinik Anda 24 Jam Rembau | 189:PT151G & 152G Batu 17 3/4 Jalan Seremban Tampin 71300 Rembau Negeri Sembilan | 519:06-6852388
+52:706 | 61:Klinik Anda 24 Jam Senawang | 189:No 100G No 1001 No 1002 No 101G Jalan Taman Komersial Senawang 4 70450 Senawang Negeri Sembilan | 518:03-60900855
+52:707 | 61:Klinik Anda 24 Jam Tampin | 189:Lot 19G (Aras Bawah) Jalan Besar Pekan Tampin 73000 Tampin Negeri Sembilan | 518:017-4410459
+52:708 | 61:Klinik Aurora (Sendayan) | 189:No.214 (Ground Floor) Jalan Pusat Dagangan Sendayan 3 Pusat Dagangan Sendayan 71950 Seremban Negeri Sembilan | 519:06-7817299
+52:709 | 61:Klinik Careclinics Dr Sarravanan Sdn Bhd | 189:No 33 & 34 Jalan B.S.S 1/3A Bandar Seremban Selatan Negeri Sembilan 71450 Seremban | 519:06-6789633
+52:710 | 61:Klinik Careclinics Labu | 189:3 Wisma Koperasi Labu Jalan Koperasi Lorong Labu 1 71900 Labu Negeri Sembilan | 518:010-2317322
+52:711 | 61:Klinik Careclinics Nilai | 189:186 Jalan Besar Nilai Pekan Nilai 71800 Nilai Negeri Sembilan | 519:06-7991558
+52:712 | 61:Klinik Careclinics Publik | 189:63 Jalan Besar Kampung Atap 71700 Mantin Negeri Sembilan | 519:06-7583300
+52:713 | 61:Klinik Careclinics Sree Parit | 189:No 42-G Jalan Besar Lukut Port Dickson 71010 Negeri Sembilan | 518:016-4533369
+52:714 | 61:Klinik Casabrina | 189:302, 303 (Ground Floor) Jalan Bandar Senawang 16, Pusat Bandar Senawang, Seremban, 70450, Negeri Sembilan | 518:017-6146731
+52:715 | 61:Klinik Dr Ana Nilai | 189:No 3&4 (Tingkat Bawah) Jln BBN 6/3 Desa Cempaka 71800 Nilai Negeri Sembilan | 518:014-6437180
+52:716 | 61:Klinik Dr Ana Seremban | 189:No 180 (Tingkat Bawah) Jalan Pusat Komersial Saujana Seremban 2 Heights 70300 Seremban Negeri Sembilan | 518:014-3075441
+52:717 | 61:Klinik Menara (Sendayan) | 189:No 168 Ground Floor First Floor Jalan Pusat Dagangan Sendayan 3/3 Pusat Dagangan Sendayan Bandar Sri Sendayan 71950 Seremban Negeri Sembilan | 519:06-7923101
+52:718 | 61:Klinik Negeri Sembilan 13 Jam | 189:No 25-G, Jalan MSJ 1, Medan Perniagaan Senawang Jaya, 70450 Seremban, Negeri Sembilan | 519:06-6770073
+52:719 | 61:Klinik Negeri Sembilan 22 Jam | 189:51-G, Jalan Taman Komersial Senawang 7, Taman Komersil Senawang, 70450 Seremban, Negeri Sembilan | 519:06-6758808
+52:720 | 61:Klinik Sidhu | 189:1782, Jalan Tok Ungku, Seremban, 70100 Negeri Sembilan | 519:06-6315654
+52:721 | 61:Klinik Utama 24 Jam Bahau | 189:No.7 (Tingkat Bawah) Jalan Kiara 1 Pusat Perniagaan Kiara 72100 Bahau Negeri Sembilan Darul Khusus | 518:010-8047232
+52:722 | 61:Klinik Utama 24 Jam Desa Cempaka | 189:No 25-G & 26-G Jalan BBN 6/3, Taman Desa Cempaka, Putra Nilai 71800 Nilainegeri Sembilan | 518:017-3063055
+52:723 | 61:Klinik Utama 24 Jam Kuarters KLIA | 189:G-12 Residensi KLIA Jalan Pusat Niaga KLIA 6 Pusat Perniagaan Kuarters KLIA 71800 Nilai Negeri Sembilan | 518:013-8992728
+52:724 | 61:Klinik Utama 24 Jam Nilai | 189:PT12949 (G) & PT12950(G) Jalan BBN 1/7D Putra Indah Bandar Baru Nilai 71800 Nilai Negeri Sembilan | 518:017-8606166
+52:725 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Satelit Senawang, Senawang) | 189:No. 21 Tingkat Bawah Jalan Pusat Perniagaan Ixora 3 Pusat Perniagaan Ixora Bandar Satelit Senawang 70450 Senawang Negeri Sembilan Darul Khusus. | 519:06-6753019
+52:726 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Bandar Sri Sendayan, Seremban) | 189:No. 8-G Jalan Metro Sendayan 1/4 Metro Sendayan Bandar Sri Sendayan 71950 Seremban Negeri Sembilan Darul Khusus. | 519:06-7828111
+52:727 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Garden Homes Seremban 2, Seremban) | 189:No.39G & 391 Jalan S2 F1 Seksyen F Garden Homes Seremban 2 70300 Seremban Negeri Sembilan Darul Khusus. | 519:06-6012466
+52:728 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Pusat Perniagaan Bunga Raya Mantin, Mantin) | 189:3G Jalan Pusat Perniagaan Bunga Raya 1 Pusat Perniagaan Bunga Raya Mantin 71700 Mantin Negeri Sembilan Darul Khusus. | 518:018-2160030
+52:729 | 61:Qualitas Health Klinik Ang | 189:62 Jalan Baru 71000 Port Dickson Negeri Sembilan | 519:06-6471391
+52:730 | 61:Qualitas Health Klinik Port Dickson | 189:75C Jalan Lama 71000 Port Dickson Negeri Sembilan | 519:06-6472800
+52:731 | 61:Qualitas Health Klinik Rasah Dan Surgeri | 189:1761 Ground Floor Jalan Rasah Rasah Utama 70300 Seremban Negeri Sembilan | 519:06-6321313
+52:732 | 61:Qualitas Health Klinik Salak | 189:PT4703 Jalan TS1/1 Taman Semarak 71800 Nilai Negeri Sembilan | 519:06-7992201
+52:733 | 61:Qualitas Health Klinik Saujana Damai | 189:153 Ground Floor Jalan Pusat Komersial Saujana 5 Pusat Komersial Saujana S2 Heights 70300 Seremban Negeri Sembilan | 518:016-8544153
+52:734 | 61:Klinik Medina 23 Jam | 189:No 21-G, Lorong Desa Manggis 1/1 Taman Desa Manggis 70400 Seremban Negeri Sembilan | 518:017-745 5807
+53:MELAKA
+52:735 | 61:Klinik Anda 24 Jam Bukit Beruang | 189:No 33 331 332 (Tingkat Bawah Tingkat Satu Tingkat Dua) Jalan Bukit Beruang Utama 2 Taman Bukit Beruang Utama 75450 Ayer Keroh Melaka | 519:06-2320771
+52:736 | 61:Klinik Anda 24 Jam Cheng | 189:27 29 291 Jln Inang 3 Tmn Paya Rumput Utama 76450 Paya Rumput Melaka | 518:03-78311069
+52:737 | 61:Klinik Anda Alor Gajah Sdn Bhd | 189:KM 71 KM 72 KM 73 Jalan Perniagaan Jelatang 1 Pusat Perniagaan Jelatang 78000 Alor Gajah Melaka | 519:06-5589781
+52:738 | 61:Klinik Anda Batu Berendam 24 Jam | 189:No 17, 17A, 19 & 19A Jalan Melaka Baru 22 Taman Melaka Baru Batu Berendam 75350 Hang Tuah Jaya Melaka | 519:06-5534144
+52:739 | 61:Klinik Asuza | 189:SU 952 Jalan Bandar Baru 6, 78300 Masjid Tanah, Melaka | 519:06-3848048
+52:740 | 61:Klinik Careclinics Al-Amin (Alor Gajah) | 189:KM 16-1 Jalan Perniagaan Jelatang 1 Pusat Perniagaan Jelatang 78000 Alor Gajah Melaka | 519:06-5566000
+52:741 | 61:Klinik Careclinics Al-Amin (Ayer Keroh) | 189:No. 21 Jalan Komersial TAKH 2 Taman Ayer Keroh Heights 75450 Hang Tuah Jaya Melaka | 519:06-2930158
+#PAGE 12
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:742 | 61:Klinik Careclinics Al-Amin (Tampin) | 189:PS13-G Jalan Bandar Satelit Sebang 2 Seksyen 1 Bandar Satelit Serbang 78000 Alor Gajah Melaka | 519:06-4416666
+52:743 | 61:Klinik Careclinics Al-Amin Masjid Tanah | 189:MT1407 Kompleks Perniagaan 78300 Masjid Tanah Melaka | 519:06-3844551
+52:744 | 61:Klinik Careclinics Alor Gajah | 189:Jalan Tjk Utama Taman Kelemak Jaya 78000 Alor Gajah Melaka | 519:06-2250797
+52:745 | 61:Klinik Careclinics Bachang | 189:C04 Rumah Pangsa Bachang Permai Jalan Tun Fatimah 75350 Melaka | 519:06-2250797
+52:746 | 61:Klinik Careclinics Bukit Beruang | 189:No 49 Jalan Bukit Beruang Utama 2 Taman Bukit Beruang Utama 75450 Melaka | 519:06-2250797
+52:747 | 61:Klinik Careclinics Duyong | 189:No 20 Jalan TDB 5 Taman Duyong Bestari 75460 Melaka | 518:018-3535588
+52:748 | 61:Klinik Careclinics Jasin | 189:JA. 9949-G Bandar Baru Jasin 3 77000 Jasin Melaka | 519:06-2250797
+52:749 | 61:Klinik Careclinics Tangga Batu | 189:No 38 & 40 Jalan Lembing 1 & 3 Taman Tangga Batu Permai 76400 Melaka | 519:06-2250797
+52:750 | 61:Klinik Caring | 189:81, Jalan Mp1 , Taman Merdeka Permai Batu Berendam Melaka 75350 | 519:06-3353426
+52:751 | 61:Klinik Cheng | 189:No 20, Jalan CB-1, Taman Cheng Baru, 75250 Cheng, Melaka | 519:06-3121333
+52:752 | 61:Klinik Dr Ani | 189:50, Jalan Lingkaran MITC, Kompleks Perniagaan MITC Perdana, Ayer Keroh, 75450, Melaka | 518:010-3356355
+52:753 | 61:Klinik Dr. Zain | 189:No 361-1, Batu 9 1/4 Tangga Batu, 76400 Tanjong Kling, Melaka | 519:06-3511506
+52:754 | 61:Klinik Family Bukit Beruang | 189:No 10, Jalan Ixora, Pusat Komersial Ixora, 75450 Hang Tuah Jaya, Melaka | 518:016-2457022
+52:755 | 61:Klinik Lim & Tan (Melaka) Sdn Bhd | 189:67, Jalan Bendahara, Melaka Tengah, 75100, Melaka | 519:06-2823127
+52:756 | 61:My Health Clinic Jasin | 189:JC 3511,GF Jalan Jasin Perdana 1,Taman Jasin Perdana 77200 Bemban, Melaka | 519:06-5341552
+52:757 | 61:Poliklinik Anda | 189:MT 701, Pusat Perniagaan Masjid Tanah, 78300 Alor Gajah, Melaka | 519:06-3845885
+52:758 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Pertam Jaya, Semabok) | 189:No. 19 Jalan PJ 1 Taman Pertam Jaya 75050 Semabok Melaka | 519:06-2922969
+52:759 | 61:Poliklinik Nazmir | 189:No. 25 & 27, Jalan M1, Taman Merdeka, 75350 Batu Berendam, Melaka | 519:06-2400443
+52:760 | 61:Qualitas Health Klinik Mano | 189:91-D Jalan Tun Perak 75300 Melaka | 519:06-3376988
+52:761 | 61:Qualitas Klinik Panicker | 189:13 Jalan TJ 1 Taman Tg Jaya 76400 Tanjung Kling Melaka | 519:06-3511980
+52:762 | 61:KLINIK Keluarga One Medic (Caw. Gangsa) | 189:No.1, JALAN SB6 & No.2, Jalan SB7 Taman Seri Bayan 76100 Durian Tunggal Melaka | 518:019-3526821
+52:763 | 61:KLINIK Usrati | 189:No. 1-23 Jalan Kerambit 2 Bandar Baru Sungai Udang 76300 Sungai Udang Melaka | 517:017-6388064
+53:JOHOR
+52:764 | 61:ALPRO Clinic Jalan Pesta | 189:No. 295 (Tingkat Bawah) Jalan Pesta 1/2, Kampung Kenangan Tun Dr Ismail, 84000 Muar, Johor | 518:013-9724828
+52:765 | 61:ALPRO Clinic Kluang | 189:No. 11 (Tingkat Bawah) Jalan Manggis, Bandar Kluang, 86000 Kluang, Johor | 518:013-5476828
+52:766 | 61:ALPRO Clinic Parit Jawa | 189:No. 164 Jalan Omar, Parit Jawa, 84150 Muar, Johor | 517:011-51733828
+52:767 | 61:Care Family Clinic | 189:5, Jalan Kota 1, Taman Cahaya Kota Puteri, 81750 Masai, Johor | 519:07-3804002
+52:768 | 61:Careclinics Klinik I-Sihat | 189:12 Jalan Serangkai 18 Taman Bukit Dahlia 81700 Pasir Gudang Johor | 518:012-9003693
+52:769 | 61:Careclinics Klinik Tan | 189:22 Jalan Setia 7/18 Taman Setia Indah 81100 Johor Bahru Johor | 519:07-3597995
+52:770 | 61:Carepoint Clinic | 189:No 34, Jalan Pulai Ria 9, Bandar Baru Kangka Pulai, Kulai, 81300, Johor | 518:012-5873501
+52:771 | 61:Family Clinic Kluang | 189:31, (Ground Floor) Jalan Berangan, Bandar Kluang, 86000 Kluang, Johor | 519:07-7741100
+52:772 | 61:Klinik Anda 24 Jam Adda Heights | 189:No. 88 No. 90 Jalan Adda 7 Taman Adda 81100 Johor Bahru Johor | 519:05-4520285
+52:773 | 61:Klinik Anda 24 Jam Muar | 189:PTB 16353 (Tingkat Bawah Tingkat 1 & Tingkat 2) Jalan Abdul Rahman Bandar Maharani 84000 Muar Johor Darul Takzim | 518:03-33928802
+52:774 | 61:Klinik Anda 24 Jam Pasir Gudang | 189:No. 57 (Ground Floor) Jalan Sejambak 14 Taman Bukit Dahlia 81700 Pasir Gudang Johor | 518:03-92867500
+52:775 | 61:Klinik Anda 24 Jam Skudai | 189:24 (Tingkat Bawah Tingkat Satu) Jalan Kebudayaan 1 Taman Universiti 81300 Skudai Johor | 519:07-5624410
+52:776 | 61:Klinik Arshad | 189:No 19, Jalan Perjiranan 4/6, Bandar Dato Onn, Johor Bahru, 81100 Johor | 518:018-4009976
+52:777 | 61:Klinik Asia Masai | 189:140 Main Road 81750 Masai Johor | 519:07-2510808
+52:778 | 61:Klinik Asia Tangkak Sdn Bhd | 189:No 15, Ground Floor, Jalan Muar, Tangkak, 84900, Johor | 519:06-9790136
+52:779 | 61:Klinik Aurora (Kota Puteri) | 189:No 17 (Ground Floor) Jalan Kota 2 Taman Cahaya Kota Puteri 81750 Masai Johor | 519:07-3869246
+52:780 | 61:Klinik Bukit Gambir | 189:No. 219-2, Tingkat Bawah, Jalan Raya 2 Happy Garden 84900, Bukit Gambir Johor | 518:012-9171842
+52:781 | 61:Klinik Careclinics (Dato Onn) | 189:No 8 & 10 Ground Floor Jalan Perjiranan 4/1 Bandar Dato Onn 81100 Johor Bahru Johor | 519:07-3537629
+52:782 | 61:Klinik Careclinics Al-Amin (Batu Pahat) | 189:6-1 Jalan Timun Taman Anggerik Tongkang Pechah 83010 Batu Pahat Johor | 519:07-4151767
+52:783 | 61:Klinik Careclinics Nge | 189:No 15 Jalan Susur Taman Intan 86400 Parit Raja Johor | 518:012-7217858
+52:784 | 61:Klinik Dan Surgeri Abriel | 189:No 50 (GF), Jalan Tasik Indah 1/1, Taman Tasik Indah, 86000 Kluang, Johor | 519:07-7392580
+52:785 | 61:Klinik Dr Aqmal Dan Surgeri | 189:No.36 (Tingkat Bawah) Jalan Genuang Perdana, Taman Genuang Perdana, 85000 Segamat, Johor | 517:011-88882330
+52:786 | 61:Klinik Elizabeth | 189:10, Jalan Mengkudu, Taman Makmur, 83000 Batu Pahat, Johor | 519:07-4377928
+52:787 | 61:Klinik Federal | 189:34, Jalan Harimau Tarum, Taman Abad, Johor Bahru, 80400, Johor | 519:07-3339928
+52:788 | 61:Klinik Gunung Ledang (14 Jam) | 189:No.31. Tingkat Bawah, Jalan Putera 1, Taman Putra, Sagil 84900, Tangkak Johor | 518:017-8201719
+52:789 | 61:Klinik IR | 189:No 518, Jalan Persiaran Scientex Utama 1, Taman Scientex Utama, 81400 Senai, Johor | 518:016-3411347
+52:790 | 61:Klinik Ishak & Surgery | 189:No. 16, Jalan Sultan, 85000 Segamat, Johor | 518:014-3782455
+52:791 | 61:Klinik Johor 13 Jam | 189:No.2 (Ground Floor) Jalan Delima 1 Taman Delima Jementah 85200 Segamat Johor | 518:012-2400136
+52:792 | 61:Klinik Keluarga (Pontian) | 189:910 (Tingkat Bawah), Jalan Bakek, 82000 Pontian, Johor | 518:013-6006640
+52:793 | 61:Klinik Loh | 189:19 (Ground Floor), Jalan Indah 16/12, Taman Bukit Indah, 79100 Iskandar Puteri, Johor | 519:07-2172227
+52:794 | 61:Klinik M Ghana | 189:13A, Jalan Station, 86000 Kluang, Johor | 519:07-7733122
+52:795 | 61:Klinik Mediviron Nusa Sentral | 189:No 3, Jalan Sentral 25, Taman Nusa Sentral, 79100 Iskandar Puteri, Johor | 519:07-5103929
+52:796 | 61:Klinik Mutiara Johor Bahru | 189:No.39 (Ground Floor) Jalan Mutiara Indah 1 Taman Mutiara Indah 81100 Johor Bahru Johor | 517:011-13381761
+52:797 | 61:Klinik Narisa | 189:Klinik Narisa, No. 2, Tingkat Bawah, Jalan Prima,Pusat Perniagaan Prima Segamat, 85000, Johor | 519:07-9332666
+52:798 | 61:Klinik Ong | 189:48, Jalan Nakhoda 2, Taman Ungku Tun Aminah, Skudai, 81300, Johor | 517:011-57756459
+52:799 | 61:Klinik Promedic Tongkang Pechah | 189:3, Jalan Kapal Layar Utama, Taman Kapal Layar, Tongkang Pechah, 83010 Batu Pahat, Johor | 519:07-4151382
+52:800 | 61:Klinik Sayang | 189:36, Jalan Tanjong, Taman Tangkak Jaya, 84900 Tangkak, Johor | 519:06-9783636
+52:801 | 61:Klinik Tanjung Agas (22 Jam) | 189:No. 1-13 (Bawah), Jalan Tanjong Agas 84900, Kesang Johor | 518:017-9809171
+52:802 | 61:Klinik Tawakal Dan Surgeri | 189:No. 4, Jalan Aman 1, Taman Aman, 86000 Kluang, Johor | 517:011-62707180
+52:803 | 61:Klinik Teva Tangkak | 189:PTB 821, Tingkat Bawah, Wisma Peladang, Jalan Payamas 84900, Tangkak Johor | 518:012-3259171
+52:804 | 61:Klinik Yap & Partners (Bandar Putra) | 189:No. 7523 & 7524, Jalan Enggang 19, Bandar Putra, 81000 Kulai, Johor | 519:07-5955828
+52:805 | 61:Klinik Yap & Partners (Desa Cemerlang) | 189:No. 23, Jalan Tanjong 2, Taman Desa Cemerlang, 81800 Ulu Tiram, Johor | 518:012-5100362
+52:806 | 61:Klinik Yap & Partners (Kelapa Sawit) | 189:No. 115, Jalan Impiana 4, Taman Impian, 81030 Kulai, Johor | 519:07-6523629
+52:807 | 61:Klinik Yap & Partners (Mutiara Mas) | 189:No. 85, Jalan Mutiara 1/9, Taman Mutiara Mas, 81300 Skudai, Johor | 519:07-5550539
+52:808 | 61:Klinik Yap & Partners (Pulai Mutiara) | 189:No. 2, Jalan Pulai Mutiara 4/7, Taman Pulai Mutiara, 81300 Johor Bahru, Johor | 519:07-5862569
+52:809 | 61:Klinik Yap & Partners (Vervocity) | 189:No. 206, Jalan Kiambang 14, Pusat Komersial Indah, Bandar Indahpura, 81000 Kulai, Johor | 519:07-6606949
+52:810 | 61:Klinik Yap Kulai | 189:No. 20, Jalan Kenanga 29/1, Bandar Indahpura, 81000 Kulai, Johor | 519:07-6625949
+52:811 | 61:NS Medika Clinic | 189:No 3 Jalan Sentral 24 Taman Nusa Sentral, Iskandar Puteri 79100 Nusa Jaya ,Johor Darul Takzim | 519:07-5097788
+52:812 | 61:O2 Klinik (Mount Austin) | 189:No. G07 (GF) Jalan Mutiara Emas 10/19 Taman Mount Austin 81100 Johor Bahru Johor | 519:07-3618187
+#PAGE 13
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:813 | 61:O2 Klinik (Skudai) | 189:123 (Ground Floor) Jalan NB2 2/2 Taman Nusa Bestari 2 81300 Skudai Johor | 519:07-5500777
+52:814 | 61:Permai Polyclinics Johor | 189:75 Ground Floor Jalan Sutera Tanjung 8/2 Taman Sutera Utama 81300 Skudai Johor | 519:07-5588900
+52:815 | 61:Plux Health Clinic Senai | 189:No 8 (GF) Jln Pakis, Taman Handal, 81400 Senai, Johor | 519:07-5908160
+52:816 | 61:Poliklinik & Surgeri Sai | 189:No 2, 4 & 6 Jalan Pinang 42 Taman Daya, 81100 Johor Bahru, Johor | 519:07-3595395
+52:817 | 61:Poliklinik Alam Syifa | 189:No 56, Jalan Pulai Ria 2, Bandar Baru Kangkar Pulai 81110 Johor Bahru, Johor | 519:07-5543854
+52:818 | 61:Poliklinik Megah Ria | 189:No.38, Jalan Suria 2, Bandar Seri Alam, 81750 Masai, Johor | 519:07-2522290
+52:819 | 61:Poliklinik Norbi | 189:No 129, Jalan Senai Utama 5/17, Taman Senai Utama 81400 Senai ,Johor | 519:07-5900270
+52:820 | 61:Poliklinik Penawar (Aspira, Iskandar Puteri) | 189:8 Jalan Niaga Aspira 1/3 Gerbang Nusa Jaya 79200 Iskandar Puteri Johor. | 518:016-7229556
+52:821 | 61:Poliklinik Penawar (Bandar Baru Uda, Johor Bahru) | 189:No 31 & 33 Jalan Padi Ria Bandar Baru Uda 81200 Johor Bahru Johor. | 518:016-7218834
+52:822 | 61:Poliklinik Penawar (Bandar Penawar, Johor) | 189:No 16 Pusat Bandar Bandar Penawar 81900 Kota Tinggi Johor. | 518:016-7218904
+52:823 | 61:Poliklinik Penawar (Betik, Pasir Gudang) | 189:No 15 Jalan Betik 1 Taman Kota Masai 81700 Pasir Gudang Johor. | 518:016-7218913
+52:824 | 61:Poliklinik Penawar (Dahlia, Johor Bahru) | 189:No 24 Jalan Dahlia 20 Taman Dahlia (Dewan Jaya) 81200 Johor Bahru Johor. | 518:016-7218854
+52:825 | 61:Poliklinik Penawar (Desa Tebrau, Johor Bahru) | 189:No 15 Jalan Harmonium 11 Taman Desa Tebrau 81100 Johor Bahru Johor. | 519:07-3595423
+52:826 | 61:Poliklinik Penawar (Desaru, Bandar Penawar) | 189:No 114 Jalan Kempas 2 Taman Desaru Utama 81930 Bandar Penawar Johor. | 518:016-7218950
+52:827 | 61:Poliklinik Penawar (Gelang Patah, Iskandar Puteri) | 189:49 & 49A Jalan Medan Nusa Perintis 6 Taman Nusa Perintis 79200 Iskandar Puteri Johor | 518:016-7218902
+52:828 | 61:Poliklinik Penawar (Kampung Pasir, Johor Bahru) | 189:No 291 Jalan Kedondong Kampung Pasir 81200 Johor Bahru Johor. | 519:07-2388463
+52:829 | 61:Poliklinik Penawar (Kg Melayu, Johor Bahru) | 189:No 2A-1 Jalan Sekolah Kg Melayu Majidee 81000 Johor Bahru Johor. | 518:016-7218865
+52:830 | 61:Poliklinik Penawar (Kota Tinggi, Johor) | 189:No 30E Jalan Tun Sri Lanang 81900 Kota Tinggi Johor. | 518:016-7218852
+52:831 | 61:Poliklinik Penawar (Kulai, Johor) | 189:No 51 Jalan Raya 81000 Kulai Johor. | 518:016-7218861
+52:832 | 61:Poliklinik Penawar (Labis, Johor) | 189:No 93 & 95 Jalan Segamat Taman Sentosa 85300 Labis Johor. | 519:07-9253887
+52:833 | 61:Poliklinik Penawar (Masai, Johor) | 189:No 27 Jalan Besar 81750 Masai Johor. | 518:016-7218851
+52:834 | 61:Poliklinik Penawar (Mersing, Johor) | 189:No 397G Jalan Jemaluang 86800 Mersing Johor. | 518:016-7218894
+52:835 | 61:Poliklinik Penawar (Mutiara Indah, Johor Bahru) | 189:No. 11 & 13 Jalan Mutiara Indah 1 Taman Mutiara Indah 81100 Johor Bahru Johor | 518:016-7218944
+52:836 | 61:Poliklinik Penawar (Pandan, Johor Bahru) | 189:No 11 Jalan Kesum Taman Istimewa Pandan 81100 Johor Bahru Johor. | 518:016-7218853
+52:837 | 61:Poliklinik Penawar (Pasir Gudang, Johor) | 189:No.5 Jalan Perjiranan 9/9 Taman Air Biru 81700 Pasir Gudang Johor. | 518:016-7218910
+52:838 | 61:Poliklinik Penawar (Pasir Putih, Pasir Gudang) | 189:No.01-01. Tingkat Bawah Jalan Siakap 3/2 Taman Pasir Putih 81700 Pasir Gudang Johor. | 518:016-7218935
+52:839 | 61:Poliklinik Penawar (Pekan Nanas, Pontian) | 189:No 81 (Ground Floor) Jalan Industri 8 Taman Perindustrian Pekan Nanas 81500 Pontian Johor | 518:016-7218946
+52:840 | 61:Poliklinik Penawar (Perling, Johor Bahru) | 189:No 539 Jalan Persiaran Perling 1 Taman Perling 81200 Johor Bahru Johor. | 518:016-7218922
+52:841 | 61:Poliklinik Penawar (Pontian, Johor) | 189:No 894 Jalan Bakek 82000 Pontian Johor. | 518:019-7876896
+52:842 | 61:Poliklinik Penawar (Sawit, Kulai) | 189:No 12 Jalan Impiana 1 Taman Impiana Kelapa Sawit 81030 Kulai Johor. | 518:016-7224645
+52:843 | 61:Poliklinik Penawar (Sedili, Kota Tinggi) | 189:No 2 Jalan Dato Usman Awang Tanjung Sedili 81910 Kota Tinggi Johor. | 519:07-8916700
+52:844 | 61:Poliklinik Penawar (Senai Airport, Johor) | 189:No 31 Jalan Terminal 5 81400 Senai Johor. | 518:016-7218951
+52:845 | 61:Poliklinik Penawar (Senai Bintang, Johor) | 189:No 104 Jalan Bintang Taman Bintang 81400 Senai Johor. | 518:016-7218860
+52:846 | 61:Poliklinik Penawar (Seri Alam, Masai) | 189:No 10 Jalan Tasek 59 Bandar Seri Alam 81750 Masai Johor. | 519:07-3822307
+52:847 | 61:Poliklinik Penawar (Setia Indah, Johor Bahru) | 189:17 (Tingkat Bawah) Jalan Setia 3/8 Taman Setia Indah 81100 Johor Bahru Johor | 518:016-7218896
+52:848 | 61:Poliklinik Penawar (Simpang Renggam, Johor) | 189:No 3 Rumah Kedai Jalan Delima Taman Samudera 86200 Simpang Renggam Johor. | 518:016-7218862
+52:849 | 61:Poliklinik Penawar (Sri Bahagia, Johor Bahru) | 189:No 9 Jalan Bahagia 5 Taman Sri Bahagia 81200 Johor Bahru Johor. | 518:016-7218897
+52:850 | 61:Poliklinik Penawar (Sri Pulai, Johor Bahru) | 189:No 4 Jalan Meranti 2 Taman Sri Pulai 81110 Johor Bahru Johor. | 518:016-7218857
+52:851 | 61:Poliklinik Penawar (Sungai Rengit, Pengerang) | 189:No 34 Jalan Haji Abu Bakar Sungai Rengit 81620 Pengerang Johor. | 518:016-7218941
+52:852 | 61:Poliklinik Penawar (Taman Daya, Johor Bahru) | 189:No 39 Jalan Sagu 17 Taman Daya 81100 Johor Bahru Johor. | 518:016-7218924
+52:853 | 61:Poliklinik Penawar (Taman Mawar, Pasir Gudang) | 189:4 & 5 (GF) Jalan Mawar Merah 3/1 Business Centre Ii 81700 Pasir Gudang Johor | 518:019-3333557
+52:854 | 61:Poliklinik Penawar (Taman Rinting, Masai) | 189:No 53 & 55 Jalan Sena 2 Taman Rinting 81750 Masai Johor. | 518:016-7218906
+52:855 | 61:Poliklinik Penawar (Taman Sri Puteri, Skudai) | 189:No 55 Jalan Besi 1 Taman Sri Puteri 81000 Skudai Johor. | 518:016-6836322
+52:856 | 61:Poliklinik Penawar (Taman Ungku Tun Aminah, Skudai) | 189:No 22 Jalan Temenggong 11 (Off Jalan Pendekar 1) Taman Ungku Tun Aminah 81300 Skudai Johor. | 518:016-7218895
+52:857 | 61:Poliklinik Penawar (Taman Universiti, Johor Bahru) | 189:No 2 Jalan Kebudayaan 5 Taman Universiti 81000 Johor Bahru Johor. | 518:016-7218856
+52:858 | 61:Poliklinik Penawar (Tembikai, Masai) | 189:No 16 Jalan Tembikai 8 Taman Kota Masai 81750 Masai Johor. | 518:016-7218878
+52:859 | 61:Poliklinik Penawar (Wangsa, Ulu Tiram) | 189:No 68 Jalan Badik 15 Taman Puteri Wangsa 81800 Ulu Tiram Johor. | 518:016-7218864
+52:860 | 61:Poliklinik Puteri Dan Surgeri Gelang Patah | 189:31 Jalan Medan Nusa Perintis 6 Nusa Perintis 2 Bandar Nusajaya 81500 Gelang Patah Johor | 519:07-5310833
+52:861 | 61:Poliklinik Puteri Dan Surgeri Kota Kulai | 189:23 Jalan Pinang Taman Kota Kulai 81000 Kulai Johor | 519:07-6637782
+52:862 | 61:Poliklinik Puteri Dan Surgeri Kota Tinggi | 189:3 Jalan Niaga 8 Bandar Kota Tinggi 81900 Kota Tinggi Johor | 519:07-8830466
+52:863 | 61:Poliklinik Puteri Dan Surgeri Pekan Nenas | 189:No.7, GF, Jalan Permata 8Pusat Perdagangan Pekan Nenas 81500 Johor | 519:07-6993793
+52:864 | 61:Poliklinik Puteri Dan Surgeri Ulu Tiram | 189:99 & 100 Jalan Cempedak Taman Tiram Baru 81800 Ulu Tiram Johor | 519:07-8612878
+52:865 | 61:Qualitas Health Klinik Dhas I-Park | 189:1, 104 (GF) Jalan I-Park SAC 1 Taman Perindustrian I-Park SAC 81400 Senai Johor | 519:07-5996227
+52:866 | 61:Qualitas Health Klinik Doctor House MD Taman Daya | 189:42 Jalan Bertam 14 Taman Daya 81100 Johor Bahru Johor | 518:012-5782609
+52:867 | 61:Qualitas Health Klinik Fatin | 189:No. 52 Ground Floor Jalan Sejambak 14 Taman Bukit Dahlia 81700 Pasir Gudang Johor | 519:07-2556626
+52:868 | 61:Qualitas Health Klinik Johor Permas Jaya | 189:Permas Mall G-5 Blok A No. 3 Jalan Permas Utara Bandar Baru Permas Jaya 81750 Johor | 519:07-3874929
+52:869 | 61:Qualitas Health Poliklinik Puteri Dan Surgeri Skudai | 189:37 Jalan Besi 1 Taman Sri Putri.Skudai 81300 Johor Bharu Johor | 519:07-5578266
+52:870 | 61:Qualitas Klinik Dhas Senai | 189:No. 41 (Tingkat Bawah) Ground Floor Jalan Seni 81400 Senai Johor | 519:07-5995058
+52:871 | 61:Qualitas Klinik Johor Pasir Gudang | 189:No. 02-1A Jalan Bandar Pusat Perdagangan 81700 Pasir Gudang Johor | 519:07-2767461
+52:872 | 61:Qualitas Klinik Malaysia Masai | 189:No. 97 Main Road 81750 Masai Johor | 519:07-2511369
+52:873 | 61:Klinik ATS & Surgeri Bandar Seri Alam | 189:Ground Floor 26, Jalan Lembah 16, Bandar Seri Alam 81750 Masai Johor | 518:07-2890941
+52:874 | 61:Klinik ATS & Surgeri Taman Kota Masai | 189:No 18A, Ground Floor Jalan Ekoperniagaan 10, Taman Kota Masai 81700 Pasir Gudang Johor | 518:07-2550018
+52:875 | 61:Polyclinic ATS & Surgery Permas Jaya | 189:112, Jalan Permas 15/1, Bandar Baru Permas Jaya 81750 Johor Bahru Johor | 518:07-3869001
+52:876 | 61:Klinik Johor | 189:No 29 Jalan Dedap 18, Taman Johor Jaya 81100 Johor Bahru Johor | 518:07-3556233
+52:877 | 61:Poliklinik ATS & Surgeri Taman Mount Austin | 189:141, Jalan Mutiara Emas 10/19, Taman Mount Austin 81100 Johor Bahru Johor | 518:07-6794848
+52:878 | 61:L Clinic | 189:No 6 (Ground Floor), Jalan Pesta 1-1, TamanTun Dr. Ismail 1 Bakri 84000 Muar Johor | 518:06-9525252
+52:879 | 61:Klinik Famili Cinta | 189:10L Jalan Cenderawasih Larkin Jaya Johor Bahru 80350 Johor | 518:014-3128088
+#PAGE 14
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+53:PAHANG
+52:880 | 61:ALPRO Clinic Tamas Tas | 189:B38 (Tingkat Bawah) Lorong Pandan Damai 3, Perumahan Pandan Damai, 25150 Kuantan, Pahang | 517:011-36793828
+52:881 | 61:Ar Razi OHS Clinic (Pusat Komersial Balok, Kuantan) | 189:No. 2 & 4, Pusat Komersial Balok, 26100 Kuantan, Pahang | 519:09-5833250
+52:882 | 61:Klinik Anda 24 Jam Bentong | 189:P08 (Tingkat Bawah) Pusat Perniagaan Mutiara Gemilang 28700 Bentong Pahang | 519:09-2231193
+52:883 | 61:Klinik Anda 24 Jam Raub | 189:No. 20 No. 21 (Tingkat Bawah Tingkat Satu) Lorong Putra Raub 1 Pusat Perniagaan Putra Raub 27600 Raub Pahang | 518:03-32919749
+52:884 | 61:Klinik Anda Indera Mahkota Sdn Bhd | 189:A75 (Tingkat Bawah) Jalan IM 7/1 Indera Mahkota 7 25200 Kuantan Pahang | 519:09-5737634
+52:885 | 61:Klinik Careclinics Al-Amin (Kuantan) | 189:Wisma My Health PT 26284 GF Jalan Dato’ Wong Ah Jang 25100 Kuantan Pahang | 519:09-5144700
+52:886 | 61:Klinik Careclinics Bentong | 189:P25, GF Pusat Perniagaan Bentong Prima 28700 Bentong Pahang | 519:09-2211765
+52:887 | 61:Klinik Careclinics Pekan | 189:15, GF Lorong Peramu Permai 1 26600 Pekan Pahang | 519:09-5156768
+52:888 | 61:Klinik Falah | 189:B8, GF, Jalan IM 7/2, Indera Mahkota 7, 25200 Kuantan, Pahang | 518:017-6406020
+52:889 | 61:Klinik Ng Dan Singh (Mentakab) | 189:No. 26 Ground Floor And Mezzanine Floor Jalan Star City 1 Star City 28400 Mentakab Pahang Darul Makmur | 519:09-2778125
+52:890 | 61:Klinik Ragavan | 189:PT 16479(Ground Floor), Jalan Tras Raub, 27600 Raub, Pahang | 519:09-3553477
+52:891 | 61:Klinik Remedic Raub | 189:No. 3 & 4 (Tingkat Bawah) Jalan Komersial Utamapusat Komersial Raub 27600 Raub Pahang | 517:011-58980618
+52:892 | 61:Klinik Utama 24 Jam Indera Mahkota | 189:B-152 (Tingkat Bawah) Lorong IM 8/33 Bandar Indera Mahkota 25200 Kuantan Pahang | 517:011-36789508
+52:893 | 61:Klinik Utama 24 Jam Raub | 189:No 6GF & 7GF Lorong Putra Raub 1 Pusat Perniagaan Putra Raub 27600 Raub Pahang | 518:018-7782857
+52:894 | 61:My Health Clinic Cameron | 189:No 44, Jalan Besar, Tanah Rata, 39000 Tanah Rata Pahang | 519:05-4962239
+52:895 | 61:My Health Clinic Impian | 189:B8 & B10 GF, Lorong Padang Permai, 47,Perumahan Padang Permai 25200 Kuantan,Pahang Darul Makmur | 519:09-5476768
+52:896 | 61:My Health Clinic Jaya Gading | 189:No. B14, GF & L1,Jalan Jaya Gading 1,Jalan Gambang,26070 Kuantan Pahang Darul Makmur | 519:09-5536158
+52:897 | 61:My Health Clinic Jerantut | 189:Tingkat Bawah 13A. 13B. Lorong SI 1, Taman Saujana Idaman, 27000 Jerantut, Pahang | 519:09-2668334
+52:898 | 61:My Health Clinic Mentakab | 189:No 19A, No.20, No21 Jalan Besar Temerloh, 28400 Mentakab, Pahang | 519:09-2770470
+52:899 | 61:My Health Clinic Semambu | 189:B2, GF, Jalan Air Putih 6,25350 Kuantan,Pahang Darul Makmur | 519:09-5054310
+52:900 | 61:My Health Clinic Temerloh | 189:No.33 & 35, Ground Floor,Jalan Dagang 1, Dynaton Bukit Angin, 28000, Temerloh, Pahang | 519:09-2967911
+52:901 | 61:O2 Klinik (Highland) | 189:No. P28-1 1st Floor Jalan Permai 2 Genting Permai Avenue Genting Highlands 69000 Bentong Pahang | 518:03-61000411
+52:902 | 61:Poliklinik Ar Razi (Jalan Bukit Setongkol, Kuantan) | 189:B12, Tingkat Bawah, Jalan Bukit Setongkol, 25200 Kuantan, Pahang | 519:09-5148668
+52:903 | 61:Poliklinik Ar Razi 24 Jam (Bandar Putra, Kuantan) | 189:A-61, Tingkat Bawah, Jalan Bandar Putra 1A, Bandar Putra 26060 Kuantan, Pahang | 519:09-5349115
+52:904 | 61:Poliklinik Ar Razi, Perubatan & X-Ray (Jalan Gambang, Kuantan) | 189:A21, A23 & A25, Sg. Isap Aman, Batu 3, Jalan Kuantan-Gambang 25150 Kuantan, Pahang | 519:09-5367113
+52:905 | 61:Poliklinik Ar Razi, Perubatan & X-Ray (Lorong Peramu Permai 1, Pekan) | 189:No. 18 & 19, Tingkat Bawah, Lorong Peramu Permai 1, 26600 Pekan, Pahang | 519:09-4260503
+52:906 | 61:Poliklinik Ar Razi, Perubatan & X-Ray (Malay Town, Kuantan) | 189:No 18, Jalan Putra Square 1, Malay Town, 25200 Kuantan, Pahang | 519:09-5173477
+52:907 | 61:Poliklinik Ar Razi, Perubatan & X-Ray (Taman Mahkota Putra, Kuantan) | 189:No. B, 86, Lorong IM 8/33, Taman Mahkota Putra, 25200 Kuantan, Pahang | 519:09-5732065
+52:908 | 61:Poliklinik Ar Razi, Perubatan & X-Ray (Taman Sri Mahkota Aman, Kuantan) | 189:No.1, Lorong Sri Mahkota Aman 3, Taman Sri Mahkota Aman, 26070 Kuantan, Pahang | 519:09-5486162
+52:909 | 61:Qualitas Health Ananda Klinik | 189:B2 Ground Floor Lorong Pasar Baru 4 C4 25000 Kuantan Pahang | 518:014-9158175
+52:910 | 61:Qualitas Health Poliklinik Damai - Bentong | 189:P-20 Jalan Chui Yin 28700 Bentong Pahang | 519:09-2211701
+53:TERENGGANU
+52:911 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Taman Desa Jaya, Kuala Terengganu) | 189:PT 37773 Tingkat Bawah Jalan Gong Pak Damat Taman Desa Jaya 21300 Kuala Terengganu Terengganu Darul Iman. | 519:09-6651063
+52:912 | 61:Klinik Anda 24 Jam Besut | 189:Lot 60172 (Tingkat Bawah Atas) & 60173 (Tingkat Bawah) Jalan Gong Nering Kg Darang Buaya 22000 Jerteh Terengganu | 518:03-91742423
+52:913 | 61:Klinik Anda 24 Jam Kuala Terengganu | 189:MBKT 2953 (Tingkat Bawah & Tingkat Satu) Kg. Wakaf Beruas Jalan Kuala Berang 20050 Kuala Terengganu | 519:04-9777831
+52:914 | 61:Klinik Anda 24 Jam Paka | 189:Lot 16695 16696-GF Jalan Besar Kg. Cacar 23100 Paka Terengganu | 519:09-8281222
+52:915 | 61:Klinik Perubatan Hijraa (Chendering) | 189:Lot 4060 & 4061 (Tingkat Bawah) Kampung Chendering | 518:09-6173900
+52:916 | 61:Klinik Jerteh 24 Jam | 189:Lot PT 233 & 234 (Tingkat Bawah) Jalan Haji Jusoh | 518:09-6945252
+52:917 | 61:Klinik Perubatan Raudhah (Besut) | 189:Lot PT 3374 & 3375, Tingkat Bawah Mukim Lubuk Kawah, Pusat Bandar Jerteh | 517:011-65096456
+52:918 | 61:Klinik Perubatan Raudhah (Kuala Terengganu) | 189:Lot 1915 (14) Jalan 1, Taman Padang Midin, Kuala Terengganu | 518:014-5556456
+52:919 | 61:Klinik Perubatan Raudhah (Kuala Berang) | 189:Lot Pt 12265, Tingkat Bawah dan Tingkat Atas, No 47 Lorong Kirana, Taman Kirana, Kuala Berang | 518:019-7940464
+52:920 | 61:Klinik Perubatan Raudhah (Seberang Takir) | 189:Pt 41117 & 41118, Tingkat Bawah Dan Tingkat Atas, Taman Takir Perdana, Jalan Fikri, Seberang Takir | 518:010-6516456
+52:921 | 61:Klinik Medina Dungun | 189:Pt 14976 (Tingkat Bawah) Jalan Dungun-Paka Kg Batu 5 Taman Bukit Bauk 23000 Kuala Dungun Terengganu | 516:011-5358 9495
+52:922 | 61:Klinik Medina Kuala Terengganu | 189:Pt 4079(G) & Pt 4080 (G) Blok H Perkedaian Jalan Sultan Zainal Abidin Kampung Ladang Tok Pelam 20000 Kuala TerengganuTerengganu | 518:017-8744080
+53:KELANTAN
+52:923 | 61:Klinik Anda 24 Jam Cherang | 189:Lot S47/PT841 & S47/PT842 Kampung Paya Bemban Jalan Hospital 15200 Kota Bharu Kelantan | 519:06-3320656
+52:924 | 61:Klinik Anda 24 Jam Lemal | 189:PT 105/3B (Tingkat Bawah) CBG 3 Lemal 17000 Pasir Mas Kelantan | 519:09-7908286
+52:925 | 61:Klinik Anda 24 Jam Pasir Mas | 189:Lot 1296 & Lot 1297 (Tingkat Bawah Tingkat Satu) Jalan Pasir Mas Pasir Pekan @ S1 Bandar Pasir Mas 17000 Pasir Mas Kelantan | 519:07-2560180
+52:926 | 61:Klinik Anda 24 Jam Tanah Merah | 189:Lot 16378 & Lot 16379 (Tingkat Bawah) Taman Kota Harmoni 17500 Tanah Merah Kelantan | 519:09-9552700
+52:927 | 61:Klinik Anda 24 Jam Wakaf Bharu | 189:Lot 2262 & Lot 2263 (Tingkat Bawah Tingkat Satu) Jln Puteri Saadong 16250 Wakaf Bharu Kelantan | 519:09-7199932
+52:928 | 61:Klinik Anda Melor 24 Jam | 189:Lot 735 (A) (B) (C) /2739 (Tingkat Bawah) Kampung Jambu Merah 16400 Melor Kelantan | 519:09-7831737
+52:929 | 61:Klinik Ehsan | 189:Lot 1172 Kedai Ketereh, 16450 Kota Bharu, Kelantan | 519:09-7880241
+52:930 | 61:Klinik Jo Pasir Mas Sdn Bhd | 189:55-A, Jalan Pasar Lama, 17000 Pasir Mas, Kelantan | 519:09-7909879
+52:931 | 61:Klinik Primer Careclinics (Tendong) | 189:No 5 6 7 Lot 1667 Simpang Empat Tendong 17030 Pasir Mas Kelantan | 519:09-7181806
+52:932 | 61:Klinik Primer Wakaf Bharu Careclinics | 189:PT 3301 Taman Sri Kota SBJ P/Pekan 16250 Wakaf Bharu Kelantan | 519:09-7193200
+52:933 | 61:Klinik Primer Wakaf Che Yeh | 189:2890 Jalan Kuala Krai Wakaf Che Yeh 15100 Kota Bharu Kelantan | 519:09-7422282
+52:934 | 61:Klinik Safwa Kg Cina | 189:Lot 124 Tingkat Bawah Jalan Pantai Cahaya Bulan Kg. Cina 15350 Kota Bharu Kelantan | 519:09-7446771
+52:935 | 61:Klinik Safwa Kota Bharu | 189:Lot 2719/2 2719/3 Jalan Bayam 15200 Kota Bharu Kelantan | 519:09-7470000
+52:936 | 61:Klinik Safwa Panji | 189:Lot 792 Jalan Hospital Panji 16100 Kota Bharu Kelantan | 519:09-7654321
+52:937 | 61:Poliklinik Dr. Azhar Dan Rakan-Rakan (Jalan Pasir Puteh, Kota Bharu) | 189:Lot 8000 Tingkat Bawah Bandar Satelit Islam Pasir Tumboh Jalan Pasir Puteh 15200 Kota Bharu Kelantan | 519:09-7647969
+#PAGE 15
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+53:SABAH
+52:938 | 61:Amrik Clinic & Surgery Sdn Bhd | 189:Lot No 22,Ground Floor,Taman Victory, Mile 4 1/2 ,Jalan Penampang, 88300 Kota Kinabalu, Sabah | 519:088-713288
+52:939 | 61:Clinic Indah Permai Sdn Bhd | 189:Lot 2 Block A Taman Indah Permai Jalan Sepanggar 88450 Menggatal Sabah. | 519:088-499300
+52:940 | 61:Family Care Clinic Aeropod | 189:Block C, Unit 3-1st Floor, Aeropod Phase 2A, Jln Aeropod Phase 2A, Jln Aeropod Off Jln Kepayan, 88200 Kota Kinabalu, Sabah | 519:088-215631
+52:941 | 61:Family Care Clinic Bandar Baru Keningau | 189:Lot 63, Block B1, Ground Floor, Keningau - Tambunan Road, KM5 1/2 89000 Keningau, Sabah | 519:087-332007
+52:942 | 61:Family Care Clinic Beverly | 189:14-0, Beverly Hills Plaza, Jalan Bundusan, 88300 Kota Kinabalu, Sabah. | 519:088-728052
+52:943 | 61:Family Care Clinic Kinarut | 189:Ground Floor, Block A2-07, Ground Floor Palm Square Commercial Centre, Kinarut, 89600 Papar Sabah | 519:088-760777
+52:944 | 61:Family Care Clinic Kingfisher | 189:No. 6-0, Ground Floor, Block D, Lorong Plaza KinGFisher, 6, Plaza KinGFisher, 88450 Kota Kinabalu, Sabah. | 518:012-2870800
+52:945 | 61:Family Care Clinic Kota Marudu | 189:Lot 1-0, Ground Floor, Block A, 1 Avenue Commercial Centre, Jln Wk, 89108 Kota Marudu, Sabah | 517:011-62890831
+52:946 | 61:Family Care Clinic Menggatal | 189:Lot 5, Tingkat Bawah, Block G, Rumah Kedai Menggatal, Jln Tuaran, 88450 Kota Kinabalu, Sabah | 519:088-402966
+52:947 | 61:Family Care Clinic Papar | 189:Lot 148, Ground Floor, Lrg Benoni 15, Jln Papar Baru, Benoni Commercial Centre, 89600 Papar, Sabah | 518:012-8650700
+52:948 | 61:Family Care Clinic Penampang | 189:Ground Floor, Block 27, Lot No.4, Penampang New Township, Pekan Koidupan, 89500 Penampang, Sabah | 518:016-5007379
+52:949 | 61:Family Care Clinic Pitas | 189:Ground Floor, Lot 3, Block A, SEDCO 89100 Pitas, Sabah | 518:017-8203990
+52:950 | 61:Family Care Clinic Semporna | 189:Ground Floor Lot 2, Blok J, Kawasan Bandar Kedai (Bandar Baru) 91308 Semporna, Sabah | 517:011-61539881
+52:951 | 61:Family Care Clinic Tamparuli | 189:Lot 4, Block A, Tamparuli Point, 89250 Tamparuli, Sabah | 517:011-12624660
+52:952 | 61:Family Care Clinic Tuaran | 189:Ground Floor, Plaza CKS Tuaran, Lot No. 22, Block B, Kg. Tutoh, 89208 Tuaran, Sabah | 519:088-801948
+52:953 | 61:Klinik AK & Surgeri | 189:No 11, Lot 21, Ground Floor, T2@Apas, Jalan T2-A, Mile 1, Jalan Apas, 91000 Tawau Sabah | 518:016-8001619
+52:954 | 61:Klinik Apas | 189:Ground Floor, Lot 15, TB7306, Kinabutan Township, Km 9, Jalan Apas, Tawau, 91000, Sabah | 518:012-9104002
+52:955 | 61:Klinik Elopura | 189:Lot 18-0 GF Beverly Hills Plaza Batu 6 Jalan Bundusan 88300 Kota Kinabalu Sabah. | 518:010-9838283
+52:956 | 61:Medisinar Klinik & Surgeri (1 Sulaman) | 189:Lot No.G43 Ground Floor 1 Sulaman Jalan Sulaman 88450 Kota Kinabalu Sabah | 518:013-8503023
+52:957 | 61:Medisinar Klinik & Surgeri (1Borneo) | 189:Lot G910 Ground Floor Borneo Hypermall Jalan Sulaman 88400 Kota Kinabalu Sabah | 519:088-485457
+52:958 | 61:Medisinar Klinik & Surgeri (88 Marketplace) | 189:Lot No 6 Ground Floor Block J Lorong Pusat Komersial 88/1 88 Marketplace 88200 Kota Kinabalu Sabah | 517:011-51666588
+52:959 | 61:Medisinar Klinik & Surgeri (Api-Api) | 189:Lot 2-01 Ground Floor Block 2 Api-Api Centre P.O Box 13074, 88000 Kota Kinabalu Sabah | 519:088-225457
+52:960 | 61:Medisinar Klinik & Surgeri (Beaufort) | 189:Lot No 107 Ground Floor Jalan Beaufort Sentral 1 Beaufort Sentral 89808 Beaufort Sabah | 519:087-218800
+52:961 | 61:Medisinar Klinik & Surgeri (Donggongon) | 189:Ground Floor Lot 2 Blok K Donggongon 89507 Penampang Sabah | 519:088-725260
+52:962 | 61:Medisinar Klinik & Surgeri (Kampung Air) | 189:No.5 Ground Floor Jalan Haji Yaakub Kampung Air 88000 Kota Kinabalu Sabah | 519:088-275177
+52:963 | 61:Medisinar Klinik & Surgeri (Keningau) | 189:Lot No 13A. Ground Floor Block A2 Bandar Baru Keningau 89008 Keningau Sabah | 518:010-9437667
+52:964 | 61:Medisinar Klinik & Surgeri (Kepayan) | 189:Ground Floor Lot 5 Block H Lintas Jaya UPTownship 88300 Kota Kinabalu Sabah | 519:088-744832
+52:965 | 61:Medisinar Klinik & Surgeri (KKIA) | 189:L/L 07 Level 1 Kota Kinabalu International Airport 88450 Kota Kinabalu Sabah | 519:088-413325
+52:966 | 61:Medisinar Klinik & Surgeri (Kolombong) | 189:No.26 Lot 2 Block A Lorong Buah Duku Jalan Tuaran Kolombong 88450 Kota Kinabalu Sabah | 519:088-432457
+52:967 | 61:Medisinar Klinik & Surgeri (Kota Belud) | 189:Lot No 11 (Intermediate Lot) Ground Floor Plaza Kong Guan Kota Belud Town 89150 Kota Belud Sabah | 519:088-973087
+52:968 | 61:Medisinar Klinik & Surgeri (Kota Marudu) | 189:Lot No 21 Ground Floor Blok C Cosmo Point 89100 Kota Marudu Sabah | 519:088-669477
+52:969 | 61:Medisinar Klinik & Surgeri (Lintas Square) | 189:B-11-0 Lot 11 Block B Ground Floor Lintas Square Jalan Lintas 88300 Kota Kinabalu Sabah | 519:088-276760
+52:970 | 61:Medisinar Klinik & Surgeri (Lok Kawi) | 189:Lot 1 Tingkat Bawah Kedai Fasa 2 Pekan Lok Kawi 89580 Kota Kinabalu Sabah | 519:088-755400
+52:971 | 61:Medisinar Klinik & Surgeri (Menggatal) | 189:Lot 81 Ground Floor Block G (DBKK G01) Menggatal Plaza Phase 2 88450 Kota Kinabalu Sabah | 519:088-411148
+52:972 | 61:Medisinar Klinik & Surgeri (Pavilion Bundusan) | 189:Lot A-3AA-G Ground Floor Block A Pavilion Bundusan Penampang 88300 Kota Kinabalu Sabah | 519:088-728881
+52:973 | 61:Medisinar Klinik & Surgeri (Plaza Kivatu) | 189:G26 Ground Floor Plaza Kivatu Jalan Penampang Tambunan Kampung Kivatu 89500 Kota Kinabalu Sabah | 519:088-722609
+52:974 | 61:Medisinar Klinik & Surgeri (Polytechnic Commercial Centre) | 189:Lot 34 Ground Floor Block A-6 Polytechnic Commercial Centre Jln Sulaman, 88450 Kota Kinabalu Sabah | 519:088-402457
+52:975 | 61:Medisinar Klinik & Surgeri (Putatan) | 189:Ground Floor Shoplot No.10 Putatan Light Industrial Centre Jalan Putatan 88200 Putatan Sabah | 519:088-778333
+52:976 | 61:Medisinar Klinik & Surgeri (Sandakan) | 189:Lot 23 Ground Floor Block B Bandar Tyng Mile 6 Jalan Labuk 90000 Sandakan Sabah | 519:089-660231
+52:977 | 61:Medisinar Klinik & Surgeri (Tanjung Aru) | 189:Ground Floor No.15 Jalan Setia Tanjung Aru 88100 Kota Kinabalu Sabah | 519:088-234142
+52:978 | 61:Medisinar Klinik & Surgeri (Tawau) | 189:Block B B9 Ground Floor TB19298 Kubota Bintang Jalan Chong Thien Vun 91000 Tawau Sabah | 518:014-3561709
+52:979 | 61:Medisinar Klinik & Surgeri (Tuaran) | 189:No.15 Block 4 Ground Floor Jalan Teo Teck Ong 89208 Tuaran Sabah | 519:088-793200
+52:980 | 61:Permai Polyclinic Likas | 189:Lot 9 Likas Plaza 88400 Likas Kota Kinabalu Sabah | 519:088-386600
+52:981 | 61:Permai Polyclinics Api-Api | 189:1-G06 Block 1, Lorong Api-api 1, Api-api Centre 88000 Kota Kinabalu Sabah | 519:088-244555
+52:982 | 61:Permai Polyclinics Asia City | 189:Parcel No. G46 Ground Floor Komplex Asia City Phase 2A 88300 Kota Kinabalu Sabah | 519:088-484444
+52:983 | 61:Permai Polyclinics Bandaran Berjaya | 189:No. 53 Ground Floor Bandaran Berjaya Jalan Berjaya 5 88000 Kota Kinabalu Sabah | 519:088-246898
+52:984 | 61:Permai Polyclinics Benoni | 189:Lot 5 Ground Floor Jalan Papar Spur Parklane City Benoni Papar 89600 Papar Sabah | 519:088-917000
+52:985 | 61:Permai Polyclinics Cyber City | 189:B10-1 Ground Floor Block B Kepayan Perdana Commercial Centre Jalan Lintas 88200 Kota Kinabalu Sabah | 519:088-256555
+52:986 | 61:Permai Polyclinics Fajar Tawau | 189:TB 562 Lot 21 Ground Floor TB 563 Lot 22 Ground First Floor Block C Tacoln Commercial Complex Jalan Haji Karim 91000 Tawau Sabah | 519:089-763030
+52:987 | 61:Permai Polyclinics HM Solaris Tuaran 24 Jam | 189:Lot 25 (Ground Floor) HM Solaris Jalan Tuaran Kota Belud 89208 Tuaran Sabah | 518:010-9502186
+52:988 | 61:Permai Polyclinics Inanam | 189:No. 14 Ground Floor Inanam Business Centre 88450 Kota Kinabalu Sabah | 519:088-381720
+52:989 | 61:Permai Polyclinics Jalan Bubul | 189:Ground Floor Lot 3 Bandar Baru Bubul Jalan Bubul Batu 2 91300 Semporna Sabah | 519:089-785407
+52:990 | 61:Permai Polyclinics Keningau | 189:Lot 32 & 33 Block D Ground Floor 1st Floor 2nd Floor Apollo Atrium Jalan Bariawa 89000 Keningau Sabah | 519:087-312972
+52:991 | 61:Permai Polyclinics KK Sdn Bhd | 189:No. 2 (GF Partial 1st Floor Partial 2nd Floor 3rd Floor) No. 3 (GF Partial 1st Floor 2nd Floor 3rd Floor) No. 4 (Ground Floor) Jalan Pantai 88000 Kota Kinabalu Sabah | 519:088-232100
+52:992 | 61:Permai Polyclinics Kota Marudu 24 Jam | 189:Lot 1 (Ground Floor) Block D1 Bandau Commercial Centre 89100 Kota Marudu Sabah | 519:088-611213
+#PAGE 16
+53:The Great Journey Clinics
+52:No | 61:PANEL CLINICS | 189:ADDRESS | 521:TEL NO.
+52:993 | 61:Permai Polyclinics Kudat 16 Jam | 189:Lot 11 (Ground Floor) 3 Storey Mutiara Plaza 89050 Kudat Sabah | 518:010-2822186
+52:994 | 61:Permai Polyclinics Kunak | 189:Lot 3-GF Jalan Kunak Lahad Datu Lot 03 Kedai Simpang 4 Peti Surat No. 148 91207 Kunak Sabah | 519:089-850999
+52:995 | 61:Permai Polyclinics Lahad Datu | 189:MDLD 9 Block 50 Bangunan Heung Moi Jalan Kastam Lama 91100 Lahad Datu Sabah | 519:089-883000
+52:996 | 61:Permai Polyclinics Lintas Plaza | 189:No. 31-0 Lorong Lintas Plaza 1 Lintas Plaza 88300 Kota Kinabalu Sabah | 519:088-261900
+52:997 | 61:Permai Polyclinics Lok Kawi | 189:Lot No. 8 Ground First Floor Second Floordan Third Floor LKH Galleria Commercial Centre Lok Kawi 89600 Papar Sabah | 519:088-751100
+52:998 | 61:Permai Polyclinics One Plaza | 189:Lot A1 Ground Floor One Plaza Keningau 89007 Keningau Sabah | 519:087-335999
+52:999 | 61:Permai Polyclinics Papar | 189:Ground Floor Lot No. 16 Block C Type A Papar Century Plaza 89600 Papar Sabah | 519:088-917741
+52:1000 | 61:Permai Polyclinics Penampang | 189:Ground Floor Lot 52 Block H Donggongon Square 89507 Penampang Sabah | 519:088-731500
+52:1001 | 61:Permai Polyclinics Pitas 12 Jam | 189:No. 8 (Ground Floor) Block B1 Kedai Sedco Pekan Baru Pitas 89100 Pitas Sabah | 518:016-2362186
+52:1002 | 61:Permai Polyclinics Putatan | 189:Lot 8 Grand Plaza Putatan Putatan 88200 Kota Kinabalu Sabah | 519:088-760250
+52:1003 | 61:Permai Polyclinics Sandakan | 189:Lot 3 Block 3 Bandar Indah Bandar Indah Jalan Utara 90000 Sandakan Sabah | 519:089-208777
+52:1004 | 61:Permai Polyclinics Semporna 24 Jam | 189:Lot 1 & 2 Wisma Datuk Haji Donald Jalan Hospital 91300 Bandar Semporna Sabah | 519:089-784100
+52:1005 | 61:Permai Polyclinics Sri Kepayan | 189:Ground Floor Lot 3 Block D Lorong Pusat Komersil 88/2 88 Market Place 88200 Kota Kinabalu Sabah | 519:088-748147
+52:1006 | 61:Permai Polyclinics Taman Suria | 189:Lot 2 & 3 Block SH 9 Taman Suria Penampang 89500 Kota Kinabalu Sabah | 519:088-701700
+52:1007 | 61:Permai Polyclinics Tanjung Aru | 189:Lot B-G-3 Ground Floor Plaza Tanjung Aru Jalan Mat Salleh 88100 Kota Kinabalu Sabah | 519:088-255800
+52:1008 | 61:Permai Polyclinics Tawau | 189:TB12 Lot B4 TB13 Lot B5 Ground Floor Taman Megah Jaya KM 8 Jalan Tiku 91000 Tawau Sabah | 519:089-750885
+52:1009 | 61:PMG Medical Clinic (Jalan Datuk Yassin, Tenom) | 189:G/F Lot 50 Block H Jalan Datuk Yassin 89907 Tenom Sabah | 517:011-16810966
+52:1010 | 61:PMG Medical Clinic (Jalan OKK Sodomon, Keningau) | 189:Ground Floor Lot 17-21 Lucky Shopping Centre Jalan OKK Sodomon 89000 Keningau Sabah | 518:010-5607966
+52:1011 | 61:Klinik Dr Keen | 189:Ground Floor Lot 5B Block 12 Leboh Tiga Sandakan Town 90000 Sandakan Sabah | 518:018-3228585
+53:SARAWAK
+52:1012 | 61:ALPRO Clinic Metrocity | 189:Ground Floor Lot14086 Section 65, Kuching Town Land District, Jalan Matang, 93050 Kuching, Sarawak | 518:019-7515828
+52:1013 | 61:ALPRO Clinic Miri | 189:Lot 2468 Block 5, Miri Concession Land District, 98000 Miri, Sarawak | 518:016-3513828
+52:1014 | 61:Klinik Dr Asri | 189:Ground Floor, Lot 14931, Section 65, Kuching Town Land District, Jalan Matang Baru, 93050 Kuching, Sarawak | 519:082-444425
+52:1015 | 61:Klinik Perubatan Khaira | 189:CD 102 Batu Kawah New Township (MJC) Jalan Batu Kawa, 93250 Kuching, Sarawak | 519:082-571557
+52:1016 | 61:Lee Clinic | 189:Lot 1291, Ground Floor, Miri Centre Point, Jalan Melayu, 98009 Miri, Sarawak | 519:085-436411
+52:1017 | 61:PMG Medical Clinic (Jalan Central, Sibu Central) | 189:No.9 G/F, Jalan Central, 96000 Sibu, Sarawak | 518:014-3853966
+52:1018 | 61:PMG Medical Clinic (Jalan Kelupu, Bintangor) | 189:Lot 115 No 14 G/F, Bintangor Town District, Jalan Kelupu, 96500 Bintangor, Sarawak | 517:0111-6159660
+52:1019 | 61:PMG Medical Clinic (Jalan Lee Kai Teng, Betong) | 189:Lot. 836 No.11 G/F, Betong Town District, Jalan Lee Kai Teng, 95700 Betong, Sarawak | 518:016-5849660
+52:1020 | 61:PMG Medical Clinic (Jalan Muara Tuang, Samarindah) | 189:Ground Floor Lot 9198 (SL 4) Bandar Riyal Jalan Muara Tuang 94300 Kota Samarahan Sarawak | 517:011-16300966
+52:1021 | 61:PMG Medical Clinic (Jalan Pahlawan, Sibu Pahlawan) | 189:G/F No.31 Lot 3625 Block 3 Sibu Town District Lorong Pahlawan 7 Jalan Pahlawan 96000 Sibu Sarawak | 518:010-2937966
+52:1022 | 61:PMG Medical Clinic (Jalan Penrissen, Kota Sentosa) | 189:Lot 35 G/F Block 233 Kuching North Land District Batu 7 Bazaar Jalan Penrissen 93250 Kuching Sarawak | 518:014-9447966
+52:1023 | 61:PMG Medical Clinic (Jalan Sabu, Sri Aman) | 189:Lot.1857 &1858 Ground Floor Jalan Sabu 95000 Sri Aman, Sarawak | 518:014-3247966
+52:1024 | 61:PMG Medical Clinic (Jalan Sultan Tengah, Samariang) | 189:Sublot No.43 Lot 7677 G/F Block 9 Salak Land District Bandar Baru Samariang Jalan Sultan Tengah 93050 Kuching Sarawak | 518:016-7607966
+52:1025 | 61:PMG Medical Clinic (Jalan Teo Chow Beng, Kapit) | 189:Lot 539 No.27 G/F, Kapit Town District, Jalan Teo Chow Beng, 96800 Kapit, Sarawak | 518:016-5267966
+52:1026 | 61:PMG Medical Clinic (Jalan Tun Hussein Onn, Medan Jaya) | 189:No.9 & 10 G/F Lot 3640 & 3641 BLK 31 KLD Medan Jaya Commercial Centre Jalan Tun Hussein Onn 97000 Bintulu Sarawak | 518:014-9367966
+52:1027 | 61:PMG Medical Clinic (Kuching, Kota Padawan) | 189:No.215 Lorong Kota Padawan 1B Jalan Kota Padawan 93250 Kuching Sarawak | 517:011-16017966
+52:1028 | 61:PMG Medical Clinic (Kuching-Kota Samarahan Expressway, Samarahan) | 189:G/F Sublot 25 Lot 5674 Block 26 Uni Capital Kuchingkota Samarahan Expressway 94300 Kota Samarahan Sarawak | 518:010-3757966
+52:1029 | 61:PMG Medical Clinic (Lorong Ulu Oya, Permai) | 189:Lot. 8583 No. 16 G/F Lorong Ulu Oya 11A 96000 Sibu Sarawak | 518:016-2237966
+52:1030 | 61:PMG Medical Clinic (Medan Setia Raja, Mukah) | 189:Ground Floor Sublot 54 & 55 Lot 981-982 Block 68, Medan Setia Raja, 96400 Mukah, Sarawak | 518:014-3607966
+52:1031 | 61:PMG Medical Clinic (Miri, Morsjaya) | 189:Lot 3001 G/F 1st Floor Block 1 LLD Jalan Morsjaya 98000 Miri Sarawak | 518:014-9217966
+52:1032 | 61:PMG Medical Clinic (New Bazaar, Saratok) | 189:Lot 640 Ground Floor, New Bazaar, 95400 Saratok, Sarawak | 518:010-2331766
+52:1033 | 61:PMG Medical Clinic (Pelita Commercial Centre, Miri Pelita) | 189:G/F Lot 512 Block 7 Miri Concession Land District Jalan Pelita Utama Pelita Commercial Centre 98000 Miri Sarawak | 517:011-16007966
+52:1034 | 61:PMG Medical Clinic (Section 65, Matang Jaya) | 189:G/F Lot 6799 Section 65 KTLD 695 Matang Jaya Commercial Centre 93050 Kuching Sarawak | 518:016-9237966
+52:1035 | 61:PMG Medical Clinic (Senadin Gateway Commercial Centre, Miri) | 189:G/F Lot 11654 Block 5 Kuala Baram Land District Jalan Maigold Senadin Gateway Commercial Centre 98000 Miri Sarawak | 518:010-2897966
+52:1036 | 61:PMG Medical Clinic (Serian Town, Serian) | 189:Lot 1152 No. 209 Ground Floor Serian Town 94700 Serian Sarawak | 518:010-2587966
+52:1037 | 61:PMG Medical Clinic (Taman Lucky, Kanowit) | 189:GF Lot 735 Block 9 Lukut Land District Taman Lucky 96700 Kanowit Sarawak | 518:016-3567966
+52:1038 | 61:PMG Medical Clinic (Taman Sri Dagang, Bintulu Sepadu) | 189:GF No.139 Jalan Masjid Taman Sri Dagang 97000 Bintulu Sarawak | 518:010-2757966
+52:1039 | 61:Prime Borneo Clinic (Krokop) | 189:Ground Floor Lot 2962 Block 5 Miri Land Concession Land District Jln Krokop Utama Krokop 98000 Miri Sarawak | 519:085-421223
+52:1040 | 61:Prime Borneo Clinic (Desa Senadin) | 189:Ground Floor Lot 10581 Section /Block 5, Jalan Ilmu Desa Senadin Kuala Baram Land Disctrict 98000 Miri Sarawak | 519:085-668389
+53:WILAYAH PERSEKUTUAN PUTRAJAYA
+52:1041 | 61:Careclinics Poliklinik Cahaya (Putrajaya) | 189:No. 9 & No. 11 Jalan P8G1 Presint 8 62250 Putrajaya | 518:03-88936166
+52:1042 | 61:Klinik Anda 24 Jam Putrajaya | 189:No 27 Jalan Diplomatik Presint 15 62050 Wilayah Persekutuan Putrajaya | 518:03-88903981
+52:1043 | 61:Klinik Aurora (Putrajaya) | 189:15 (Ground Floor) Nadi 15 Jalan Pahang P15 Presint 15 62050 Putrajaya Wilayah Persekutuan Putrajaya | 518:03-88615155
+52:1044 | 61:Klinik Dr Najwa (Presint 15) | 189:No 92, Jalan Diplomatik P15, Presint 15, 62000 Putrajaya, WP Putrajaya | 518:03-88615721
+53:WILAYAH PERSEKUTUAN LABUAN
+52:1045 | 61:Family Care Clinic Labuan | 189:Block A, Lot U0306, Jati Commercial Shophouse, 87012 Labuan Federal Territory | 519:087-423100
+61:Notes :
+61:1. Great Eastern Life Assurance (Malaysia) Berhad reserve the right to change / update this list of panel clinics at any time where such changes are deemed necessary.
