@@ -79,6 +79,13 @@ details.tests summary{cursor:pointer;color:var(--accent);font-weight:600;font-si
 .notice{background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:13px;margin-top:18px}
 .notice b{color:var(--warn)}
 .empty{padding:28px 10px;text-align:center;color:var(--muted)}
+.dir-modal{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;padding:16px;padding-bottom:calc(16px + env(safe-area-inset-bottom,0px))}
+.dir-sheet{background:var(--surface);color:var(--ink);border-radius:16px;width:100%;max-width:420px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.dir-sheet h4{margin:0;font-family:var(--display);font-size:17px}
+.dir-sheet p{margin:0;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.dir-sheet a,.dir-sheet button{display:block;text-align:center;text-decoration:none;font:600 15px var(--body);padding:12px;border-radius:12px;cursor:pointer}
+.dir-sheet a{background:var(--accent);color:var(--surface)}
+.dir-sheet button{background:transparent;border:1px solid var(--line);color:var(--ink)}
 .near{display:flex;gap:8px}
 .near input{flex:1}
 .near .btn{white-space:nowrap;flex-shrink:0}
@@ -177,7 +184,7 @@ const T={
   moreLab:"More lab tests",labTests:"lab tests",noTel:"Ask your advisor",noHours:"Call to confirm",
   nearMe:"📍 Near me",nearOn:"Sorted by distance from you (straight line). Areas marked ≈ are approximate.",nearClear:"Clear",
   locating:"Finding your location…",locDenied:"Location is off. Allow location for this site, or choose your state and area instead.",locFail:"Could not get your location. Try again, or choose your state and area.",
-  noDist:"distance unknown",directions:"Waze",photos:"Photos",street:"Street View",distCol:"Distance (km)",
+  noDist:"distance unknown",directions:"Directions",dirTitle:"Get directions with",cancel:"Cancel",photos:"Photos",street:"Street View",distCol:"Distance (km)",
   unknown:"Other",saved:"List saved",dlFail:"Download is not available here. Ask your advisor for the file.",dlNo:"Download cancelled"},
  zh:{eyebrow:"大东方保单持有人专用",title:"指定诊所查询",sub:"查找附近的大东方指定诊所，看看诊所提供哪些检查，出发前先打电话确认。",
   pNb:"投保体检",pNbSub:"申请新保单",pTgj:"TGJ 就诊（The Great Journey）",pTgjSub:"医疗咨询前的诊所就诊",
@@ -191,7 +198,7 @@ const T={
   moreLab:"更多化验项目",labTests:"项化验",noTel:"请询问顾问",noHours:"请致电确认",
   nearMe:"📍 附近诊所",nearOn:"按距离排序（直线距离）。标有 ≈ 的为大约位置。",nearClear:"取消",
   locating:"正在获取您的位置…",locDenied:"未开启定位。请允许此网站使用位置，或直接选择州属和地区。",locFail:"无法获取您的位置。请再试一次，或选择州属和地区。",
-  noDist:"距离未知",directions:"Waze 导航",photos:"照片",street:"街景",distCol:"距离（公里）",
+  noDist:"距离未知",directions:"导航",dirTitle:"选择导航应用",cancel:"取消",photos:"照片",street:"街景",distCol:"距离（公里）",
   unknown:"其他",saved:"清单已保存",dlFail:"此处无法下载，请向顾问索取文件。",dlNo:"已取消下载"}
 };
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
@@ -254,8 +261,6 @@ function render(){
   if(!rows.length){$('list').innerHTML='<div class="empty">'+tr('none')+'</div>';return}
   $('list').innerHTML=rows.slice(0,300).map(c=>{
     const place='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(c.name+', '+c.address);
-    // Waze searches by name + address (not our postcode-centre point), so it navigates to the clinic itself.
-    const dir='https://waze.com/ul?q='+encodeURIComponent(c.name+', '+c.address)+'&navigate=yes';
     const street=c.geo==='address'?'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint='+c.lat+','+c.lon:'';
     const dist=me?'<span class="dist">'+(c._d==null?tr('noDist'):fmtKm(c))+'</span>':'';
     return '<article class="clinic">'+
@@ -265,7 +270,7 @@ function render(){
       '<div class="meta"><span>☎ <b>'+esc(c.tel||tr('noTel'))+'</b></span><span>'+tr('hours')+': <b>'+esc(c.hours||tr('noHours'))+'</b></span></div>'+
       '<div class="tags">'+c.services.filter(s=>SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div>'+
       (c.services.some(s=>!SV[s])?'<details class="docs"><summary>+ '+c.services.filter(s=>!SV[s]).length+' '+tr('labTests')+'</summary><div class="tags">'+c.services.filter(s=>!SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div></details>':'')+
-      '<div class="actions"><a href="'+dir+'" target="_blank" rel="noopener">'+tr('directions')+'</a>'+
+      '<div class="actions"><button type="button" data-dir="'+esc(c.code)+'">'+tr('directions')+'</button>'+
       '<a href="'+place+'" target="_blank" rel="noopener">'+tr('photos')+'</a>'+
       (street?'<a href="'+street+'" target="_blank" rel="noopener">'+tr('street')+'</a>':'')+
       (c.tel?'<a href="tel:'+esc(c.tel.replace(/[^0-9+]/g,''))+'">'+tr('call')+'</a><button type="button" data-copy="'+esc(c.tel)+'">'+tr('copy')+' ☎</button>':'')+
@@ -297,7 +302,24 @@ $('f-state').onchange=()=>{fillAreas();render()};
 $('f-area').onchange=render;
 $('f-q').oninput=render;
 $('f-tests').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;const c=b.dataset.code;tests.has(c)?tests.delete(c):tests.add(c);b.setAttribute('aria-pressed',tests.has(c));render()};
-$('list').onclick=e=>{const b=e.target.closest('[data-copy]');if(!b)return;const txt=b.dataset.copy;
+/* ---------- directions: let the client pick Waze or Google Maps ---------- */
+function openDirections(code){
+  const c=clinics.find(x=>x.code===code);if(!c)return;
+  // Both apps search by name + address (not our approximate postcode point), so they route to the clinic itself.
+  const q=encodeURIComponent(c.name+', '+c.address);
+  const m=document.createElement('div');m.className='dir-modal';m.setAttribute('role','dialog');m.setAttribute('aria-modal','true');
+  m.innerHTML='<div class="dir-sheet"><h4>'+tr('dirTitle')+'</h4><p>'+esc(c.name)+'</p>'+
+    '<a href="https://waze.com/ul?q='+q+'&navigate=yes" target="_blank" rel="noopener">Waze</a>'+
+    '<a href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">Google Maps</a>'+
+    '<button type="button" data-close>'+tr('cancel')+'</button></div>';
+  const close=()=>{m.remove();document.removeEventListener('keydown',esc_)};
+  const esc_=e=>{if(e.key==='Escape')close()};
+  m.addEventListener('click',e=>{if(e.target===m||e.target.closest('[data-close]')||e.target.closest('a'))close()});
+  document.addEventListener('keydown',esc_);
+  document.body.appendChild(m);m.querySelector('a').focus();
+}
+$('list').onclick=e=>{const d=e.target.closest('[data-dir]');if(d){openDirections(d.dataset.dir);return}
+  const b=e.target.closest('[data-copy]');if(!b)return;const txt=b.dataset.copy;
   const done=()=>toast(tr('copied'));
   if(navigator.clipboard)navigator.clipboard.writeText(txt).then(done,()=>fallback(txt,done));else fallback(txt,done)};
 function fallback(txt,done){const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}ta.remove()}
