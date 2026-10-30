@@ -20,10 +20,12 @@ Don't send the `/advisor/` link to clients. It wouldn't show them your data, bec
 
 ## 2. Install it on a phone like an app
 
-- **Android (Chrome):** open the link, tap **⋮ → Add to Home screen → Install**.
-- **iPhone (Safari):** open the link, tap **Share → Add to Home Screen**.
+An **Install as an app** bar appears at the bottom of the page (in English or 中文):
+- **Android (Chrome):** tap **Install**, then **Install** again. The app icon appears on the home screen.
+- **iPhone (Safari):** tap **Install** to see the steps: **Share ⬆︎ → Add to Home Screen → Add**.
+- Tapping **✕** hides the bar for 14 days. It never shows inside the installed app.
 
-Once you've opened it, it works offline too.
+If the bar doesn't appear on Android, use **⋮ → Add to Home screen / Install app**. Once installed, the app opens full screen, works offline, and updates itself when it's online.
 
 ## 3. What clients do
 
