@@ -1,0 +1,313 @@
+<title>Clinic Visit Tracker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Noto+Sans:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: phone-first single column — "due today" reminders on top, then the add form, then the visit log by client. */
+:root{
+  --bg:#F3F6F5; --surface:#FFFFFF; --ink:#13302C; --muted:#5A6E6A; --line:#D7E1DE;
+  --accent:#0F7C6E; --accent-soft:#DDF0EC; --warn:#9A5B00; --warn-soft:#FFF1D6; --bad:#B42318; --bad-soft:#FDE7E4;
+  --display:"Bricolage Grotesque","Noto Sans SC",system-ui,sans-serif;
+  --body:"Noto Sans","Noto Sans SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1716; --surface:#152321; --ink:#E4EFEC; --muted:#93A8A3; --line:#2A3C39;
+  --accent:#4CC3AF; --accent-soft:#173B35; --warn:#F2B866; --warn-soft:#3A2B12; --bad:#FF8A7A; --bad-soft:#3D1A16; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1716; --surface:#152321; --ink:#E4EFEC; --muted:#93A8A3; --line:#2A3C39;
+  --accent:#4CC3AF; --accent-soft:#173B35; --warn:#F2B866; --warn-soft:#3A2B12; --bad:#FF8A7A; --bad-soft:#3D1A16; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:flex;flex-direction:column;gap:22px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,6vw,34px);line-height:1.1;margin:4px 0}
+h2{font-family:var(--display);font-weight:600;font-size:19px;margin:0}
+.sub{color:var(--muted);margin:0}
+.storage{font-size:12.5px;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.due{border-left:4px solid var(--accent)}
+.due.late{border-left-color:var(--warn)}
+.pill{display:inline-block;font:600 12px var(--body);border-radius:999px;padding:2px 9px;background:var(--accent-soft);color:var(--accent)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.pill.grey{background:var(--line);color:var(--ink)}
+.line{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:13.5px}
+.muted{color:var(--muted)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+form .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:600;min-width:0}
+input,select,textarea{width:100%;min-width:0;font:400 15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+textarea{min-height:64px;resize:vertical}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.btn{border:0;background:var(--accent);color:var(--surface);font:600 14px var(--body);padding:9px 14px;border-radius:10px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn.danger{background:var(--bad)}
+.btn.small{padding:6px 10px;font-size:13px}
+.btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+.msgs{display:flex;flex-direction:column;gap:6px}
+.alert{border-radius:10px;padding:9px 12px;font-size:13.5px}
+.alert.bad{background:var(--bad-soft);color:var(--bad)}
+.alert.warn{background:var(--warn-soft);color:var(--ink)}
+.preview{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:13.5px;max-height:320px;overflow:auto}
+.seg{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;width:max-content}
+.seg button{border:0;background:transparent;color:var(--muted);padding:5px 12px;font:600 13px var(--body);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:620px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.empty{color:var(--muted);font-size:14px;padding:6px 0}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;z-index:30;padding:16px;padding-bottom:calc(16px + env(safe-area-inset-bottom,0px))}
+.sheet{background:var(--surface);color:var(--ink);border-radius:16px;max-width:560px;width:100%;padding:16px;display:flex;flex-direction:column;gap:10px;max-height:90vh;overflow:auto}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:9px 14px;border-radius:10px;font-size:13px;z-index:40}
+@media (max-width:480px){form{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Advisor only · 顾问专用</div>
+    <h1>Clinic Visit Tracker</h1>
+    <p class="sub">Log each client's medical exam or TGJ clinic visit. Reminders come due 3 days and 1 day before, in English and 中文. You check every message and send it yourself.</p>
+    <p class="storage" id="storage"></p>
+  </header>
+
+  <section>
+    <h2>Reminders due today</h2>
+    <div id="due"></div>
+  </section>
+
+  <section>
+    <h2 id="form-title">Add a clinic visit</h2>
+    <form id="visit-form" novalidate>
+      <label>Client name<input id="v-client" autocomplete="off" placeholder="e.g. Mr Tan (first name is enough)"></label>
+      <label>Client WhatsApp number<input id="v-phone" inputmode="tel" autocomplete="off" placeholder="012-345 6789"></label>
+      <label>Purpose<select id="v-purpose"><option value="nb">New policy medical exam</option><option value="tgj">TGJ visit</option></select></label>
+      <label>Message language<select id="v-lang"><option value="both">English + 中文</option><option value="en">English</option><option value="zh">中文</option></select></label>
+      <label class="full">Clinic<input id="v-clinic" list="clinic-list" autocomplete="off" placeholder="Type clinic name, code or town"></label>
+      <datalist id="clinic-list"></datalist>
+      <label>Appointment date<input id="v-date" type="date"></label>
+      <label>Time<input id="v-time" type="time"></label>
+      <label class="full">Tests required (from the exam letter)<input id="v-tests" autocomplete="off" placeholder="e.g. Blood & urine, ECG, Chest X-ray"></label>
+      <label>Status<select id="v-status"><option value="booked">Booked</option><option value="attended">Attended</option><option value="results">Results received</option><option value="cancelled">Cancelled</option></select></label>
+      <label>Notes<input id="v-notes" autocomplete="off" placeholder="Optional. No IC or medical details."></label>
+      <div class="msgs full" id="form-msgs"></div>
+      <div class="btns full">
+        <button class="btn" type="submit" id="save-btn">Save visit</button>
+        <button class="btn ghost" type="button" id="cancel-edit" hidden>Cancel edit</button>
+      </div>
+    </form>
+  </section>
+
+  <section>
+    <div class="line" style="justify-content:space-between">
+      <h2>Visit log</h2>
+      <div class="seg" role="group"><button type="button" id="show-upcoming" aria-pressed="true">Upcoming</button><button type="button" id="show-all" aria-pressed="false">All</button></div>
+    </div>
+    <input id="log-q" type="search" placeholder="Search client, clinic or test" autocomplete="off">
+    <div class="tablewrap"><table><thead><tr><th>Date</th><th>Client</th><th>Purpose</th><th>Clinic</th><th>Tests</th><th>Status</th><th>Reminders</th><th></th></tr></thead><tbody id="log"></tbody></table></div>
+    <div class="btns"><button class="btn ghost small" type="button" id="export">Download backup (CSV)</button></div>
+  </section>
+</div>
+<div id="modal-root"></div>
+<div class="toast" id="toast" hidden></div>
+
+<script id="clinic-data" type="application/json">__DATA__</script>
+<script>
+(function(){
+const DATA=JSON.parse(document.getElementById('clinic-data').textContent);
+const CLINICS=DATA.clinics, byCode=Object.fromEntries(CLINICS.map(c=>[c.code,c]));
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const toast=m=>{const t=$('toast');t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,2200)};
+const PURPOSE={nb:["New policy medical exam","投保体检"],tgj:["TGJ visit","TGJ 就诊"]};
+const STATUS={booked:["Booked",""],attended:["Attended","grey"],results:["Results received","grey"],cancelled:["Cancelled","bad"]};
+
+/* ---------- dates (Malaysia time) ---------- */
+function todayMY(){const p=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kuala_Lumpur',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());return p}
+function daysUntil(d){if(!/^\d{4}-\d{2}-\d{2}$/.test(d||''))return null;const a=Date.parse(todayMY()+'T00:00:00Z'),b=Date.parse(d+'T00:00:00Z');return Math.round((b-a)/864e5)}
+function fmtDate(d,lang){if(!d)return '—';const dt=new Date(d+'T00:00:00Z');return lang==='zh'?dt.toLocaleDateString('zh-CN',{timeZone:'UTC',year:'numeric',month:'long',day:'numeric',weekday:'short'}):dt.toLocaleDateString('en-GB',{timeZone:'UTC',weekday:'short',day:'numeric',month:'short',year:'numeric'})}
+function fmtTime(t,lang){if(!t)return lang==='zh'?'（时间待定）':'(time to be confirmed)';const [h,m]=t.split(':').map(Number);const ap=h<12?(lang==='zh'?'上午':'am'):(lang==='zh'?'下午':'pm');const h12=((h+11)%12)+1;return lang==='zh'?ap+h12+':'+String(m).padStart(2,'0'):h12+':'+String(m).padStart(2,'0')+ap}
+
+/* ---------- phone ---------- */
+function waNumber(p){let d=String(p||'').replace(/\D/g,'');if(!d)return null;if(d.startsWith('0'))d='6'+d;if(d.startsWith('60')&&(d.length<11||d.length>12))return null;if(d.length<10||d.length>13)return null;return d}
+
+/* ---------- storage: private cloud rows when available, else this device ---------- */
+let visits=[], backend='local', col=null;
+const LS='cvt-visits';
+function lsRead(){try{return JSON.parse(localStorage.getItem(LS)||'[]')}catch(e){return []}}
+function lsWrite(){try{localStorage.setItem(LS,JSON.stringify(visits));return true}catch(e){return false}}
+async function initStore(){
+  visits=lsRead();render();
+  setStorageNote();
+  let db=null,user=null;
+  try{if(window.claude){[db,user]=await Promise.all([window.claude.use('db'),window.claude.use('user')])}}catch(e){}
+  if(!db||!user)return;
+  let uid=null;try{uid=await user.id()}catch(e){}
+  if(!uid)return;
+  col=db.collection('data/users/'+uid);backend='cloud';setStorageNote();
+  col.onSnapshot(snap=>{visits=snap.docs.map(d=>Object.assign({id:d.id},d.data()));render()},()=>{backend='local';col=null;visits=lsRead();setStorageNote();render()});
+}
+function setStorageNote(){$('storage').textContent=backend==='cloud'?'Saved privately to your Claude account. Only you can see these records, on any device where you sign in.':'Saved on this phone only. Client records never leave this device. Tap "Download backup" now and then, and keep the file safe.'}
+async function saveVisit(v){
+  v.updated=new Date().toISOString();
+  if(backend==='cloud'){const {id,...rest}=v;await col.doc(id).set(rest);return}
+  const i=visits.findIndex(x=>x.id===v.id);if(i>=0)visits[i]=v;else visits.push(v);
+  if(!lsWrite())toast('Could not save on this device (private browsing?)');render();
+}
+async function removeVisit(id){
+  if(backend==='cloud'){await col.doc(id).delete();return}
+  visits=visits.filter(v=>v.id!==id);lsWrite();render();
+}
+
+/* ---------- reminder messages ---------- */
+function clinicOf(v){return byCode[v.clinicCode]||{name:v.clinicName||'',address:'',tel:'',hours:''}}
+function message(v,lang,days){
+  const c=clinicOf(v);const when=days===1?(lang==='zh'?'明天':'tomorrow'):(lang==='zh'?days+'天后':'in '+days+' days');
+  if(lang==='zh'){
+    return `您好 ${v.client}，温馨提醒您${when}（${fmtDate(v.date,'zh')} ${fmtTime(v.time,'zh')}）的${PURPOSE[v.purpose][1]}预约：\n\n🏥 ${c.name}\n📍 ${c.address||'（地址请向我确认）'}\n☎ ${c.tel||'（电话请向我确认）'}`+
+    (v.tests?`\n🩺 检查项目：${v.tests}`:'')+
+    `\n\n请携带身份证${v.purpose==='nb'?'及体检通知书':''}。如通知书上注明需要空腹，请照指示进行。建议出发前先致电诊所确认。\n\n如需更改时间，请随时告诉我。谢谢！`;
+  }
+  return `Hi ${v.client}, a friendly reminder of your ${PURPOSE[v.purpose][0].toLowerCase()} ${when} (${fmtDate(v.date,'en')}, ${fmtTime(v.time,'en')}):\n\n🏥 ${c.name}\n📍 ${c.address||'(I will confirm the address with you)'}\n☎ ${c.tel||'(I will confirm the phone number with you)'}`+
+    (v.tests?`\n🩺 Tests: ${v.tests}`:'')+
+    `\n\nPlease bring your IC${v.purpose==='nb'?' and the medical exam letter':''}. If the letter says to fast, please follow it. It's a good idea to call the clinic before you go.\n\nLet me know if you need to change the time. Thank you!`;
+}
+function fullMessage(v,days){const L=v.lang||'both';return L==='both'?message(v,'en',days)+'\n\n— — —\n\n'+message(v,'zh',days):message(v,L,days)}
+
+/* ---------- due list ---------- */
+function dueItems(){
+  const out=[];
+  visits.forEach(v=>{if(v.status!=='booked')return;const d=daysUntil(v.date);if(d===null)return;
+    if(!v.sent3&&d===3)out.push({v,kind:3,d,late:false});
+    else if(!v.sent3&&d===2)out.push({v,kind:3,d,late:true});
+    if(!v.sent1&&d===1)out.push({v,kind:1,d,late:false});
+    else if(!v.sent1&&d===0)out.push({v,kind:1,d,late:true});
+  });
+  return out.sort((a,b)=>a.d-b.d);
+}
+function renderDue(){
+  const items=dueItems();
+  if(!items.length){$('due').innerHTML='<div class="empty">No reminders due today. New visits show up here 3 days and 1 day before the appointment.</div>';return}
+  $('due').innerHTML=items.map(({v,kind,d,late})=>{const c=clinicOf(v);
+    return `<div class="card due${late?' late':''}"><div class="line"><span class="pill${late?' warn':''}">${kind}-day reminder${late?' · late':''}</span><b>${esc(v.client)}</b><span class="muted">${esc(fmtDate(v.date,'en'))} ${esc(v.time||'')}</span></div>
+    <div class="line muted">${esc(c.name)} · ${esc(PURPOSE[v.purpose][0])}${late?` · appointment is ${d===0?'today':'in '+d+' days'}, so adjust the wording before sending`:''}</div>
+    <div class="btns"><button class="btn small" type="button" data-review="${esc(v.id)}" data-kind="${kind}">Review &amp; send</button></div></div>`}).join('');
+}
+
+/* ---------- log ---------- */
+let showAll=false;
+function renderLog(){
+  const q=$('log-q').value.trim().toLowerCase();
+  let rows=visits.slice().sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+  if(!showAll)rows=rows.filter(v=>{const d=daysUntil(v.date);return v.status==='booked'&&(d===null||d>=0)});
+  if(q)rows=rows.filter(v=>(v.client+' '+clinicOf(v).name+' '+(v.tests||'')+' '+(v.notes||'')).toLowerCase().includes(q));
+  if(!rows.length){$('log').innerHTML=`<tr><td colspan="8" class="empty">${visits.length?'Nothing matches. Switch to "All" or clear the search.':'No visits yet. Add the first one above, and it will appear here with its reminder dates.'}</td></tr>`;return}
+  $('log').innerHTML=rows.map(v=>{const d=daysUntil(v.date);const st=STATUS[v.status]||STATUS.booked;const flags=[];
+    if(!waNumber(v.phone))flags.push('<span class="pill bad">check number</span>');
+    if(!byCode[v.clinicCode])flags.push('<span class="pill warn">clinic not in list</span>');
+    return `<tr><td class="num">${esc(v.date||'—')}${d!==null&&v.status==='booked'?`<br><span class="muted">${d<0?Math.abs(d)+'d ago':d===0?'today':'in '+d+'d'}</span>`:''}</td>
+    <td><b>${esc(v.client)}</b><br>${flags.join(' ')}</td><td>${esc(PURPOSE[v.purpose][0])}</td><td>${esc(clinicOf(v).name)}</td><td>${esc(v.tests||'—')}</td>
+    <td><span class="pill ${st[1]}">${st[0]}</span></td>
+    <td class="num">3d ${v.sent3?'✓':'·'}  1d ${v.sent1?'✓':'·'}</td>
+    <td><div class="btns"><button class="btn ghost small" type="button" data-edit="${esc(v.id)}">Edit</button><button class="btn ghost small" type="button" data-del="${esc(v.id)}">Delete</button></div></td></tr>`}).join('');
+}
+function render(){renderDue();renderLog()}
+
+/* ---------- form ---------- */
+let editing=null, pendingConfirm=null;
+$('clinic-list').innerHTML=CLINICS.map(c=>`<option value="${esc(c.name+' · '+c.area+' · '+c.code)}"></option>`).join('');
+function clinicFromInput(s){const m=String(s).match(/·\s*([A-Z]{0,3}\d+)\s*$/);if(m&&byCode[m[1]])return byCode[m[1]];const t=s.trim().toUpperCase();if(byCode[t])return byCode[t];const hits=CLINICS.filter(c=>c.name===t);return hits.length===1?hits[0]:null}
+function readForm(){return{client:$('v-client').value.trim(),phone:$('v-phone').value.trim(),purpose:$('v-purpose').value,lang:$('v-lang').value,clinicText:$('v-clinic').value.trim(),date:$('v-date').value,time:$('v-time').value,tests:$('v-tests').value.trim(),status:$('v-status').value,notes:$('v-notes').value.trim()}}
+function check(f){
+  const errors=[],warns=[];
+  if(!f.client)errors.push('Add the client name.');
+  if(!f.date)errors.push('Add the appointment date.');
+  if(!f.clinicText)errors.push('Choose a clinic.');
+  const c=f.clinicText?clinicFromInput(f.clinicText):null;
+  if(f.clinicText&&!c)warns.push('This clinic is not in the panel list. Pick one from the suggestions, or save anyway if you are sure (the reminder will not include its address or phone).');
+  if(c&&f.purpose==='tgj')warns.push('The TGJ clinic list is not loaded yet. This clinic comes from the medical exam panel list, so check that it accepts TGJ visits.');
+  if(f.phone&&!waNumber(f.phone))warns.push('The WhatsApp number looks wrong ('+f.phone+'). Reminders cannot open WhatsApp until it is fixed.');
+  if(!f.phone)warns.push('No WhatsApp number. You can still copy the reminder text.');
+  const d=daysUntil(f.date);
+  if(d!==null&&d<0&&f.status==='booked')warns.push('This date is in the past but the status is still "Booked".');
+  else if(d!==null&&d<3&&d>=0&&f.status==='booked')warns.push('The appointment is less than 3 days away, so the 3-day reminder will be skipped.');
+  if(f.notes&&/\b\d{6}-?\d{2}-?\d{4}\b/.test(f.notes))errors.push('The notes look like they contain an IC number. Please remove it.');
+  return{errors,warns,clinic:c};
+}
+function showMsgs(errors,warns,needConfirm){
+  $('form-msgs').innerHTML=errors.map(e=>`<div class="alert bad">${esc(e)}</div>`).join('')+warns.map(w=>`<div class="alert warn">${esc(w)}</div>`).join('');
+  $('save-btn').textContent=needConfirm?'Confirm and save':'Save visit';
+}
+$('visit-form').addEventListener('input',()=>{pendingConfirm=null;$('save-btn').textContent='Save visit'});
+$('visit-form').addEventListener('submit',async e=>{
+  e.preventDefault();const f=readForm();const {errors,warns,clinic}=check(f);
+  if(errors.length){showMsgs(errors,warns,false);return}
+  const sig=JSON.stringify(f);
+  if(warns.length&&pendingConfirm!==sig){pendingConfirm=sig;showMsgs([],warns,true);return}
+  const prev=editing?visits.find(v=>v.id===editing):null;
+  const v={id:editing||('v'+Date.now().toString(36)+Math.random().toString(36).slice(2,6)),client:f.client,phone:f.phone,purpose:f.purpose,lang:f.lang,
+    clinicCode:clinic?clinic.code:'',clinicName:clinic?clinic.name:f.clinicText,date:f.date,time:f.time,tests:f.tests,status:f.status,notes:f.notes,
+    sent3:prev&&prev.date===f.date?!!prev.sent3:false,sent1:prev&&prev.date===f.date?!!prev.sent1:false,created:prev?prev.created:new Date().toISOString()};
+  try{await saveVisit(v)}catch(err){showMsgs(['Could not save: '+(err&&err.message||err)],[],false);return}
+  const d=daysUntil(v.date);
+  toast(editing?'Visit updated':'Visit saved'+(v.status==='booked'&&d!==null&&d>=3?` · 3-day reminder on ${addDays(v.date,-3)}, 1-day on ${addDays(v.date,-1)}`:''));
+  resetForm();
+});
+function addDays(d,n){const t=new Date(Date.parse(d+'T00:00:00Z')+n*864e5);return t.toISOString().slice(0,10)}
+function resetForm(){$('visit-form').reset();editing=null;pendingConfirm=null;$('form-msgs').innerHTML='';$('save-btn').textContent='Save visit';$('form-title').textContent='Add a clinic visit';$('cancel-edit').hidden=true}
+$('cancel-edit').onclick=resetForm;
+function startEdit(id){const v=visits.find(x=>x.id===id);if(!v)return;editing=id;const c=byCode[v.clinicCode];
+  $('v-client').value=v.client;$('v-phone').value=v.phone||'';$('v-purpose').value=v.purpose;$('v-lang').value=v.lang||'both';
+  $('v-clinic').value=c?c.name+' · '+c.area+' · '+c.code:(v.clinicName||'');$('v-date').value=v.date||'';$('v-time').value=v.time||'';
+  $('v-tests').value=v.tests||'';$('v-status').value=v.status;$('v-notes').value=v.notes||'';
+  $('form-title').textContent='Edit visit: '+v.client;$('cancel-edit').hidden=false;$('form-msgs').innerHTML='';$('visit-form').scrollIntoView({behavior:'smooth',block:'start'})}
+
+/* ---------- modals ---------- */
+function modal(html){$('modal-root').innerHTML=`<div class="modal" role="dialog" aria-modal="true"><div class="sheet">${html}</div></div>`;const m=$('modal-root').firstChild;m.addEventListener('click',e=>{if(e.target===m||e.target.closest('[data-close]'))closeModal()});return m}
+function closeModal(){$('modal-root').innerHTML=''}
+function review(id,kind){
+  const v=visits.find(x=>x.id===id);if(!v)return;const d=daysUntil(v.date);const text=fullMessage(v,Math.max(d,0)||1);
+  const num=waNumber(v.phone);const wa=num?'https://wa.me/'+num+'?text='+encodeURIComponent(text):'';
+  const m=modal(`<h2>${kind}-day reminder · ${esc(v.client)}</h2>
+   <div class="muted" style="font-size:13px">To: ${esc(v.phone||'no number')}${num?'':' <span class="pill bad">fix the number to use WhatsApp</span>'}</div>
+   <label>Message (edit it if needed)<textarea id="msg-text" rows="12">${esc(text)}</textarea></label>
+   <div class="btns"><button class="btn ghost" type="button" id="m-copy">Copy</button>
+   <a class="btn" id="m-wa" href="${esc(wa)}" target="_blank" rel="noopener" ${num?'':'aria-disabled="true"'}>Open in WhatsApp</a></div>
+   <div class="alert warn">WhatsApp opens with the message ready. Nothing is sent until you press Send there. After that, mark it as sent here.</div>
+   <div class="btns"><button class="btn" type="button" id="m-sent">Mark ${kind}-day reminder as sent</button><button class="btn ghost" type="button" data-close>Close</button></div>`);
+  const ta=m.querySelector('#msg-text');
+  ta.addEventListener('input',()=>{if(num)m.querySelector('#m-wa').href='https://wa.me/'+num+'?text='+encodeURIComponent(ta.value)});
+  m.querySelector('#m-copy').onclick=()=>{const t=ta.value;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Copied'),()=>{ta.select();try{document.execCommand('copy');toast('Copied')}catch(e){toast('Select the text and copy it')}})};
+  m.querySelector('#m-sent').onclick=async()=>{const nv=Object.assign({},v,kind===3?{sent3:true}:{sent1:true});try{await saveVisit(nv);toast('Marked as sent');closeModal()}catch(e){toast('Could not save')}};
+}
+function confirmDelete(id){const v=visits.find(x=>x.id===id);if(!v)return;
+  const m=modal(`<h2>Delete this visit?</h2><p>${esc(v.client)} · ${esc(clinicOf(v).name)} · ${esc(v.date)}</p><p class="muted">This removes the record and its reminders. It cannot be undone.</p>
+  <div class="btns"><button class="btn danger" type="button" id="m-del">Delete visit</button><button class="btn ghost" type="button" data-close>Keep it</button></div>`);
+  m.querySelector('#m-del').onclick=async()=>{try{await removeVisit(id);toast('Visit deleted');closeModal()}catch(e){toast('Could not delete')}};
+}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-review],[data-edit],[data-del]');if(!t)return;
+  if(t.dataset.review)review(t.dataset.review,Number(t.dataset.kind));else if(t.dataset.edit)startEdit(t.dataset.edit);else if(t.dataset.del)confirmDelete(t.dataset.del)});
+$('show-upcoming').onclick=()=>{showAll=false;$('show-upcoming').setAttribute('aria-pressed',true);$('show-all').setAttribute('aria-pressed',false);renderLog()};
+$('show-all').onclick=()=>{showAll=true;$('show-upcoming').setAttribute('aria-pressed',false);$('show-all').setAttribute('aria-pressed',true);renderLog()};
+$('log-q').oninput=renderLog;
+
+/* ---------- backup ---------- */
+$('export').onclick=async()=>{
+  if(!visits.length){toast('Nothing to back up yet');return}
+  const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+  const head=['Date','Time','Client','WhatsApp','Purpose','Clinic code','Clinic','Tests','Status','3-day sent','1-day sent','Notes'];
+  const data='﻿'+[head,...visits.map(v=>[v.date,v.time,v.client,v.phone,PURPOSE[v.purpose][0],v.clinicCode,clinicOf(v).name,v.tests,STATUS[v.status][0],v.sent3?'Yes':'No',v.sent1?'Yes':'No',v.notes])].map(r=>r.map(q).join(',')).join('\r\n');
+  const name='Clinic-Visits-backup-'+todayMY()+'.csv';
+  let dl=null;try{dl=window.claude&&await window.claude.use('downloads')}catch(e){}
+  if(dl){try{await dl.save({filename:name,data});toast('Backup saved')}catch(e){toast(e&&e.code==='declined'?'Download cancelled':'Download is not available here')}return}
+  if(window.claude){toast('Download is not available here');return}
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:'text/csv'}));a.download=name;document.body.appendChild(a);a.click();a.remove();
+};
+
+window.__cvt={message,fullMessage,dueItems,daysUntil,waNumber,check,addDays,setVisits:v=>{visits=v;render()}};
+initStore();
+})();
+</script>

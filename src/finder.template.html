@@ -1,0 +1,253 @@
+<title>Panel Clinic Finder</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Noto+Sans:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column built for a phone — sticky filter bar, then a stack of clinic slips. */
+:root{
+  --bg:#F3F6F5; --surface:#FFFFFF; --ink:#13302C; --muted:#5A6E6A; --line:#D7E1DE;
+  --accent:#0F7C6E; --accent-soft:#DDF0EC; --warn:#9A5B00; --warn-soft:#FFF1D6;
+  --display:"Bricolage Grotesque","Noto Sans SC",system-ui,sans-serif;
+  --body:"Noto Sans","Noto Sans SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1716; --surface:#152321; --ink:#E4EFEC; --muted:#93A8A3; --line:#2A3C39;
+  --accent:#4CC3AF; --accent-soft:#173B35; --warn:#F2B866; --warn-soft:#3A2B12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1716; --surface:#152321; --ink:#E4EFEC; --muted:#93A8A3; --line:#2A3C39;
+  --accent:#4CC3AF; --accent-soft:#173B35; --warn:#F2B866; --warn-soft:#3A2B12; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+header{display:flex;flex-direction:column;gap:6px;padding-bottom:14px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,6vw,36px);line-height:1.1;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:60ch}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex-shrink:0}
+.lang button{border:0;background:transparent;color:var(--muted);padding:6px 12px;font:600 13px var(--body);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.purpose{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0 14px}
+.purpose button{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:10px 12px;text-align:left;cursor:pointer;font:inherit}
+.purpose button b{display:block;font-family:var(--display);font-size:16px}
+.purpose button span{font-size:12.5px;color:var(--muted)}
+.purpose button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+input,select{width:100%;min-width:0;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+details.tests summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding-top:8px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 10px;font:13px var(--body);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 0 6px}
+.count{font-family:var(--mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.btn{border:0;background:var(--accent);color:var(--surface);font:600 14px var(--body);padding:9px 14px;border-radius:10px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.list{display:flex;flex-direction:column;gap:10px}
+.clinic{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.clinic h3{margin:0;font-family:var(--display);font-size:17px;font-weight:600;line-height:1.25}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:13px;color:var(--muted)}
+.code{font-family:var(--mono);font-size:12px}
+.full{background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:1px 7px;font-size:12px;font-weight:600}
+.addr{margin:0;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--ink)}
+.tag.hit{border-color:var(--accent);background:var(--accent-soft)}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.actions a,.actions button{font:600 13px var(--body);color:var(--accent);text-decoration:none;border:1px solid var(--line);background:transparent;border-radius:8px;padding:6px 10px;cursor:pointer}
+.docs{font-size:12.5px;color:var(--muted)}
+.docs summary{cursor:pointer}
+.notice{background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:13px;margin-top:18px}
+.notice b{color:var(--warn)}
+.empty{padding:28px 10px;text-align:center;color:var(--muted)}
+.pending{background:var(--warn-soft);border-radius:12px;padding:16px;font-size:14px}
+footer{margin-top:20px;font-size:12px;color:var(--muted)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:9px 14px;border-radius:10px;font-size:13px;z-index:20}
+@media (max-width:420px){.row{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="topbar">
+      <span class="eyebrow" data-t="eyebrow"></span>
+      <div class="lang" role="group" aria-label="Language">
+        <button id="lang-en" type="button" aria-pressed="true">EN</button>
+        <button id="lang-zh" type="button" aria-pressed="false">中文</button>
+      </div>
+    </div>
+    <h1 data-t="title"></h1>
+    <p class="sub" data-t="sub"></p>
+  </header>
+
+  <div class="purpose" role="group">
+    <button id="p-nb" type="button" aria-pressed="true"><b data-t="pNb"></b><span data-t="pNbSub"></span></button>
+    <button id="p-tgj" type="button" aria-pressed="false"><b data-t="pTgj"></b><span data-t="pTgjSub"></span></button>
+  </div>
+
+  <div id="finder">
+    <div class="filters">
+      <div class="row">
+        <select id="f-state" aria-label="State"></select>
+        <select id="f-area" aria-label="Area"></select>
+      </div>
+      <input id="f-q" type="search" autocomplete="off">
+      <details class="tests">
+        <summary data-t="testsSum"></summary>
+        <div class="chips" id="f-tests"></div>
+      </details>
+    </div>
+    <div class="bar">
+      <span class="count" id="count"></span>
+      <button class="btn" id="dl" type="button" data-t="download"></button>
+    </div>
+    <div class="list" id="list"></div>
+  </div>
+  <div id="tgj-pending" class="pending" hidden data-t="tgjPending"></div>
+
+  <div class="notice"><b data-t="noticeH"></b> <span data-t="notice"></span></div>
+  <footer><span data-t="source"></span> <span id="asof"></span></footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script id="clinic-data" type="application/json">__DATA__</script>
+<script>
+(function(){
+const DATA=JSON.parse(document.getElementById('clinic-data').textContent);
+const SV={
+ ADS:["Attending doctor's statement","主治医生报告"],
+ BC:["Blood & urine test","验血及验尿"],
+ BPR2:["Blood pressure (2 readings)","血压测量（两次）"],
+ BQ:["Breast questionnaire","乳房问卷"],
+ CXR2:["Chest X-ray","胸部X光"],
+ ECG3:["ECG (heart test)","心电图"],
+ ECO2:["Echocardiogram","心脏超声波"],
+ KUB2:["KUB X-ray (kidney/bladder)","肾脏及膀胱X光"],
+ LME:["Full medical examination","全面体检"],
+ LUF2:["Lung function test","肺功能测试"],
+ MAR2:["Medical attendant's report","医疗报告"],
+ MM2:["Mammogram","乳房X光"],
+ MQ:["Medical questionnaire","医疗问卷"],
+ PAP2:["Pap smear","子宫颈抹片"],
+ TMX2:["Treadmill stress test","跑步机压力测试"],
+ ULT2:["Breast ultrasound","乳房超声波"]
+};
+const T={
+ en:{eyebrow:"For Great Eastern policyholders",title:"Panel Clinic Finder",sub:"Find a Great Eastern panel clinic near you, check which tests it does, and call before you go.",
+  pNb:"Medical exam",pNbSub:"Applying for a new policy",pTgj:"TGJ visit",pTgjSub:"Before a medical consult",
+  allStates:"All states",allAreas:"All areas",search:"Search clinic, road, town or postcode",testsSum:"Filter by tests on your exam letter",
+  download:"Download list",count:n=>n+" clinics",copied:"Copied",copy:"Copy",map:"Map",call:"Call",doctors:"Doctors",full:"Full facility",hours:"Hours",
+  none:"No clinic matches. Try fewer tests or a wider area.",
+  noticeH:"Before you go:",notice:"Call the clinic to confirm the doctor and the tests are available, and bring your IC and the medical exam letter from your advisor. A doctor may be delayed if there is an emergency at the clinic.",
+  tgjPending:"The TGJ clinic list is not loaded yet. Please contact your advisor for the right TGJ clinic for now.",
+  source:"Source: Great Eastern panel doctor listing (agent portal). Not an official Great Eastern website. Updated",
+  moreLab:"More lab tests",labTests:"lab tests",noTel:"Ask your advisor",noHours:"Call to confirm",
+  unknown:"Other",saved:"List saved",dlFail:"Download is not available here. Ask your advisor for the file.",dlNo:"Download cancelled"},
+ zh:{eyebrow:"大东方保单持有人专用",title:"指定诊所查询",sub:"查找附近的大东方指定诊所，看看诊所提供哪些检查，出发前先打电话确认。",
+  pNb:"投保体检",pNbSub:"申请新保单",pTgj:"TGJ 就诊",pTgjSub:"医疗咨询前",
+  allStates:"所有州属",allAreas:"所有地区",search:"搜索诊所、路名、城镇或邮编",testsSum:"按体检通知书上的项目筛选",
+  download:"下载清单",count:n=>"共 "+n+" 间诊所",copied:"已复制",copy:"复制",map:"地图",call:"电话",doctors:"医生",full:"全面设施",hours:"营业时间",
+  none:"没有符合的诊所。请减少检查项目或扩大地区。",
+  noticeH:"出发前：",notice:"请先致电诊所确认医生和检查项目，并携带身份证及顾问给您的体检通知书。如诊所有紧急病人，医生可能会延迟。",
+  tgjPending:"TGJ 诊所名单尚未上载。目前请联系您的顾问，确认应该去哪一间 TGJ 诊所。",
+  source:"资料来源：大东方指定医生名单（代理系统）。此网页并非大东方官方网站。更新日期",
+  moreLab:"更多化验项目",labTests:"项化验",noTel:"请询问顾问",noHours:"请致电确认",
+  unknown:"其他",saved:"清单已保存",dlFail:"此处无法下载，请向顾问索取文件。",dlNo:"已取消下载"}
+};
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+let lang=store.get('pcf-lang')==='zh'?'zh':'en', purpose='nb', tests=new Set();
+const $=id=>document.getElementById(id);
+const clinics=DATA.clinics;
+const states=[...new Set(clinics.map(c=>c.state))];
+const LEG=DATA.legend||{};
+function sv(code){return SV[code]?SV[code][lang==='zh'?1:0]:(LEG[code]||code)}
+function tr(k){return T[lang][k]}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function toast(msg){const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)}
+
+function fillStatic(){
+  document.documentElement.lang=lang==='zh'?'zh-Hans':'en';
+  document.querySelectorAll('[data-t]').forEach(el=>{const v=tr(el.dataset.t);if(typeof v==='string')el.textContent=v});
+  $('f-q').placeholder=tr('search');
+  $('lang-en').setAttribute('aria-pressed',lang==='en');$('lang-zh').setAttribute('aria-pressed',lang==='zh');
+  const st=$('f-state').value;
+  $('f-state').innerHTML='<option value="">'+tr('allStates')+'</option>'+states.map(s=>'<option>'+esc(s)+'</option>').join('');
+  $('f-state').value=st;fillAreas();
+  const codes=[...new Set(clinics.flatMap(c=>c.services))].sort((a,b)=>sv(a).localeCompare(sv(b)));
+  const chip=c=>'<button type="button" class="chip" data-code="'+esc(c)+'" aria-pressed="'+tests.has(c)+'">'+esc(sv(c))+'</button>';
+  const lab=codes.filter(c=>!SV[c]);
+  $('f-tests').innerHTML=codes.filter(c=>SV[c]).map(chip).join('')+
+    (lab.length?'<details class="tests" style="width:100%"'+(lab.some(c=>tests.has(c))?' open':'')+'><summary>'+tr('moreLab')+' ('+lab.length+')</summary><div class="chips">'+lab.map(chip).join('')+'</div></details>':'');
+  $('asof').textContent=DATA.asOf;
+}
+function fillAreas(){
+  const st=$('f-state').value, cur=$('f-area').value;
+  const areas=[...new Set(clinics.filter(c=>!st||c.state===st).map(c=>c.area))];
+  $('f-area').innerHTML='<option value="">'+tr('allAreas')+'</option>'+areas.map(a=>'<option>'+esc(a)+'</option>').join('');
+  $('f-area').value=areas.includes(cur)?cur:'';
+}
+function filtered(){
+  const st=$('f-state').value, ar=$('f-area').value, q=$('f-q').value.trim().toLowerCase();
+  return clinics.filter(c=>(!st||c.state===st)&&(!ar||c.area===ar)&&
+    [...tests].every(t=>c.services.includes(t))&&
+    (!q||(c.name+' '+c.address+' '+c.area+' '+c.code).toLowerCase().includes(q)));
+}
+function render(){
+  const isNb=purpose==='nb';
+  $('p-nb').setAttribute('aria-pressed',isNb);$('p-tgj').setAttribute('aria-pressed',!isNb);
+  $('finder').hidden=!isNb;$('tgj-pending').hidden=isNb;
+  if(!isNb)return;
+  const rows=filtered();
+  $('count').textContent=tr('count')(rows.length);
+  $('dl').disabled=!rows.length;
+  if(!rows.length){$('list').innerHTML='<div class="empty">'+tr('none')+'</div>';return}
+  $('list').innerHTML=rows.slice(0,300).map(c=>{
+    const maps='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(c.name+', '+c.address);
+    return '<article class="clinic">'+
+      '<h3>'+esc(c.name)+'</h3>'+
+      '<div class="meta"><span class="code">'+esc(c.code)+'</span><span>'+esc(c.area)+', '+esc(c.state)+'</span>'+(c.full?'<span class="full">'+tr('full')+'</span>':'')+'</div>'+
+      '<p class="addr">'+esc(c.address||'—')+'</p>'+
+      '<div class="meta"><span>☎ <b>'+esc(c.tel||tr('noTel'))+'</b></span><span>'+tr('hours')+': <b>'+esc(c.hours||tr('noHours'))+'</b></span></div>'+
+      '<div class="tags">'+c.services.filter(s=>SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div>'+
+      (c.services.some(s=>!SV[s])?'<details class="docs"><summary>+ '+c.services.filter(s=>!SV[s]).length+' '+tr('labTests')+'</summary><div class="tags">'+c.services.filter(s=>!SV[s]).map(s=>'<span class="tag'+(tests.has(s)?' hit':'')+'">'+esc(sv(s))+'</span>').join('')+'</div></details>':'')+
+      '<div class="actions"><a href="'+maps+'" target="_blank" rel="noopener">'+tr('map')+'</a>'+
+      (c.tel?'<a href="tel:'+esc(c.tel.replace(/[^0-9+]/g,''))+'">'+tr('call')+'</a><button type="button" data-copy="'+esc(c.tel)+'">'+tr('copy')+' ☎</button>':'')+
+      '<button type="button" data-copy="'+esc(c.name+'\n'+c.address+'\n'+c.tel)+'">'+tr('copy')+'</button></div>'+
+      (c.doctors?'<details class="docs"><summary>'+tr('doctors')+'</summary>'+esc(c.doctors)+'</details>':'')+
+    '</article>'}).join('')+(rows.length>300?'<div class="empty">+'+(rows.length-300)+'…</div>':'');
+}
+function csv(rows){
+  const head=lang==='zh'?['代码','诊所','州属','地区','地址','电话','营业时间','检查项目','医生']:['Code','Clinic','State','Area','Address','Phone','Hours','Tests','Doctors'];
+  const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+  return '﻿'+[head,...rows.map(c=>[c.code,c.name,c.state,c.area,c.address,c.tel,c.hours,c.services.map(sv).join('; '),c.doctors])].map(r=>r.map(q).join(',')).join('\r\n');
+}
+async function download(){
+  const rows=filtered(); if(!rows.length)return;
+  const part=($('f-area').value||$('f-state').value||'Malaysia').replace(/[^A-Za-z0-9]+/g,'-');
+  const name='Panel-Clinics-'+part+'.csv', data=csv(rows);
+  let dl=null; try{dl=window.claude&&await window.claude.use('downloads')}catch(e){}
+  if(dl){try{await dl.save({filename:name,data});toast(tr('saved'))}catch(e){toast(e&&e.code==='declined'?tr('dlNo'):tr('dlFail'))}return}
+  if(window.claude){toast(tr('dlFail'));return}
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:'text/csv'}));a.download=name;document.body.appendChild(a);a.click();a.remove();
+}
+$('lang-en').onclick=()=>{lang='en';store.set('pcf-lang',lang);fillStatic();render()};
+$('lang-zh').onclick=()=>{lang='zh';store.set('pcf-lang',lang);fillStatic();render()};
+$('p-nb').onclick=()=>{purpose='nb';render()};
+$('p-tgj').onclick=()=>{purpose='tgj';render()};
+$('f-state').onchange=()=>{fillAreas();render()};
+$('f-area').onchange=render;
+$('f-q').oninput=render;
+$('f-tests').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;const c=b.dataset.code;tests.has(c)?tests.delete(c):tests.add(c);b.setAttribute('aria-pressed',tests.has(c));render()};
+$('list').onclick=e=>{const b=e.target.closest('[data-copy]');if(!b)return;const txt=b.dataset.copy;
+  const done=()=>toast(tr('copied'));
+  if(navigator.clipboard)navigator.clipboard.writeText(txt).then(done,()=>fallback(txt,done));else fallback(txt,done)};
+function fallback(txt,done){const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}ta.remove()}
+$('dl').onclick=download;
+fillStatic();
+if(DATA.defaultState&&states.includes(DATA.defaultState)){$('f-state').value=DATA.defaultState;fillAreas()}
+render();
+})();
+</script>
