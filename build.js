@@ -64,7 +64,12 @@ ${manifest ? `<link rel="manifest" href="${manifest}">` : ''}
 </head>
 <body>
 ${body}
-${sw ? `<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('${base}sw.js').catch(()=>{}))}</script>` : ''}
+${sw ? `<script>if('serviceWorker' in navigator){
+  // When a newer version takes over, reload once so the phone shows it straight away.
+  let had=!!navigator.serviceWorker.controller,done=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{if(had&&!done){done=true;location.reload()}had=true});
+  addEventListener('load',()=>navigator.serviceWorker.register('${base}sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
+}</script>` : ''}
 </body>
 </html>
 `;
@@ -98,12 +103,15 @@ fs.writeFileSync(path.join(SITE, 'advisor', 'manifest.webmanifest'), JSON.string
 }, null, 2));
 
 // Service worker: network first for pages (always fresh when online), cache fallback when offline.
+// Same-site requests skip the browser's HTTP cache (GitHub Pages allows 10 minutes), so updates show at once.
 fs.writeFileSync(path.join(SITE, 'sw.js'), `const C='pcf-${VERSION}';
 const CORE=['./','./advisor/','./manifest.webmanifest','./advisor/manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;
-  e.respondWith(fetch(r).then(res=>{if(res.ok&&(new URL(r.url).origin===location.origin||r.url.includes('fonts.g'))){const cp=res.clone();caches.open(C).then(c=>c.put(r,cp))}return res}).catch(()=>caches.match(r,{ignoreSearch:true})))});
+  const same=new URL(r.url).origin===location.origin;
+  const req=!same?r:r.mode==='navigate'?new Request(r.url,{cache:'no-cache',credentials:'same-origin'}):new Request(r,{cache:'no-cache'});
+  e.respondWith(fetch(req).then(res=>{if(res.ok&&(same||r.url.includes('fonts.g'))){const cp=res.clone();caches.open(C).then(c=>c.put(r,cp))}return res}).catch(()=>caches.match(r,{ignoreSearch:true})))});
 `);
 
 fs.writeFileSync(path.join(SITE, '.nojekyll'), '');
