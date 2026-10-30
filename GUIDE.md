@@ -11,8 +11,8 @@ Clinic data: **528 panel clinics** from GE e-Partner (Panel Doctor Listing), cap
 
 | Link | For | What it does |
 |---|---|---|
-| `https://<your-site>.netlify.app/` | **Clients** | Clinic finder. Filter by state, area, town or postcode, and tests. Download the list as a CSV file (opens in Excel). |
-| `https://<your-site>.netlify.app/advisor/` | **You only** | Visit tracker and reminders. Client records stay on your phone and are never uploaded. |
+| https://louisfoo11.github.io/panel-clinic-finder/ | **Clients** | Clinic finder. Filter by state, area, town or postcode, and tests. Download the list as a CSV file (opens in Excel). |
+| https://louisfoo11.github.io/panel-clinic-finder/advisor/ | **You only** | Visit tracker and reminders. Client records stay on your phone and are never uploaded. |
 
 Don't send the `/advisor/` link to clients. It wouldn't show them your data, because the records only exist on your phone, but they don't need it.
 
@@ -54,12 +54,12 @@ Once you've opened it, it works offline too.
 
 ## 5. Keeping the clinic list up to date
 
-GE updates the panel list from time to time. To refresh it, ask Claude to "recapture the panel clinic list and redeploy". You'll sign in to e-Partner, and the rest is automatic.
+GE updates the panel list from time to time. To refresh it, ask Claude to "recapture the panel clinic list and push to GitHub". Each push goes live in about a minute. You'll sign in to e-Partner, and the rest is automatic.
 
 ## 6. Things to know
 
 - **TGJ clinic list:** e-Partner's panel page only has the new-business medical exam list. Until the TGJ list is added, the **TGJ visit** button tells clients to contact you.
 - **Data checks:** *P3020 Medic Clinic (KL)* has no hours on e-Partner, so the app shows "Call to confirm". *P1022 "Reimbursement of Medical Fees"* is a placeholder entry, not a clinic, so it's left out.
-- **Privacy:** the site is hidden from Google and other search engines (noindex). Anyone with the link can still open it. The page says clearly that it is **not an official Great Eastern website**.
+- **Privacy:** the pages ask Google and other search engines not to list them (noindex). Anyone with the link can still open it. The page says clearly that it is **not an official Great Eastern website**.
 - **Compliance:** please confirm with your agency manager or GE compliance that sharing this panel list with clients is allowed.
 - **Offline file:** `dist/GE-Panel-Clinic-Finder-offline-2026-10-30.html` is the same client finder in one file. Send it on WhatsApp, and it opens in any phone browser without internet.
